@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002024,qiq2i_clga1_item_othernbt:1,qiq2i_clga1_item_othernbt_type:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§b§l重置宝石\"}',Lore:['{\"text\":\"§7任何物品可用,使用时需花费§a30级的等级§7\"}','{\"text\":\"§7直接重置该物品使用铁砧时额外增加的附魔等级\"}','{\"text\":\"\"}','{\"text\":\"§7主手持宝石，副手持需要重置的物品\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

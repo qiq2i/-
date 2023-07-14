@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dried_kelp",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002025,qiq2i_clga1_food:1005,qiq2i_clga1_item_exp:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§a经验海苔V\"}',Lore:['{\"text\":\"§e经验食物，恢复半点饱食度\"}','{\"text\":\"§e获得524288点经验值（从0级直接升到359级）\"}','{\"text\":\"§e获得的经验会修补有经验修补的装备上\"}','{\"text\":\"§e警告：§c由于经验过多，玩家吸收经验将变慢\"}','{\"text\":\"§e       §c经验可能会被其他玩家吸走！\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

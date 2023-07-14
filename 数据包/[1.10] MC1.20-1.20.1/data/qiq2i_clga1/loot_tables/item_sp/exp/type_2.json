@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dried_kelp",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002022,qiq2i_clga1_food:1002,qiq2i_clga1_item_exp:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§a经验海苔II\"}',Lore:['{\"text\":\"§e经验食物，恢复半点饱食度\"}','{\"text\":\"§e获得1024点经验值（从0级直接升到26级）\"}','{\"text\":\"§e获得的经验会修补有经验修补的装备上\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

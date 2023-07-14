@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:200230, qiq2i_clga1_food:21, display:{Name:'{\"text\":\"§b熟掠夺者蛋\"}',Lore:['{\"text\":\"§e别忘了这是食物！\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

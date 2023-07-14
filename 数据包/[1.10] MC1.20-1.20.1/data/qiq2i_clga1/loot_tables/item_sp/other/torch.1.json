@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002032,qiq2i_clga1_item_sp:1,qiq2i_clga1_item_sp.other:{id:\"torch.1\"},display:{Name:'{\"text\":\"§e饥饿火把\"}',Lore:['{\"text\":\"§7消耗饥饿值放置火把。\"}']},Unbreakable:1b,HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

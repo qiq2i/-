@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002041,qiq2i_clga1_item_sp:1,qiq2i_clga1_item_sp.other:{id:\"umbrella.1\"},display:{Name:'{\"text\":\"§e小雨伞\"}',Lore:['{\"text\":\"§7在你坠落时，会获得缓降效果，此外雨伞还可以挡雨。\"}']},Unbreakable:1b,HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

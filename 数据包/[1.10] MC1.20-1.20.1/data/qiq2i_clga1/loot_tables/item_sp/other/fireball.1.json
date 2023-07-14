@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002037,qiq2i_clga1_item_sp:1,qiq2i_clga1_item_sp.other:{id:\"fireball.1\"},display:{Name:'{\"text\":\"§e便捷式火焰弹\"}',Lore:['{\"text\":\"§7发射一枚火焰弹。\"}','{\"text\":\"§7[一次性道具]\"}']},Unbreakable:1b,HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

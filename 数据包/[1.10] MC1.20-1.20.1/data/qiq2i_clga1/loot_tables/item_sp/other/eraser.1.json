@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002043,qiq2i_clga1_item_sp:1,qiq2i_clga1_item_sp.other:{id:\"eraser.1\"},display:{Name:'{\"text\":\"§e橡皮擦\"}',Lore:['{\"text\":\"§7破坏自身所在坐标的两格方块，不可破坏的方块除外。\"}','{\"text\":\"§7[一次性道具]\"}']},Unbreakable:1b,HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

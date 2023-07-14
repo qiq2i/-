@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/bow/type.2/lvl1",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 16,
+        "entries":[
+            {
+                "type": "minecraft:loot_table",
+                "name": "minecraft:entities/skeleton"
+            }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/exp/type_1",
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "max": 2,
+                        "min": 1
+                    }
+                },
+                {
+                  "function": "minecraft:looting_enchant",
+                  "count": {
+                    "max": 1,
+                    "min": 1
+                  }
+                }
+            ]
+         }
+        ]
+      }
+    ]
+  }
+  

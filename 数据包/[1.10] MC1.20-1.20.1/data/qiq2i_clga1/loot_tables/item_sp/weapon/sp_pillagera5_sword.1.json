@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+                {
+                    "function": "set_nbt",
+                    "tag": "{qiq2i_clga1_sp_pillagera5_Item:1,display:{Name:'{\"text\":\"劫掠宝剑\"}',Lore:['{\"text\":\"§e劫掠首领的特殊掉落\"}']},Enchantments:[{id:\"minecraft:looting\",lvl:8s}],CustomModelData:1056231}"
+                }
+              ]
+        }
+        ]
+      }
+    ]
+  }
+  

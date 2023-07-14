@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002037,qiq2i_clga1_item_enchat:1,qiq2i_clga1_item_enchat_type:4,qiq2i_clga1_item_enchat_type_level:2,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§e亡灵杀手宝石II\"}',Lore:['{\"text\":\"§7亡灵杀手 1-10 级附魔的物品可用\"}','{\"text\":\"§76级以上继续使用需要§a消耗经验\"}','{\"text\":\"§76级附魔等级使用需消耗§a30级经验\"}','{\"text\":\"§7此后每高1级需多消耗§a5级\"}','{\"text\":\"§7直接提升1级附魔等级\"}','{\"text\":\"\"}','{\"text\":\"§7主手持宝石，副手持需提升附魔等级的物品\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002031,qiq2i_clga1_item_time_bundle.1:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§6时空口袋\"}',Lore:['{\"text\":\"§7死亡不掉落一次，带在身上即可。\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],Unbreakable:1b,HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

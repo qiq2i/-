@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002026,qiq2i_clga1_item_enchat:1,qiq2i_clga1_item_enchat_type:5,qiq2i_clga1_item_enchat_type_level:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§e截肢杀手宝石I\"}',Lore:['{\"text\":\"§7截肢杀手 1-5 级附魔的物品可用\"}','{\"text\":\"§7直接提升1级附魔等级\"}','{\"text\":\"\"}','{\"text\":\"§7主手持宝石，副手持需提升附魔等级的物品\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  
