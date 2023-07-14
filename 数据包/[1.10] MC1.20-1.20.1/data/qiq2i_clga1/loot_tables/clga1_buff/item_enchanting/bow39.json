@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+                {
+                  "function": "minecraft:enchant_with_levels",
+                  "levels": {
+                      "min": 20,
+                      "max": 39
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{qiq2i_clga1_buff_item_enchanting:1}"
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

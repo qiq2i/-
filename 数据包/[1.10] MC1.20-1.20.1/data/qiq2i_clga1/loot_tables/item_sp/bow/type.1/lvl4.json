@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002021,qiq2i_clga1_item_bow:1,qiq2i_clga1_item_bow.1:4,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"平散弓\"}',Lore:['{\"text\":\"§e散射 I\"}']}}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

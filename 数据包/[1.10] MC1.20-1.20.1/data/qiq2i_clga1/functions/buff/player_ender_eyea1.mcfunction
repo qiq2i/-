@@ -1,0 +1,3 @@
+advancement revoke @s only qiq2i_clga1:qiq2i_clga1_buff/player_ender_eyea1.1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_ender_eyea1 if entity @s[tag=!qiq2i_admin] if predicate qiq2i_clga1:_0.6 at @s run summon endermite ~ ~1.7 ~
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_ender_eyea1 if entity @s[tag=!qiq2i_admin] if predicate qiq2i_clga1:_0.3 at @s run summon endermite ~ ~1.7 ~

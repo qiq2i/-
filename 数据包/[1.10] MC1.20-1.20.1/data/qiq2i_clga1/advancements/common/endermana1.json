@@ -1,0 +1,54 @@
+{
+  "parent": "qiq2i_clga1:common/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "钢铁之躯"
+    },
+    "description": {
+      "text": "§e抗住拥有§b凶猛的末影人§e§lIII§e效果的末影人的一击，并且活下来..."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "qiq2i_clga1:player_attribute/challenge"
+  },
+  "criteria": {
+     "a":{
+       "trigger": "minecraft:entity_hurt_player",
+       "conditions": {
+         "damage": {
+           "source_entity": {
+             "nbt": "{Tags:[\"qiq2i_clga1_endermana1_level3\"]}"
+           },
+           "dealt": {
+             "max" :1024,
+             "min" :95
+           }
+         },
+         "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Health:0.0f}"
+                }
+            }
+        }
+         ]
+         }
+       }
+     },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

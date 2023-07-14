@@ -1,0 +1,40 @@
+{
+  "parent": "qiq2i_clga1:common/enchat/get1",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{CustomModelData:2002043,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "text": "耐久大帝"
+    },
+    "description": {
+      "text": "§e获得拥有耐久7附魔的物品"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "qiq2i_clga1:player_attribute/challenge"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:7}]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ]
+}

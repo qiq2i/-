@@ -1,0 +1,1 @@
+execute align xyz run summon minecraft:block_display ~ ~ ~ {Tags:["qiq2i_text_1"],block_state:{Name:"minecraft:tnt"}}

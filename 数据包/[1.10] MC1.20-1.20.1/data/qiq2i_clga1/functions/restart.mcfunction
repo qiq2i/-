@@ -1,0 +1,2 @@
+function qiq2i_clga1:clear_buff
+scoreboard players reset #qiq2i_clga1_GameStart qiq2i_1

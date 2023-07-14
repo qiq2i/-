@@ -1,0 +1,1 @@
+summon minecraft:illusioner ~ ~ ~ {Tags:["qiq2i_clga1_sp_pillagera3_Mobs1"],DeathLootTable:"qiq2i_clga1:sp_pillagera3",CanJoinRaid:1}

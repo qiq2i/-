@@ -1,0 +1,17 @@
+{
+    "rewards": {
+      "function": "qiq2i_clga1:buff/player_zombie_villagera1"
+    },
+    "criteria": {
+       "1":{
+         "trigger": "minecraft:entity_hurt_player",
+         "conditions": {
+             "damage": {
+              "source_entity": {
+                "type": "minecraft:zombie_villager"
+              }
+             }
+         }
+       }
+    }
+  }

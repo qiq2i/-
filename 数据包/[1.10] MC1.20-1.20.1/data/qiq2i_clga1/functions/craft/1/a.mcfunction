@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:compass",Count:1b}}] at @s if entity @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.5] run function qiq2i_clga1:craft/1/a1
+schedule function qiq2i_clga1:craft/1/a 10t replace 

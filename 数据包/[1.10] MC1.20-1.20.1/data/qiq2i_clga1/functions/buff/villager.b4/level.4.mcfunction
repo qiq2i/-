@@ -1,0 +1,3 @@
+tag @s add qiq2i_clga1_buff_villager.b4_level.4
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:dragon_breath", Count: 4b}, buyB: {id: "minecraft:air", Count: 1b}, sell: {id: "minecraft:emerald", Count: 3b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:phantom_membrane", Count: 10b}, buyB: {id: "minecraft:air", Count: 1b}, sell: {id: "minecraft:emerald", Count: 3b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}

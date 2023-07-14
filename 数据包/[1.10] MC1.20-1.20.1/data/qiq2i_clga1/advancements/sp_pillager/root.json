@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pillager_spawn_egg"
+      },
+      "title": {
+        "text": "§e更强大的劫掠军团"
+      },
+      "description": {
+        "text": "§e来迎接更大的挑战吧！"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/block/crying_obsidian.png"
+    },
+    "criteria": {
+      "crafting_table": {
+        "trigger": "minecraft:voluntary_exile"
+      }
+    },
+    "requirements": [
+      [
+        "crafting_table"
+      ]
+    ]
+  }

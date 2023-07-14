@@ -1,0 +1,2 @@
+advancement revoke @s only qiq2i_clga1:qiq2i_clga1_buff/player_huska1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_huska1 if entity @s[tag=!qiq2i_admin] run function qiq2i_clga1:buff/player_huska1/a

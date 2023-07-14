@@ -1,0 +1,32 @@
+{
+  "parent": "qiq2i_clga1:common/exp/get1",
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": {
+      "text": "老兵"
+    },
+    "description": {
+      "text": "§e经验等级达到60"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "qiq2i_clga1:player_attribute/task"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ]
+}

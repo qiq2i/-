@@ -1,0 +1,14 @@
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.1] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/1
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.2] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/2
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.2_marker.1] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/2/marker.1
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.3] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/3
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.4] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/4
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.5] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/5
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.6] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/6
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.7] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/7
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.8] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/8
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.9] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/9
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.10] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/10
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.10_marker.1] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/10/marker.1
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.11] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/11
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_type.12] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/12

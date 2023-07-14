@@ -1,0 +1,1 @@
+execute as @s[type=#qiq2i_clga1:piglin,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_ignore] run data modify entity @s IsImmuneToZombification set value true

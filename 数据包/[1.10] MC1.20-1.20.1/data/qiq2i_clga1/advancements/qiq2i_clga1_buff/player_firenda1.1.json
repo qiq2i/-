@@ -1,0 +1,13 @@
+{
+    "rewards": {
+      "function": "qiq2i_clga1:buff/player_firenda1/1"
+    },
+    "criteria": {
+       "1":{
+         "trigger": "minecraft:entity_hurt_player"
+       }
+    },
+    "requirements": [
+      ["1"]
+    ]
+  }

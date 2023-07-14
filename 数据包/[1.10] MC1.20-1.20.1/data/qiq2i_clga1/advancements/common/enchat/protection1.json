@@ -1,0 +1,70 @@
+{
+  "parent": "qiq2i_clga1:common/enchat/unbreaking1",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{CustomModelData:2002035,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "text": "铜墙铁壁"
+    },
+    "description": {
+      "text": "§e获得拥有保护类附魔9级中其中一个附魔的物品"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100,
+    "function": "qiq2i_clga1:player_attribute/challenge"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:9}]}"
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:9}]}"
+          }
+        ]
+      }
+    },
+    "3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:9}]}"
+          }
+        ]
+      }
+    },
+    "4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:9}]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1","2","3","4"
+    ]
+  ]
+}

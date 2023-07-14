@@ -1,0 +1,32 @@
+{
+  "parent": "qiq2i_clga1:room/rooma1_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    },
+    "title": {
+      "text": "§c像素模型的待客之道"
+    },
+    "description": {
+      "text": "§e击败§2§l像素模型僵尸"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "qiq2i_clga1:player_attribute/sp"
+  },
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

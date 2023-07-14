@@ -1,0 +1,1 @@
+summon minecraft:vindicator ~ ~ ~ {Tags:["qiq2i_clga1_sp_pillagera2_Mobs1","qiq2i_clga1_summoning_1"],HandItems:[{id:"diamond_axe",Count:1},{}],ArmorItems:[{},{},{},{id:"tnt",Count:1,tag:{qiq2i_clga1_sp_pillagera1_Mobs1:1}}],DeathLootTable:"qiq2i_clga1:sp_pillagera2_tnt",CanJoinRaid:1}

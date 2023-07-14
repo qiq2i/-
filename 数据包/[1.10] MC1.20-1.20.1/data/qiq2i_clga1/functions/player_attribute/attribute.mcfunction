@@ -1,0 +1,172 @@
+function qiq2i_clga1:player_attribute/advancements
+execute as @s[scores={qiq2i_clga1_abH=10..19}] run attribute @s generic.max_health base set 21
+execute as @s[scores={qiq2i_clga1_abH=20..29}] run attribute @s generic.max_health base set 22
+execute as @s[scores={qiq2i_clga1_abH=30..39}] run attribute @s generic.max_health base set 23
+execute as @s[scores={qiq2i_clga1_abH=40..49}] run attribute @s generic.max_health base set 24
+execute as @s[scores={qiq2i_clga1_abH=50..59}] run attribute @s generic.max_health base set 25
+execute as @s[scores={qiq2i_clga1_abH=60..69}] run attribute @s generic.max_health base set 26
+execute as @s[scores={qiq2i_clga1_abH=70..79}] run attribute @s generic.max_health base set 27
+execute as @s[scores={qiq2i_clga1_abH=80..89}] run attribute @s generic.max_health base set 28
+execute as @s[scores={qiq2i_clga1_abH=90..99}] run attribute @s generic.max_health base set 29
+execute as @s[scores={qiq2i_clga1_abH=100..109}] run attribute @s generic.max_health base set 30
+
+execute as @s[scores={qiq2i_clga1_abH=110..119}] run attribute @s generic.max_health base set 31
+execute as @s[scores={qiq2i_clga1_abH=120..129}] run attribute @s generic.max_health base set 32
+execute as @s[scores={qiq2i_clga1_abH=130..139}] run attribute @s generic.max_health base set 33
+execute as @s[scores={qiq2i_clga1_abH=140..149}] run attribute @s generic.max_health base set 34
+execute as @s[scores={qiq2i_clga1_abH=150..159}] run attribute @s generic.max_health base set 35
+execute as @s[scores={qiq2i_clga1_abH=160..169}] run attribute @s generic.max_health base set 36
+execute as @s[scores={qiq2i_clga1_abH=170..179}] run attribute @s generic.max_health base set 37
+execute as @s[scores={qiq2i_clga1_abH=180..189}] run attribute @s generic.max_health base set 38
+execute as @s[scores={qiq2i_clga1_abH=190..199}] run attribute @s generic.max_health base set 39
+execute as @s[scores={qiq2i_clga1_abH=200..209}] run attribute @s generic.max_health base set 30
+
+execute as @s[scores={qiq2i_clga1_abH=210..219}] run attribute @s generic.max_health base set 41
+execute as @s[scores={qiq2i_clga1_abH=220..229}] run attribute @s generic.max_health base set 42
+execute as @s[scores={qiq2i_clga1_abH=230..239}] run attribute @s generic.max_health base set 43
+execute as @s[scores={qiq2i_clga1_abH=240..249}] run attribute @s generic.max_health base set 44
+execute as @s[scores={qiq2i_clga1_abH=250..259}] run attribute @s generic.max_health base set 45
+execute as @s[scores={qiq2i_clga1_abH=260..269}] run attribute @s generic.max_health base set 46
+execute as @s[scores={qiq2i_clga1_abH=270..279}] run attribute @s generic.max_health base set 47
+execute as @s[scores={qiq2i_clga1_abH=280..289}] run attribute @s generic.max_health base set 48
+execute as @s[scores={qiq2i_clga1_abH=290..299}] run attribute @s generic.max_health base set 49
+execute as @s[scores={qiq2i_clga1_abH=300..309}] run attribute @s generic.max_health base set 50
+
+execute as @s[scores={qiq2i_clga1_abH=310..319}] run attribute @s generic.max_health base set 51
+execute as @s[scores={qiq2i_clga1_abH=320..329}] run attribute @s generic.max_health base set 52
+execute as @s[scores={qiq2i_clga1_abH=330..339}] run attribute @s generic.max_health base set 53
+execute as @s[scores={qiq2i_clga1_abH=340..349}] run attribute @s generic.max_health base set 54
+execute as @s[scores={qiq2i_clga1_abH=350..359}] run attribute @s generic.max_health base set 55
+execute as @s[scores={qiq2i_clga1_abH=360..369}] run attribute @s generic.max_health base set 56
+execute as @s[scores={qiq2i_clga1_abH=370..379}] run attribute @s generic.max_health base set 57
+execute as @s[scores={qiq2i_clga1_abH=380..389}] run attribute @s generic.max_health base set 58
+execute as @s[scores={qiq2i_clga1_abH=390..399}] run attribute @s generic.max_health base set 59
+execute as @s[scores={qiq2i_clga1_abH=400..409}] run attribute @s generic.max_health base set 60
+
+execute as @s[scores={qiq2i_clga1_abH=410..419}] run attribute @s generic.max_health base set 61
+execute as @s[scores={qiq2i_clga1_abH=420..429}] run attribute @s generic.max_health base set 62
+execute as @s[scores={qiq2i_clga1_abH=430..439}] run attribute @s generic.max_health base set 63
+execute as @s[scores={qiq2i_clga1_abH=440..449}] run attribute @s generic.max_health base set 64
+execute as @s[scores={qiq2i_clga1_abH=450..459}] run attribute @s generic.max_health base set 65
+execute as @s[scores={qiq2i_clga1_abH=460..469}] run attribute @s generic.max_health base set 66
+execute as @s[scores={qiq2i_clga1_abH=470..479}] run attribute @s generic.max_health base set 67
+execute as @s[scores={qiq2i_clga1_abH=480..489}] run attribute @s generic.max_health base set 68
+execute as @s[scores={qiq2i_clga1_abH=490..499}] run attribute @s generic.max_health base set 69
+execute as @s[scores={qiq2i_clga1_abH=500..509}] run attribute @s generic.max_health base set 70
+
+execute as @s[scores={qiq2i_clga1_abH=510..519}] run attribute @s generic.max_health base set 71
+execute as @s[scores={qiq2i_clga1_abH=520..529}] run attribute @s generic.max_health base set 72
+execute as @s[scores={qiq2i_clga1_abH=530..539}] run attribute @s generic.max_health base set 73
+execute as @s[scores={qiq2i_clga1_abH=540..549}] run attribute @s generic.max_health base set 74
+execute as @s[scores={qiq2i_clga1_abH=550..559}] run attribute @s generic.max_health base set 75
+execute as @s[scores={qiq2i_clga1_abH=560..569}] run attribute @s generic.max_health base set 76
+execute as @s[scores={qiq2i_clga1_abH=570..579}] run attribute @s generic.max_health base set 77
+execute as @s[scores={qiq2i_clga1_abH=580..589}] run attribute @s generic.max_health base set 78
+execute as @s[scores={qiq2i_clga1_abH=590..599}] run attribute @s generic.max_health base set 79
+execute as @s[scores={qiq2i_clga1_abH=600..609}] run attribute @s generic.max_health base set 80
+
+execute as @s[scores={qiq2i_clga1_abH=610..619}] run attribute @s generic.max_health base set 81
+execute as @s[scores={qiq2i_clga1_abH=620..629}] run attribute @s generic.max_health base set 82
+execute as @s[scores={qiq2i_clga1_abH=630..639}] run attribute @s generic.max_health base set 83
+execute as @s[scores={qiq2i_clga1_abH=640..649}] run attribute @s generic.max_health base set 84
+execute as @s[scores={qiq2i_clga1_abH=650..659}] run attribute @s generic.max_health base set 85
+execute as @s[scores={qiq2i_clga1_abH=660..669}] run attribute @s generic.max_health base set 86
+execute as @s[scores={qiq2i_clga1_abH=670..679}] run attribute @s generic.max_health base set 87
+execute as @s[scores={qiq2i_clga1_abH=680..689}] run attribute @s generic.max_health base set 88
+execute as @s[scores={qiq2i_clga1_abH=690..699}] run attribute @s generic.max_health base set 89
+execute as @s[scores={qiq2i_clga1_abH=700..709}] run attribute @s generic.max_health base set 90
+
+execute as @s[scores={qiq2i_clga1_abH=710..719}] run attribute @s generic.max_health base set 91
+execute as @s[scores={qiq2i_clga1_abH=720..729}] run attribute @s generic.max_health base set 92
+execute as @s[scores={qiq2i_clga1_abH=730..739}] run attribute @s generic.max_health base set 93
+execute as @s[scores={qiq2i_clga1_abH=740..749}] run attribute @s generic.max_health base set 94
+execute as @s[scores={qiq2i_clga1_abH=750..759}] run attribute @s generic.max_health base set 95
+execute as @s[scores={qiq2i_clga1_abH=760..769}] run attribute @s generic.max_health base set 96
+execute as @s[scores={qiq2i_clga1_abH=770..779}] run attribute @s generic.max_health base set 97
+execute as @s[scores={qiq2i_clga1_abH=780..789}] run attribute @s generic.max_health base set 98
+execute as @s[scores={qiq2i_clga1_abH=790..799}] run attribute @s generic.max_health base set 99
+execute as @s[scores={qiq2i_clga1_abH=800..809}] run attribute @s generic.max_health base set 100
+
+execute as @s[scores={qiq2i_clga1_abH=810..819}] run attribute @s generic.max_health base set 101
+execute as @s[scores={qiq2i_clga1_abH=820..829}] run attribute @s generic.max_health base set 102
+execute as @s[scores={qiq2i_clga1_abH=830..839}] run attribute @s generic.max_health base set 103
+execute as @s[scores={qiq2i_clga1_abH=840..849}] run attribute @s generic.max_health base set 104
+execute as @s[scores={qiq2i_clga1_abH=850..859}] run attribute @s generic.max_health base set 105
+execute as @s[scores={qiq2i_clga1_abH=860..869}] run attribute @s generic.max_health base set 106
+execute as @s[scores={qiq2i_clga1_abH=870..879}] run attribute @s generic.max_health base set 107
+execute as @s[scores={qiq2i_clga1_abH=880..889}] run attribute @s generic.max_health base set 108
+execute as @s[scores={qiq2i_clga1_abH=890..899}] run attribute @s generic.max_health base set 109
+execute as @s[scores={qiq2i_clga1_abH=900..909}] run attribute @s generic.max_health base set 110
+
+execute as @s[scores={qiq2i_clga1_abH=910..919}] run attribute @s generic.max_health base set 111
+execute as @s[scores={qiq2i_clga1_abH=920..929}] run attribute @s generic.max_health base set 112
+execute as @s[scores={qiq2i_clga1_abH=930..939}] run attribute @s generic.max_health base set 113
+execute as @s[scores={qiq2i_clga1_abH=940..949}] run attribute @s generic.max_health base set 114
+execute as @s[scores={qiq2i_clga1_abH=950..959}] run attribute @s generic.max_health base set 115
+execute as @s[scores={qiq2i_clga1_abH=960..969}] run attribute @s generic.max_health base set 116
+execute as @s[scores={qiq2i_clga1_abH=970..979}] run attribute @s generic.max_health base set 117
+execute as @s[scores={qiq2i_clga1_abH=980..989}] run attribute @s generic.max_health base set 118
+execute as @s[scores={qiq2i_clga1_abH=990..999}] run attribute @s generic.max_health base set 119
+execute as @s[scores={qiq2i_clga1_abH=1000..1009}] run attribute @s generic.max_health base set 120
+
+execute as @s[scores={qiq2i_clga1_abH=1010..1019}] run attribute @s generic.max_health base set 121
+execute as @s[scores={qiq2i_clga1_abH=1020..1029}] run attribute @s generic.max_health base set 122
+execute as @s[scores={qiq2i_clga1_abH=1030..1039}] run attribute @s generic.max_health base set 123
+execute as @s[scores={qiq2i_clga1_abH=1040..1049}] run attribute @s generic.max_health base set 124
+execute as @s[scores={qiq2i_clga1_abH=1050..1059}] run attribute @s generic.max_health base set 125
+execute as @s[scores={qiq2i_clga1_abH=1060..1069}] run attribute @s generic.max_health base set 126
+execute as @s[scores={qiq2i_clga1_abH=1070..1079}] run attribute @s generic.max_health base set 127
+execute as @s[scores={qiq2i_clga1_abH=1080..1089}] run attribute @s generic.max_health base set 128
+execute as @s[scores={qiq2i_clga1_abH=1090..1099}] run attribute @s generic.max_health base set 129
+execute as @s[scores={qiq2i_clga1_abH=1100..1109}] run attribute @s generic.max_health base set 130
+
+execute as @s[scores={qiq2i_clga1_abH=1110..1119}] run attribute @s generic.max_health base set 131
+execute as @s[scores={qiq2i_clga1_abH=1120..1129}] run attribute @s generic.max_health base set 132
+execute as @s[scores={qiq2i_clga1_abH=1130..1139}] run attribute @s generic.max_health base set 133
+execute as @s[scores={qiq2i_clga1_abH=1140..1149}] run attribute @s generic.max_health base set 134
+execute as @s[scores={qiq2i_clga1_abH=1150..1159}] run attribute @s generic.max_health base set 135
+execute as @s[scores={qiq2i_clga1_abH=1160..1169}] run attribute @s generic.max_health base set 136
+execute as @s[scores={qiq2i_clga1_abH=1170..1179}] run attribute @s generic.max_health base set 137
+execute as @s[scores={qiq2i_clga1_abH=1180..1189}] run attribute @s generic.max_health base set 138
+execute as @s[scores={qiq2i_clga1_abH=1190..1199}] run attribute @s generic.max_health base set 139
+execute as @s[scores={qiq2i_clga1_abH=1200..}] run attribute @s generic.max_health base set 140
+
+execute as @s[scores={qiq2i_clga1_abD=1}] run attribute @s generic.attack_damage base set 1.25
+execute as @s[scores={qiq2i_clga1_abD=2}] run attribute @s generic.attack_damage base set 1.5
+execute as @s[scores={qiq2i_clga1_abD=3}] run attribute @s generic.attack_damage base set 1.75
+execute as @s[scores={qiq2i_clga1_abD=4}] run attribute @s generic.attack_damage base set 2
+execute as @s[scores={qiq2i_clga1_abD=5}] run attribute @s generic.attack_damage base set 2.25
+execute as @s[scores={qiq2i_clga1_abD=6}] run attribute @s generic.attack_damage base set 2.5
+execute as @s[scores={qiq2i_clga1_abD=7}] run attribute @s generic.attack_damage base set 2.75
+execute as @s[scores={qiq2i_clga1_abD=8}] run attribute @s generic.attack_damage base set 3
+execute as @s[scores={qiq2i_clga1_abD=9}] run attribute @s generic.attack_damage base set 3.25
+execute as @s[scores={qiq2i_clga1_abD=10}] run attribute @s generic.attack_damage base set 3.5
+execute as @s[scores={qiq2i_clga1_abD=11}] run attribute @s generic.attack_damage base set 3.75
+execute as @s[scores={qiq2i_clga1_abD=12}] run attribute @s generic.attack_damage base set 4
+execute as @s[scores={qiq2i_clga1_abD=13}] run attribute @s generic.attack_damage base set 4.25
+execute as @s[scores={qiq2i_clga1_abD=14}] run attribute @s generic.attack_damage base set 4.5
+execute as @s[scores={qiq2i_clga1_abD=15}] run attribute @s generic.attack_damage base set 4.75
+execute as @s[scores={qiq2i_clga1_abD=16}] run attribute @s generic.attack_damage base set 5
+execute as @s[scores={qiq2i_clga1_abD=17}] run attribute @s generic.attack_damage base set 5.25
+execute as @s[scores={qiq2i_clga1_abD=18}] run attribute @s generic.attack_damage base set 5.5
+execute as @s[scores={qiq2i_clga1_abD=19}] run attribute @s generic.attack_damage base set 5.75
+execute as @s[scores={qiq2i_clga1_abD=20}] run attribute @s generic.attack_damage base set 6
+execute as @s[scores={qiq2i_clga1_abD=21}] run attribute @s generic.attack_damage base set 6.25
+execute as @s[scores={qiq2i_clga1_abD=22}] run attribute @s generic.attack_damage base set 6.5
+execute as @s[scores={qiq2i_clga1_abD=23}] run attribute @s generic.attack_damage base set 6.75
+execute as @s[scores={qiq2i_clga1_abD=24}] run attribute @s generic.attack_damage base set 7
+execute as @s[scores={qiq2i_clga1_abD=25}] run attribute @s generic.attack_damage base set 7.25
+execute as @s[scores={qiq2i_clga1_abD=26}] run attribute @s generic.attack_damage base set 7.5
+execute as @s[scores={qiq2i_clga1_abD=27}] run attribute @s generic.attack_damage base set 7.75
+execute as @s[scores={qiq2i_clga1_abD=28}] run attribute @s generic.attack_damage base set 8
+execute as @s[scores={qiq2i_clga1_abD=29}] run attribute @s generic.attack_damage base set 8.25
+execute as @s[scores={qiq2i_clga1_abD=30}] run attribute @s generic.attack_damage base set 8.5
+execute as @s[scores={qiq2i_clga1_abD=31}] run attribute @s generic.attack_damage base set 8.75
+execute as @s[scores={qiq2i_clga1_abD=32}] run attribute @s generic.attack_damage base set 9
+execute as @s[scores={qiq2i_clga1_abD=33}] run attribute @s generic.attack_damage base set 9.25
+execute as @s[scores={qiq2i_clga1_abD=34}] run attribute @s generic.attack_damage base set 9.5
+execute as @s[scores={qiq2i_clga1_abD=35}] run attribute @s generic.attack_damage base set 9.75
+execute as @s[scores={qiq2i_clga1_abD=36..}] run attribute @s generic.attack_damage base set 10
+
+execute as @s unless score @s qiq2i_clga1_abH matches 9.. run attribute @s generic.max_health base set 20
+execute as @s unless score @s qiq2i_clga1_abD matches 1.. run attribute @s generic.attack_damage base set 1

@@ -1,0 +1,208 @@
+{
+  "parent": "qiq2i_clga1:common/food/first",
+  "display": {
+    "icon": {
+      "item": "minecraft:mushroom_stew",
+      "nbt": "{CustomModelData:200227}"
+    },
+    "title": {
+      "text": "美食家"
+    },
+    "description": {
+      "translate": "§e吃遍流浪商人售卖的所有食物"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "qiq2i_clga1:player_attribute/challenge"
+  },
+  "criteria": {
+     "1":{
+       "trigger": "minecraft:consume_item",
+       "conditions": {
+         "item": {
+           "nbt": "{qiq2i_clga1_food:1}"
+         }
+       }
+     },
+     "2":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:2}"
+        }
+      }
+    },
+    "3":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:3}"
+        }
+      }
+    },
+    "4":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:4}"
+        }
+      }
+    },
+    "5":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:5}"
+        }
+      }
+    },
+    "6":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:6}"
+        }
+      }
+    },
+    "7":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:7}"
+        }
+      }
+    },
+    "8":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:8}"
+        }
+      }
+    },
+    "9":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:9}"
+        }
+      }
+    },
+    "10":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:10}"
+        }
+      }
+    },
+    "11":{
+       "trigger": "minecraft:consume_item",
+       "conditions": {
+         "item": {
+           "nbt": "{qiq2i_clga1_food:11}"
+         }
+       }
+     },
+     "12":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:12}"
+        }
+      }
+    },
+    "13":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:13}"
+        }
+      }
+    },
+    "14":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:14}"
+        }
+      }
+    },
+    "15":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:15}"
+        }
+      }
+    },
+    "16":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:16}"
+        }
+      }
+    },
+    "17":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:17}"
+        }
+      }
+    },
+    "18":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:18}"
+        }
+      }
+    },
+    "19":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:19}"
+        }
+      }
+    },
+    "20":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:20}"
+        }
+      }
+    },
+    "21":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:21}"
+        }
+      }
+    },
+    "22":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:22}"
+        }
+      }
+    },
+    "23":{
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{qiq2i_clga1_food:23}"
+        }
+      }
+    }
+  }
+}

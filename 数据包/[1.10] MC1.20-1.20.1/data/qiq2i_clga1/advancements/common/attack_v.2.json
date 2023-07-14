@@ -1,0 +1,34 @@
+{
+    "parent": "qiq2i_clga1:common/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:music_disc_11"
+      },
+      "title": {
+        "text": "《劫掠 从入门到精通》"
+      },
+      "description": {
+        "text": "§e和掠夺者们一起洗劫村庄！"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+       "a":{
+         "trigger": "minecraft:impossible",
+         "conditions": {
+           
+         }
+       }
+    },
+    "requirements": [
+      [
+        "a"
+      ]
+    ]
+  }

@@ -1,0 +1,9 @@
+execute positioned ~ ~ ~ unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~1 ~ ~ unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~-1 ~ ~ unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~ ~ ~1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~ ~ ~-1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~1 ~ ~1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~1 ~ ~-1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~-1 ~ ~1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy
+execute positioned ~-1 ~ ~-1 unless blocks ~ ~ ~ ~ 47 ~ ~ 50 ~ masked unless block ~ ~ ~ barrier run fill ~ ~ ~ ~ 47 ~ air destroy

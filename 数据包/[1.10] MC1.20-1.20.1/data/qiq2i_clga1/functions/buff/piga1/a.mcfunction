@@ -1,0 +1,2 @@
+execute if entity @a[distance=..4,tag=!qiq2i_admin] run function qiq2i_clga1:buff/piga1/b
+execute unless data entity @s HandItems[{id:"minecraft:totem_of_undying"}] run function qiq2i_clga1:buff/piga1/b

@@ -1,0 +1,2 @@
+execute if predicate qiq2i_clga1:_0.1 as @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin] at @s if predicate qiq2i_clga1:in_mushroom_fields run effect give @s saturation 1 0
+execute if predicate qiq2i_clga1:_0.1 as @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin] at @s if predicate qiq2i_clga1:in_mushroom_fields run effect give @s regeneration 4 0

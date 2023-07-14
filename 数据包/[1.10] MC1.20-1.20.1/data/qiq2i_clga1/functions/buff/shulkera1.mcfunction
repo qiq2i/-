@@ -1,0 +1,3 @@
+execute if entity @s[type=shulker,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_ignore,nbt={Color:16b}] run scoreboard players add #qiq2i_clga1_buff_shulkera1 qiq2i_1 1
+execute as @s[type=shulker,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_ignore,nbt={Color:16b}] store result entity @s Color byte 1 run scoreboard players get #qiq2i_clga1_buff_shulkera1 qiq2i_1
+execute if score #qiq2i_clga1_buff_shulkera1 qiq2i_1 matches 16.. run scoreboard players set #qiq2i_clga1_buff_shulkera1 qiq2i_1 -1

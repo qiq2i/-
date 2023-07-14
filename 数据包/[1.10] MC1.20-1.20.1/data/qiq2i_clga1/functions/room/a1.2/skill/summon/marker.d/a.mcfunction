@@ -1,0 +1,1 @@
+function qiq2i_clga1:room/a1.2/skill/d1.1

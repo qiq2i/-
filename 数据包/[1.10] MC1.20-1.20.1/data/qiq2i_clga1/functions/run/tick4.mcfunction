@@ -1,0 +1,24 @@
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea1 if entity @e[type=blaze] run function qiq2i_clga1:buff/blazea1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_boata1 if entity @e[type=boat] run function qiq2i_clga1:buff/boata1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cata1 if entity @e[type=cat] run function qiq2i_clga1:buff/cata1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cave_spidera1 if entity @e[type=cave_spider] run function qiq2i_clga1:buff/cave_spidera1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona1 if entity @e[type=#qiq2i_clga1:skeleton.1] run function qiq2i_clga1:buff/skeletona1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_slimea1 if entity @e[type=slime] run function qiq2i_clga1:buff/slimea1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_snow_golema1 if entity @e[type=snow_golem] run function qiq2i_clga1:buff/snow_golema1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1 if entity @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f}] run function qiq2i_clga1:buff/sp_firea1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villagera1 if entity @e[type=villager] run function qiq2i_clga1:buff/villagera1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_witcha1 if entity @e[type=witch] run function qiq2i_clga1:buff/witcha1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wither_skeletona2 if entity @e[type=wither_skeleton] run function qiq2i_clga1:buff/wither_skeletona2
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea1 if entity @e[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/zombiea1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombified_piglina1 if entity @e[type=zombified_piglin] run function qiq2i_clga1:buff/zombified_piglina1
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] as @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] at @s run function qiq2i_clga1:buff/sp_pillagera6/mob1_tick1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 if entity @e[type=creeper] run function qiq2i_clga1:buff/creepera2
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_iron_golema1 if entity @e[type=iron_golem] run function qiq2i_clga1:buff/iron_golema1
+
+#怪物效果
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_speed if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_speed
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_strengtha1 if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_strengtha1
