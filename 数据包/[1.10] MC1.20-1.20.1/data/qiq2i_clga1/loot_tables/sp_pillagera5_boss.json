@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_hoe",
+            "weight": 20,
+            "functions": [
+              {
+                  "function": "set_nbt",
+                  "tag": "{qiq2i_clga1_sp_pillagera5_Mobs1:1}"
+              }
+            ]
+            }
+        ]
+      }
+    ]
+  }
