@@ -3,7 +3,7 @@ scoreboard players enable @a qiq2i_command
 scoreboard players enable @a qiq2i_clga1_player_use1
 ##item_sp/other
 execute as @a at @s run function qiq2i_clga1:item_sp/other/main.2 
-##投掷物
+##特殊实体定期清理（投掷物）
 function qiq2i_clga1:kill/main
 
 execute unless score #qiq2i_clga1_addtick1 qiq2i_1 matches -2147483648..2147483647 run scoreboard players set #qiq2i_clga1_addtick1 qiq2i_1 10
