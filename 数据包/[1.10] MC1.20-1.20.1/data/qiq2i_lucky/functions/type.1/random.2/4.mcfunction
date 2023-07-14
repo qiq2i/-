@@ -1,0 +1,12 @@
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~
+summon spider ~ ~ ~

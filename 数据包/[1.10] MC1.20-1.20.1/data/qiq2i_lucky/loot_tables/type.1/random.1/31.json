@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 3,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/other/wormhole.1"
+          }
+        ]
+      }
+    ]
+  }
