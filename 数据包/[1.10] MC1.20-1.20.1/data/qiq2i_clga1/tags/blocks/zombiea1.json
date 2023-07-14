@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "#qiq2i_clga1:door",
+      "#qiq2i_clga1:trapdoor",
+      "#qiq2i_clga1:fence_gate",
+      "#qiq2i_clga1:fence"
+    ]
+  }
