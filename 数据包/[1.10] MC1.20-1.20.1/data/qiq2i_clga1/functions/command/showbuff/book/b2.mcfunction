@@ -159,7 +159,7 @@ execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"q
 
 execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:player_spidera1"}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§2[蛛网密布]"},{"text":"§8玩家攻击蜘蛛时有几率获得缓慢状态效果。§0   打蜘蛛被蜘蛛喷射蜘蛛丝，而蜘蛛丝除了蜘蛛什么都能黏住，猜这句话有多少个蜘蛛。"}]}'
 
-execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:creepera2"}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§2[亲密接触]"},{"text":"§8玩家攻击蜘蛛时有几率获得缓慢状态效果。§0   苦力怕是有多么想你啊，为了你，苦力怕等不及要和你贴脸了。"}]}'
+execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:creepera2"}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§2[亲密接触]"},{"text":"§8苦力怕会快速靠近接近其的玩家并爆炸。§0   苦力怕是有多么想你啊，为了你，苦力怕等不及要和你贴脸了。"}]}'
 
 execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:player_aira1"}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§2[溺水]"},{"text":"§8氧气耗尽时，玩家会产生众多负面状态效果。§0   牢记防溺水六不准，预防溺水从你我做起。"}]}'
 

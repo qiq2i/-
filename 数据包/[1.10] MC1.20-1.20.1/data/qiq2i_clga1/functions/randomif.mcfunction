@@ -472,7 +472,7 @@ execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2
 execute as @s[tag=qiq2i_clga1_random1_creepera2] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 set value {level:1}
 execute as @s[tag=qiq2i_clga1_random1_creepera2] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:creepera2",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:creepera2",level:1}
 execute as @s[tag=qiq2i_clga1_random1_creepera2] run tellraw @a {"text":"","extra":[{"text":"§7[随机效果]§a 亲密接触"}]}
-execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_creepera2] run tellraw @a {"text":"","extra":[{"text":"§6玩家攻击蜘蛛时有几率获得缓慢状态效果。\n§e苦力怕是有多么想你啊，为了你，苦力怕等不及要和你贴脸了。"}]}
+execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_creepera2] run tellraw @a {"text":"","extra":[{"text":"§6苦力怕会快速靠近接近其的玩家并爆炸。\n§e苦力怕是有多么想你啊，为了你，苦力怕等不及要和你贴脸了。"}]}
 
 execute as @s[tag=qiq2i_clga1_random1_player_aira1] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_player_aira1 set value {level:1}
 execute as @s[tag=qiq2i_clga1_random1_player_aira1] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:player_aira1",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:player_aira1",level:1}
