@@ -65,3 +65,6 @@ function qiq2i_clga1:command/showbuff/load
 
 team add qiq2i_clga1_mobteama1
 team modify qiq2i_clga1_mobteama1 friendlyFire false
+
+##文本库
+function qiq2i_clga1:load/text/buff/storage
