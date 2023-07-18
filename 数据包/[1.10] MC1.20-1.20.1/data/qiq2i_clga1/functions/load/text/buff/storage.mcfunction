@@ -3,7 +3,7 @@ data modify storage qiq2i_clga1:text buff append value {id:at_follow_range,level
 #tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:ABC}].level.1[0]","storage":"qiq2i_clga1:text"}]
 #tellraw @a [{"nbt":"buff[{id:ABC}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:ABC}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
 
-#'{"text":"","extra":[{"text":"§0§l["},{"nbt":"buff[{id:ABC}].level.1[0]","storage":"qiq2i_clga1:text"},{"text":"§0§l]"},{"nbt":"buff[{id:ABC}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\\n"},{"nbt":"buff[{id:ABC}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]}'
+#'{"text":"","extra":[{"text":"§0§l["},{"nbt":"buff[{id:ABC}].level.1[0]","storage":"qiq2i_clga1:text"},{"text":"§0§l]"},{"text":"\\n"},{"nbt":"buff[{id:ABC}].level.1[1]","storage":"qiq2i_clga1:text"},{"text":"\\n"},{"nbt":"buff[{id:ABC}].level.1[2]","storage":"qiq2i_clga1:text"}]}'
 data modify storage qiq2i_clga1:text buff append value {id:axolotla1,level:{1:["§2胖胖美西螈","新生成的美西螈将拥有两倍血量。","胖可不是指身材，而是血条更长了才变胖哟。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:bata1,level:{1:["§9幸运蝙蝠","身上冒粒子的蝙蝠带有神秘宝藏，可击杀获得。","蝙蝠突然就成了国家二级保护动物。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:blazea1,level:{1:["§9烈焰大炮§6§lI§8§lI","烈焰人有几率向其攻击目标发射火焰弹。","吐火球已不再是恶魂的专利，但烈焰人并未向恶魂支付这笔专利费。"],2:["§9烈焰大炮§6§lII","",""]}}
