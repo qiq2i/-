@@ -1,7 +1,11 @@
-execute if score @s qiq2i_clga1_gamestart matches 1 run function qiq2i_clga1:command/timeset1/120
-execute if score @s qiq2i_clga1_gamestart matches 2 run function qiq2i_clga1:command/timeset1/240
-execute if score @s qiq2i_clga1_gamestart matches 3 run function qiq2i_clga1:command/timeset1/480
-execute if score @s qiq2i_clga1_gamestart matches 4 run function qiq2i_clga1:command/timeset1/960
+execute if score @s qiq2i_clga1_gamestart matches 2001 run function qiq2i_clga1:command/timeset1/1
+execute if score @s qiq2i_clga1_gamestart matches 2015 run function qiq2i_clga1:command/timeset1/15
+execute if score @s qiq2i_clga1_gamestart matches 2030 run function qiq2i_clga1:command/timeset1/30
+execute if score @s qiq2i_clga1_gamestart matches 2060 run function qiq2i_clga1:command/timeset1/60
+execute if score @s qiq2i_clga1_gamestart matches 2120 run function qiq2i_clga1:command/timeset1/120
+execute if score @s qiq2i_clga1_gamestart matches 2240 run function qiq2i_clga1:command/timeset1/240
+execute if score @s qiq2i_clga1_gamestart matches 2480 run function qiq2i_clga1:command/timeset1/480
+execute if score @s qiq2i_clga1_gamestart matches 2960 run function qiq2i_clga1:command/timeset1/960
 
 execute if score @s qiq2i_clga1_gamestart matches 5 run function qiq2i_clga1:command/buffdisplay/a 
 execute if score @s qiq2i_clga1_gamestart matches 6 run function qiq2i_clga1:command/buffdisplay/b 

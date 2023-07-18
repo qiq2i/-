@@ -69,3 +69,4 @@ team modify qiq2i_clga1_mobteama1 friendlyFire false
 ##文本库
 function qiq2i_clga1:load/text/buff/storage
 function qiq2i_clga1:load/text/book/storage
+function qiq2i_clga1:load/text/command/storage
