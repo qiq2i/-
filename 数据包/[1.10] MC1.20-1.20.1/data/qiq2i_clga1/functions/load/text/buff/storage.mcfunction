@@ -118,3 +118,4 @@ data modify storage qiq2i_clga1:text buff append value {id:enderman.a3,level:{1:
 data modify storage qiq2i_clga1:text buff append value {id:wandering_trader.a4,level:{1:["§2幸运方块代售商","现在流浪商人会兜售一些幸运方块。",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_mob_chest.a1,level:{1:["§9毒刺甲§6§lI§8§lII","个别敌对生物会穿上毒刺胸甲，玩家以任意方式攻击该敌对生物时会中毒。","这类似于胸甲附魔了荆棘，只是伤害的方式不同。"],2:["§9毒刺甲§6§lII§8§lI","",""],3:["§9毒刺甲§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_mob_chest.a2,level:{1:["§9荆棘甲§6§lI§8§lII","个别敌对生物会穿上附魔有荆棘的胸甲。","玩家攻击该敌对生物将不可避免地受到伤害。"],2:["§9荆棘甲§6§lII§8§lI","",""],3:["§9荆棘甲§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:zombie.a5,level:{1:["§d举旗僵尸","少数僵尸举起有标志性的旗帜，激发僵尸们的斗志。","举旗僵尸的出现会给予周围的僵尸大量增益效果。"],2:["§9荆棘甲§6§lII§8§lI","",""],3:["§9荆棘甲§6§lIII","",""]}}

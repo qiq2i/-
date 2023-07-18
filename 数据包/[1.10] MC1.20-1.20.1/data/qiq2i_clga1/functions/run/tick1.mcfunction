@@ -32,3 +32,5 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.b12 as @e[ty
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.b13 as @e[type=villager,nbt={VillagerData:{profession:"minecraft:weaponsmith"}},tag=!qiq2i_clga1_ignore,tag=!qiq2i_clga1_buff_villager.b13_level.5] run function qiq2i_clga1:buff/villager.b13
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_enderman.a3 as @e[type=enderman,tag=qiq2i_clga1_buff_enderman.a3] if data entity @s AngryAt at @s run function qiq2i_clga1:buff/enderman.a3/a
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 as @e[tag=qiq2i_clga1_buff_zombie.a5,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombie.a5/a

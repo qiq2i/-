@@ -735,3 +735,8 @@ execute as @s[tag=qiq2i_clga1_random1_player_mob_chest.a2,tag=!qiq2i_clga1_rando
 execute as @s[tag=qiq2i_clga1_random1_player_mob_chest.a2_1] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:player_mob_chest.a2}].level.2[0]","storage":"qiq2i_clga1:text"}]
 execute as @s[tag=qiq2i_clga1_random1_player_mob_chest.a2_2] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:player_mob_chest.a2}].level.3[0]","storage":"qiq2i_clga1:text"}]
 execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_player_mob_chest.a2,tag=!qiq2i_clga1_random1_player_mob_chest.a2_1,tag=!qiq2i_clga1_random1_player_mob_chest.a2_2] run tellraw @a [{"nbt":"buff[{id:player_mob_chest.a2}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:player_mob_chest.a2}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
+
+execute as @s[tag=qiq2i_clga1_random1_zombie.a5] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 set value {level:1}
+execute as @s[tag=qiq2i_clga1_random1_zombie.a5] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:zombie.a5",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:zombie.a5",level:1}
+execute as @s[tag=qiq2i_clga1_random1_zombie.a5] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:zombie.a5}].level.1[0]","storage":"qiq2i_clga1:text"}]
+execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_zombie.a5] run tellraw @a [{"nbt":"buff[{id:zombie.a5}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:zombie.a5}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
