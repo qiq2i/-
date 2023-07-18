@@ -23,12 +23,12 @@ execute if score #qiq2i_clga1_getclock qiq2i_1 matches 1.. run tellraw @s {"text
 execute unless score #qiq2i_clga1_setdisplay qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e④§a开启§e了死亡数排行榜  "},{"text":"§c§n[点击关闭]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 7"},"hoverEvent":{"action":"show_text","value":"§e关闭死亡数排行榜"}}]}
 execute if score #qiq2i_clga1_setdisplay qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e④§c关闭§e了死亡数排行榜  "},{"text":"§a§n[点击开启]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 8"},"hoverEvent":{"action":"show_text","value":"§e开启死亡数排行榜"}}]}
 
-execute unless score #qiq2i_clga1_keepinventory qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e⑥§c关闭§e了死亡不掉落  "},{"text":"§a§n[点击开启]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 9"},"hoverEvent":{"action":"show_text","value":"§e开启死亡不掉落"}}]}
-execute if score #qiq2i_clga1_keepinventory qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e⑥§a开启§e了死亡不掉落  "},{"text":"§c§n[点击关闭]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 10"},"hoverEvent":{"action":"show_text","value":"§e关闭死亡不掉落"}}]}
+execute unless score #qiq2i_clga1_keepinventory qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e⑤§c关闭§e了死亡不掉落  "},{"text":"§a§n[点击开启]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 9"},"hoverEvent":{"action":"show_text","value":"§e开启死亡不掉落"}}]}
+execute if score #qiq2i_clga1_keepinventory qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e⑤§a开启§e了死亡不掉落  "},{"text":"§c§n[点击关闭]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 10"},"hoverEvent":{"action":"show_text","value":"§e关闭死亡不掉落"}}]}
 
 tellraw @s {"text":"","extra":[{"text":"§e- 除了死亡不掉落，其他原版规则可以在/gamerule修改。"}]}
 
-tellraw @s {"text":"","extra":[{"text":"\n§e⑦非官方服务端可能出现bug的随机效果开关："}]}
+tellraw @s {"text":"","extra":[{"text":"\n§e⑥非官方服务端可能出现bug的随机效果开关："}]}
 execute unless score #qiq2i_clga1_sp_raina1_ban1 qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e- §a开启§e了随机效果-落汤鸡:"},{"text":""},{"text":" "},{"text":"§c§n[禁用]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 11"},"hoverEvent":{"action":"show_text","value":"§e有人发现该效果出现晴天增加雨水值的bug，我用paper服务端测试后发现数据包不能正常检测是否降雨，若出现了以上问题可以禁用。"}},{"text":" "}]}
 execute if score #qiq2i_clga1_sp_raina1_ban1 qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"§e- §c关闭§e了随机效果-落汤鸡:"},{"text":" "},{"text":"§a§n[开启]","clickEvent":{"action":"run_command","value":"/trigger qiq2i_clga1_gamestart set 12"},"hoverEvent":{"action":"show_text","value":""}}]}
 
