@@ -1,7 +1,7 @@
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_at_follow_range if entity @s[type=#qiq2i_clga1:mob,tag=!qiq2i_clga1_buff_at_follow_range] run function qiq2i_clga1:buff/at_follow_range
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_axolotla1 if entity @s[type=axolotl,tag=!qiq2i_clga1_buff_axolotla1] run function qiq2i_clga1:buff/axolotla1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera1 if entity @s[type=creeper] run function qiq2i_clga1:buff/creepera1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_endermana1 if entity @s[type=enderman] run function qiq2i_clga1:buff/endermana1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_endermana1 if entity @s[type=enderman] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/endermana1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ghasta2 if entity @s[type=ghast] run function qiq2i_clga1:buff/ghasta2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_lightning_bolta1 if entity @s[type=lightning_bolt] run function qiq2i_clga1:buff/lightning_bolta1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_phantoma1 if entity @s[type=phantom] run function qiq2i_clga1:buff/phantoma1
