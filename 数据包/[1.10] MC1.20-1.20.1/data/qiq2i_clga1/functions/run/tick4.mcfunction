@@ -16,9 +16,3 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if enti
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 if entity @e[type=creeper] run function qiq2i_clga1:buff/creepera2
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_iron_golema1 if entity @e[type=iron_golem] run function qiq2i_clga1:buff/iron_golema1
-
-#怪物效果
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_speed if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_speed
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_strengtha1 if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_strengtha1

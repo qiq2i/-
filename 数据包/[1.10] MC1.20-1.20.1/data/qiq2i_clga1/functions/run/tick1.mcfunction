@@ -34,3 +34,9 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.b13 as @e[ty
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_enderman.a3 as @e[type=enderman,tag=qiq2i_clga1_buff_enderman.a3] if data entity @s AngryAt at @s run function qiq2i_clga1:buff/enderman.a3/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 as @e[tag=qiq2i_clga1_buff_zombie.a5,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombie.a5/a
+
+#怪物效果
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_speed if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_speed
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_strengtha1 if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_strengtha1
