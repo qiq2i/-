@@ -138,3 +138,12 @@ execute if entity @s[advancements={minecraft:husbandry/allay_deliver_item_to_pla
 execute if entity @s[advancements={minecraft:husbandry/allay_deliver_cake_to_note_block=true}] run function qiq2i_clga1:player_attribute/challenge
 execute if entity @s[advancements={minecraft:adventure/avoid_vibration=true}] run function qiq2i_clga1:player_attribute/task
 execute if entity @s[advancements={minecraft:husbandry/leash_all_frog_variants=true}] run function qiq2i_clga1:player_attribute/task
+
+##1.20 加入了7个新进度：“精修细补”“旧貌锻新颜”“小小嗅探兽”“播种往事”“探古寻源”“匠心独具”和“怪味蛋”。
+execute if entity @s[advancements={minecraft:adventure/craft_decorated_pot_using_only_sherds=true}] run function qiq2i_clga1:player_attribute/task
+execute if entity @s[advancements={minecraft:adventure/trim_with_any_armor_pattern=true}] run function qiq2i_clga1:player_attribute/task
+execute if entity @s[advancements={minecraft:husbandry/feed_snifflet=true}] run function qiq2i_clga1:player_attribute/task
+execute if entity @s[advancements={minecraft:husbandry/plant_any_sniffer_seed=true}] run function qiq2i_clga1:player_attribute/task
+execute if entity @s[advancements={minecraft:adventure/salvage_sherd=true}] run function qiq2i_clga1:player_attribute/task
+execute if entity @s[advancements={minecraft:adventure/trim_with_all_exclusive_armor_patterns=true}] run function qiq2i_clga1:player_attribute/challenge
+execute if entity @s[advancements={minecraft:husbandry/obtain_sniffer_egg=true}] run function qiq2i_clga1:player_attribute/task
