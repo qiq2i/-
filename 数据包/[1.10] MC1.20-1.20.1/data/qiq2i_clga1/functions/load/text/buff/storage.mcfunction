@@ -12,10 +12,10 @@ data modify storage qiq2i_clga1:text buff append value {id:cata1,level:{1:["§2�
 data modify storage qiq2i_clga1:text buff append value {id:cave_spidera1,level:{1:["§2毒气蜘蛛§6§lI§8§lI","毒蜘蛛会使得靠近自身的攻击目标中毒。","不愧是毒蜘蛛，已经能够做到不靠咬伤就能使人中毒了。"],2:["§2毒气蜘蛛§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:creepera1,level:{1:["§2精炼炸药§6§lI§8§lII","苦力怕的爆炸范围增大。","都是爆炸而死，这群苦力怕决定让自己死得更猛烈些吧！"],2:["§2精炼炸药§6§lII§8§lI","",""],3:["§2精炼炸药§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ef_fire_resistance,level:{1:["§9隔热层","敌对生物保持永久的防火状态效果。","这让所有的怪物在岩浆泡澡成为可能。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:ef_jump_boost,level:{1:["§2弹簧鞋","敌对生物保持永久的跳跃提升状态效果。","自从有了这款弹簧鞋，体验飞一般的感觉就不需要再搭设弹簧床了。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:ef_jump_boost,level:{1:["§2弹簧鞋","少数敌对生物保持永久的跳跃提升状态效果。","自从有了这款弹簧鞋，体验飞一般的感觉就不需要再搭设弹簧床了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:ef_speed,level:{1:["§9体能训练§6§lI§8§lI","敌对生物保持永久的疾跑状态效果。","欸，我能跑了。我不仅能跑，还能小跳，欸，还能大跳了。"],2:["§9体能训练§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ef_strengtha1,level:{1:["§9拳击训练§6§lI§8§lII","敌对生物保持永久的力量状态效果。","怪物们现在变得非常的强壮！"],2:["§9拳击训练§6§lII§8§lI","",""],3:["§9拳击训练§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:endermana1,level:{1:["§9狂躁的高人§6§lI§8§lII","末影人的攻击力获得提升。","觉得原来的末影人太弱了？那么就稍稍加强一下吧。别总是待在两格高的地方当缩头乌龟。"],2:["§9狂躁的高人§6§lII§8§lI","",""],3:["§9狂躁的高人§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:endermana1,level:{1:["§9狂躁的高人§6§lI§8§lII","少数末影人的攻击力获得提升。","觉得原来的末影人太弱了？那么就稍稍加强一下吧。别总是待在两格高的地方当缩头乌龟。"],2:["§9狂躁的高人§6§lII§8§lI","",""],3:["§9狂躁的高人§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ghasta1,level:{1:["§2恶魂升级版§6§lI§8§lI","恶魂会发射更多的火焰弹。","火球发射间隔实在太长，于是恶魂们想尽办法压缩时间。"],2:["§2恶魂升级版§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ghasta2,level:{1:["§2恶魂专业版§6§lI§8§lI","恶魂的火焰弹威力得到提升。","专业版的恶魂会给玩家带来何种感受呢？"],2:["§2恶魂专业版§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_axe,level:{1:["§9斧头帮§6§lI§8§lII","新生成的僵尸将持有斧子。","据说斧头的威力比剑还要高，于是僵尸斧头帮就此成立，专门欺负手无寸铁的玩家。"],2:["§9斧头帮§6§lII§8§lI","",""],3:["§9斧头帮§6§lIII","",""]}}
@@ -46,7 +46,7 @@ data modify storage qiq2i_clga1:text buff append value {id:sp_raina1,level:{1:["
 data modify storage qiq2i_clga1:text buff append value {id:sp_villagera1,level:{1:["§9村民包扎术","村民和铁傀儡拥有速度、抗性提升、生命恢复状态效果。","或许是偶然，村里的人们都知道该如何包扎自己。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:spidera1,level:{1:["§d精英蜘蛛","个别蜘蛛的生命值更高、攻击性更强，且防击退。","那就是一只“大号”蜘蛛而已，真的。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:shulkera1,level:{1:["§2彩色潜影盒","新生成的潜影贝拥有更多种类的颜色。","潜影盒，潜影贝，傻傻分不清楚。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:skeletona1,level:{1:["§2跟踪飞箭§6§lI§8§lII","骷髅、流浪者会向附近生物射箭，即使自身没有发现目标。","对于近距离击杀骷髅来说，盾牌或许是不可或缺的。"],2:["§2跟踪飞箭§6§lII§8§lI","",""],3:["§2跟踪飞箭§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:skeletona1,level:{1:["§2跟踪飞箭§6§lI§8§lII","少数骷髅、流浪者会向附近生物射额外的箭，即使自身没有发现目标。","对于近距离击杀骷髅来说，盾牌或许是不可或缺的。"],2:["§2跟踪飞箭§6§lII§8§lI","",""],3:["§2跟踪飞箭§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:skeletona2,level:{1:["§d精英骷髅","个别骷髅的生命值更高、攻击性更强，且防击退。","那只骷髅上辈子想必是个神射手吧。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:slimea1,level:{1:["§2一坨粘物","史莱姆会使接近的玩家获得缓慢状态效果，且自身防击退。","史莱姆是粘的代名词。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:snow_golema1,level:{1:["§2外溢的制冷机","雪傀儡会使周围的敌对生物行走缓慢。","如临寒冬，身体发颤，怪物便不由自主地放慢脚步。"]}}
