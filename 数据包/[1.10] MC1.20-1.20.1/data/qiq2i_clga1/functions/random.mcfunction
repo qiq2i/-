@@ -257,6 +257,12 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a2{l
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1","qiq2i_clga1_random1_zombie.a5"]}
 
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_player_failing.a1 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1","qiq2i_clga1_random1_player_failing.a1"]}
+
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_undead.a1 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1","qiq2i_clga1_random1_undead.a1"]}
+
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_creeper.a3 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1","qiq2i_clga1_random1_creeper.a3"]}
+
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_allay.a1 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1","qiq2i_clga1_random1_allay.a1"]}
 ##################
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run scoreboard players add #qiq2i_clga1_AddCount qiq2i_1 1
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run function qiq2i_clga1:randomif

@@ -120,3 +120,6 @@ data modify storage qiq2i_clga1:text buff append value {id:player_mob_chest.a1,l
 data modify storage qiq2i_clga1:text buff append value {id:player_mob_chest.a2,level:{1:["§9荆棘甲§6§lI§8§lII","个别敌对生物会穿上附魔有荆棘的胸甲。","玩家攻击该敌对生物将不可避免地受到伤害。"],2:["§9荆棘甲§6§lII§8§lI","",""],3:["§9荆棘甲§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombie.a5,level:{1:["§d举旗僵尸","少数僵尸举起有标志性的旗帜，激发僵尸们的斗志。","举旗僵尸的出现会给予周围的僵尸大量增益效果。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_failing.a1,level:{1:["§9摔落冲击","玩家落地过猛时会受到更加严重的伤害。","更真实的落地过猛。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:undead.a1,level:{1:["§d亡灵们的背水一战","所有亡灵生物在血量较低时，会获得攻击伤害加成。","亡灵生物们在倒下前最大化自身价值，不留遗憾。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:creeper.a3,level:{1:["§d苦力怕的近战梦","苦力怕可以近战攻击玩家了，并且有较长的攻击距离。","对于苦力怕来说，这是颠覆性的进化，尽管还没有能够拿起武器的双手。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:allay.a1,level:{1:["§d苦力怕的近战梦","悦灵会给予附近的玩家生命恢复效果。","别灰心，你有帮手！"]}}

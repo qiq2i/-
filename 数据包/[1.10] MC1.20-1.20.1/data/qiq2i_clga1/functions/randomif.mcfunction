@@ -745,3 +745,18 @@ execute as @s[tag=qiq2i_clga1_random1_player_failing.a1] run data modify storage
 execute as @s[tag=qiq2i_clga1_random1_player_failing.a1] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:player_failing.a1",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:player_failing.a1",level:1}
 execute as @s[tag=qiq2i_clga1_random1_player_failing.a1] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:player_failing.a1}].level.1[0]","storage":"qiq2i_clga1:text"}]
 execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_player_failing.a1] run tellraw @a [{"nbt":"buff[{id:player_failing.a1}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:player_failing.a1}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
+
+execute as @s[tag=qiq2i_clga1_random1_undead.a1] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_undead.a1 set value {level:1}
+execute as @s[tag=qiq2i_clga1_random1_undead.a1] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:undead.a1",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:undead.a1",level:1}
+execute as @s[tag=qiq2i_clga1_random1_undead.a1] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:undead.a1}].level.1[0]","storage":"qiq2i_clga1:text"}]
+execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_undead.a1] run tellraw @a [{"nbt":"buff[{id:undead.a1}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:undead.a1}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
+
+execute as @s[tag=qiq2i_clga1_random1_creeper.a3] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_creeper.a3 set value {level:1}
+execute as @s[tag=qiq2i_clga1_random1_creeper.a3] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:creeper.a3",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:creeper.a3",level:1}
+execute as @s[tag=qiq2i_clga1_random1_creeper.a3] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:creeper.a3}].level.1[0]","storage":"qiq2i_clga1:text"}]
+execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_creeper.a3] run tellraw @a [{"nbt":"buff[{id:creeper.a3}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:creeper.a3}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
+
+execute as @s[tag=qiq2i_clga1_random1_allay.a1] run data modify storage qiq2i_clga1_event buff.qiq2i_clga1_allay.a1 set value {level:1}
+execute as @s[tag=qiq2i_clga1_random1_allay.a1] unless data storage qiq2i_clga1_event_new qiq2i_clga1_buff[{id:"qiq2i_clga1:allay.a1",level:1}] run data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:allay.a1",level:1}
+execute as @s[tag=qiq2i_clga1_random1_allay.a1] run tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:allay.a1}].level.1[0]","storage":"qiq2i_clga1:text"}]
+execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. as @s[tag=qiq2i_clga1_random1_allay.a1] run tellraw @a [{"nbt":"buff[{id:allay.a1}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:allay.a1}].level.1[2]","storage":"qiq2i_clga1:text","color": "yellow"}]
