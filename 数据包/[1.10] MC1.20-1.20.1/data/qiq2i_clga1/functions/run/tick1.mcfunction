@@ -38,6 +38,10 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_endermana1 as @e[tag=
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 as @e[tag=qiq2i_clga1_buff_zombie.a5,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombie.a5/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_undead.a1 as @e[tag=!qiq2i_clga1_buff_undead.a1,type=#qiq2i_clga1:undeadmob,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/undead.a1
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creeper.a3 as @e[type=creeper,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/creeper.a3
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_allay.a1 as @e[type=#qiq2i_clga1:allay,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/allay.a1
 #怪物效果
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost

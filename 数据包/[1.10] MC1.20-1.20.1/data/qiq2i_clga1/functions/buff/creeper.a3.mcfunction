@@ -1,0 +1,1 @@
+execute if entity @a[distance=..6,tag=!qiq2i_admin] run function qiq2i_clga1:buff/creeper.a3/a
