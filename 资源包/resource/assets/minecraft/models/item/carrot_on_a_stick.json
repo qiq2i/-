@@ -1,0 +1,100 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/carrot_on_a_stick"
+    },
+    "overrides": [
+      {
+        "predicate": {"custom_model_data": 2002021},
+        "model": "qiq2i_clga1:text/text"
+      },
+      {
+        "predicate": {"custom_model_data": 2002022},
+        "model": "qiq2i_clga1:text/text2"
+      },
+      {
+        "predicate": {"custom_model_data": 2002023},
+        "model": "qiq2i_clga1:clga1/rooma1_1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002024},
+        "model": "qiq2i_clga1:clga1/rooma1_1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002025},
+        "model": "qiq2i_clga1:clga1/rooma1_2"
+      },
+      {
+        "predicate": {"custom_model_data": 2002026},
+        "model": "qiq2i_clga1:clga1/rooma1_3"
+      },
+      {
+        "predicate": {"custom_model_data": 2002027},
+        "model": "qiq2i_clga1:clga1/armor/1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002028},
+        "model": "qiq2i_clga1:clga1/axe/1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002029},
+        "model": "qiq2i_clga1:clga1/axe/2"
+      },
+      {
+        "predicate": {"custom_model_data": 2002030},
+        "model": "qiq2i_clga1:clga1/roditem/sp_pillagera7_item"
+      },
+      {
+        "predicate": {"custom_model_data": 2002031},
+        "model": "qiq2i_clga1:clga1/roditem/time_bundle.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002032},
+        "model": "qiq2i_clga1:clga1/other/torch.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002033},
+        "model": "qiq2i_clga1:clga1/other/torch.2"
+      },
+      {
+        "predicate": {"custom_model_data": 2002034},
+        "model": "qiq2i_clga1:clga1/other/evoker_fangs.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002035},
+        "model": "qiq2i_clga1:clga1/other/tnt.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002036},
+        "model": "qiq2i_clga1:clga1/other/tnt.2"
+      },
+      {
+        "predicate": {"custom_model_data": 2002037},
+        "model": "qiq2i_clga1:clga1/other/fireball.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002038},
+        "model": "qiq2i_clga1:clga1/other/build.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002039},
+        "model": "qiq2i_clga1:clga1/other/paralysis.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002040},
+        "model": "qiq2i_clga1:clga1/other/wormhole.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002041},
+        "model": "qiq2i_clga1:clga1/other/umbrella.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002042},
+        "model": "qiq2i_clga1:clga1/other/milk.1"
+      },
+      {
+        "predicate": {"custom_model_data": 2002043},
+        "model": "qiq2i_clga1:clga1/other/eraser.1"
+      }
+    ]
+  }

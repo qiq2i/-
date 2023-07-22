@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_helmet",
+        "layer1": "item/leather_helmet_overlay"
+    },
+    "overrides": [
+      {
+        "predicate": {"custom_model_data": 2002021},
+        "model": "qiq2i_clga1:clga1/other/helmet.1"
+      }
+    ]
+}

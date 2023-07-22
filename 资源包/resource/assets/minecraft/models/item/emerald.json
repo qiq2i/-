@@ -1,0 +1,107 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/emerald"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 2002021},
+      "model": "qiq2i_clga1:clga1/roditem/redemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002022},
+      "model": "qiq2i_clga1:clga1/roditem/blueemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002023},
+      "model": "qiq2i_clga1:clga1/roditem/cyanemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002024},
+      "model": "qiq2i_clga1:clga1/roditem/cyandye"
+    },
+    {
+      "predicate": {"custom_model_data": 2002025},
+      "model": "qiq2i_clga1:clga1/roditem/limeemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002026},
+      "model": "qiq2i_clga1:clga1/roditem/pinkemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002027},
+      "model": "qiq2i_clga1:clga1/roditem/purpleemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002028},
+      "model": "qiq2i_clga1:clga1/roditem/greenemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002029},
+      "model": "qiq2i_clga1:clga1/roditem/brownemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002030},
+      "model": "qiq2i_clga1:clga1/roditem/yellowemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002031},
+      "model": "qiq2i_clga1:clga1/roditem/light_blueemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002032},
+      "model": "qiq2i_clga1:clga1/roditem/grayemerald"
+    },
+    {
+      "predicate": {"custom_model_data": 2002033},
+      "model": "qiq2i_clga1:clga1/roditem/light_grayemerald"
+    },{
+      "predicate": {"custom_model_data": 2002034},
+      "model": "qiq2i_clga1:clga1/roditem/redemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002035},
+      "model": "qiq2i_clga1:clga1/roditem/blueemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002036},
+      "model": "qiq2i_clga1:clga1/roditem/cyanemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002037},
+      "model": "qiq2i_clga1:clga1/roditem/limeemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002038},
+      "model": "qiq2i_clga1:clga1/roditem/pinkemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002039},
+      "model": "qiq2i_clga1:clga1/roditem/purpleemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002040},
+      "model": "qiq2i_clga1:clga1/roditem/greenemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002041},
+      "model": "qiq2i_clga1:clga1/roditem/brownemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002042},
+      "model": "qiq2i_clga1:clga1/roditem/yellowemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002043},
+      "model": "qiq2i_clga1:clga1/roditem/light_blueemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002044},
+      "model": "qiq2i_clga1:clga1/roditem/grayemerald_2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002045},
+      "model": "qiq2i_clga1:clga1/roditem/light_grayemerald_2"
+    }
+  ]
+}

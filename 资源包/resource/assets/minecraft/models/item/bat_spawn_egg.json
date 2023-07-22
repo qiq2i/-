@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 2002021},
+      "model": "qiq2i_clga1:clga1/rooma1_4"
+    },
+    {
+      "predicate": {"custom_model_data": 2002022},
+      "model": "qiq2i_lucky:1"
+    }
+  ]
+}

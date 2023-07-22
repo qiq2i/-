@@ -1,0 +1,6 @@
+{
+    "parent": "qiq2i_clga1:clga1/bow/type.1/8/bow",
+    "textures": {
+        "layer0": "qiq2i_clga1:item/bow/type.1/8/bow_pulling_0"
+    }
+}

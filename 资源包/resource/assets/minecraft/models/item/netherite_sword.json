@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/netherite_sword"
+    },
+    "overrides": [
+      {
+        "predicate": {"custom_model_data": 1056231},
+        "model": "qiq2i_clga1:clga1/netherite_sword_1"
+      }
+    ]
+  }

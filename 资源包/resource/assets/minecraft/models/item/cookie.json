@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cookie"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 200221},
+      "model": "qiq2i_clga1:clga1/beef_skewers_1"
+    },
+    {
+      "predicate": {"custom_model_data": 200222},
+      "model": "qiq2i_clga1:clga1/chocolate_emerald_1"
+    },
+    {
+      "predicate": {"custom_model_data": 200223},
+      "model": "minecraft:item/raw_gold"
+    },
+    {
+      "predicate": {"custom_model_data": 200224},
+      "model": "minecraft:item/dragon_egg"
+    },
+    {
+      "predicate": {"custom_model_data": 200225},
+      "model": "qiq2i_clga1:clga1/hunger_1"
+    },
+    {
+      "predicate": {"custom_model_data": 200226},
+      "model": "minecraft:item/lava_bucket"
+    },
+    {
+      "predicate": {"custom_model_data": 200227},
+      "model": "minecraft:item/pufferfish_bucket"
+    },
+    {
+      "predicate": {"custom_model_data": 200228},
+      "model": "minecraft:item/lime_dye"
+    },
+    {
+      "predicate": {"custom_model_data": 200229},
+      "model": "qiq2i_clga1:clga1/cookie_1"
+    },
+    {
+      "predicate": {"custom_model_data": 200230},
+      "model": "minecraft:item/pillager_spawn_egg"
+    }
+  ]
+}

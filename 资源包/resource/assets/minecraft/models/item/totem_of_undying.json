@@ -1,0 +1,72 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 2002021},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/1"
+    },
+    {
+      "predicate": {"custom_model_data": 2002022},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/2"
+    },
+    {
+      "predicate": {"custom_model_data": 2002023},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/3"
+    },
+    {
+      "predicate": {"custom_model_data": 2002024},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/4"
+    },
+    {
+      "predicate": {"custom_model_data": 2002025},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/5"
+    },
+    {
+      "predicate": {"custom_model_data": 2002026},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/6"
+    },
+    {
+      "predicate": {"custom_model_data": 2002027},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/7"
+    },
+    {
+      "predicate": {"custom_model_data": 2002028},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/8"
+    },
+    {
+      "predicate": {"custom_model_data": 2002029},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/9"
+    },
+    {
+      "predicate": {"custom_model_data": 2002030},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/10"
+    },
+    {
+      "predicate": {"custom_model_data": 2002031},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/11"
+    },
+    {
+      "predicate": {"custom_model_data": 2002032},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/12"
+    },
+    {
+      "predicate": {"custom_model_data": 2002033},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/13"
+    },
+    {
+      "predicate": {"custom_model_data": 2002034},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/14"
+    },
+    {
+      "predicate": {"custom_model_data": 2002035},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/15"
+    },
+    {
+      "predicate": {"custom_model_data": 2002036},
+      "model": "qiq2i_clga1:clga1/totem_of_undying/16"
+    }
+  ]
+}
