@@ -6,8 +6,8 @@ execute as @a[nbt=!{SelectedItem:{tag:{qiq2i_clga1_item_enchat:1}}},tag=qiq2i_cl
 execute as @a[nbt={SelectedItem:{tag:{qiq2i_clga1_item_othernbt:1}}},tag=!qiq2i_clga1_player_selectedItem_item_othernbt] at @s run function qiq2i_clga1:item_sp/othernbt/selecteditem 
 execute as @a[nbt=!{SelectedItem:{tag:{qiq2i_clga1_item_othernbt:1}}},tag=qiq2i_clga1_player_selectedItem_item_othernbt] run tag @s remove qiq2i_clga1_player_selectedItem_item_othernbt
 
-##bow
-function qiq2i_clga1:item_sp/bow/main
+##弓类特殊物品 射一次箭触发一次
+execute as @a[] if score @s qiq2i_bow matches 1.. at @s run function qiq2i_clga1:item_sp/bow/main
 
 ####other
 execute as @a[nbt={SelectedItem:{tag:{qiq2i_clga1_item_sp:1}}}] at @s run function qiq2i_clga1:item_sp/other/main.1
