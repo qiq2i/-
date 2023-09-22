@@ -43,6 +43,18 @@
     {
       "predicate": {"custom_model_data": 200230},
       "model": "minecraft:item/pillager_spawn_egg"
+    },
+    {
+      "predicate": {"custom_model_data": 200231},
+      "model": "qiq2i_clga1:clga1/guilin_rice_noodles"
+    },
+    {
+      "predicate": {"custom_model_data": 200232},
+      "model": "qiq2i_clga1:clga1/hezhou_sanbao_brew"
+    },
+    {
+      "predicate": {"custom_model_data": 200233},
+      "model": "qiq2i_clga1:clga1/wuzhou_paper_wrapped_chicken"
     }
   ]
 }
