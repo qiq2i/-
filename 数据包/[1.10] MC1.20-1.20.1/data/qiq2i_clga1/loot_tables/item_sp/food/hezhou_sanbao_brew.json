@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:200232, qiq2i_clga1_food:\"hezhou_sanbao_brew\", display:{Name:'{\"text\":\"§b贺州三宝酿\"}',Lore:['{\"text\":\"§e\"}']}}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

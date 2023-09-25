@@ -95,6 +95,18 @@
           {
             "type": "minecraft:loot_table",
             "name": "qiq2i_clga1:item_sp/food/type_23"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/food/guilin_rice_noodles"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/food/hezhou_sanbao_brew"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/food/wuzhou_paper_wrapped_chicken"
           }
         ]
       }

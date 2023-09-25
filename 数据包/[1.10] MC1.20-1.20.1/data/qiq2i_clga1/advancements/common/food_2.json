@@ -204,6 +204,30 @@
        }
      }
    },
+   "guilin_rice_noodles":{
+     "trigger": "minecraft:consume_item",
+     "conditions": {
+       "item": {
+         "nbt": "{qiq2i_clga1_food:\"guilin_rice_noodles\"}"
+       }
+     }
+   },
+   "wuzhou_paper_wrapped_chicken":{
+     "trigger": "minecraft:consume_item",
+     "conditions": {
+       "item": {
+         "nbt": "{qiq2i_clga1_food:\"wuzhou_paper_wrapped_chicken\"}"
+       }
+     }
+   },
+   "hezhou_sanbao_brew":{
+     "trigger": "minecraft:consume_item",
+     "conditions": {
+       "item": {
+         "nbt": "{qiq2i_clga1_food:\"hezhou_sanbao_brew\"}"
+       }
+     }
+   },
    "apple": {
     "trigger": "minecraft:consume_item",
     "conditions": {
