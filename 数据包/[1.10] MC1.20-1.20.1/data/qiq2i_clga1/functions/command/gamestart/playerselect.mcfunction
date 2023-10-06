@@ -15,6 +15,8 @@ execute if score @s qiq2i_clga1_gamestart matches 8 run function qiq2i_clga1:com
 
 execute if score @s qiq2i_clga1_gamestart matches 9 run function qiq2i_clga1:command/keepinventory/a 
 execute if score @s qiq2i_clga1_gamestart matches 10 run function qiq2i_clga1:command/keepinventory/b
+execute if score @s qiq2i_clga1_gamestart matches 15 run function qiq2i_clga1:command/keepinventory/dead_chest.close
+execute if score @s qiq2i_clga1_gamestart matches 16 run function qiq2i_clga1:command/keepinventory/dead_chest.open
 
 execute if score @s qiq2i_clga1_gamestart matches 11 run function qiq2i_clga1:command/buff/sp_raina1/a
 execute if score @s qiq2i_clga1_gamestart matches 12 run function qiq2i_clga1:command/buff/sp_raina1/b
