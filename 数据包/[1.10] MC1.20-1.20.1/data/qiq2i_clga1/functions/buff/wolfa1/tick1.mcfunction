@@ -1,4 +1,4 @@
-execute as @e[tag=qiq2i_clga1_buff_wolfa1,nbt=!{ActiveEffects:[{Id:10b}]}] run effect give @s regeneration 30 0 true
+execute as @e[tag=qiq2i_clga1_buff_wolfa1,nbt=!{ActiveEffects:[{id:10b}]}] run effect give @s regeneration 30 0 true
 
 execute as @e[type=wolf,tag=qiq2i_clga1_buff_wolfa1,tag=qiq2i_clga1_wolfa1_leatheritem] run attribute @s generic.armor modifier add 1001-1-1-1-1001 "armor_leather" 2.0 add
 

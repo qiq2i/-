@@ -1,3 +1,3 @@
-summon area_effect_cloud ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_lingering_potion.a","qiq2i_clga1_sp_ender_dragona1_lingering_potion.a_set","qiq2i_clga1_ignore"],Radius:4.0f,Duration:400,Effects:[{Id:7,Amplifier:1,Duration:1}],Particle:"minecraft:dragon_breath"}
+summon area_effect_cloud ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_lingering_potion.a","qiq2i_clga1_sp_ender_dragona1_lingering_potion.a_set","qiq2i_clga1_ignore"],Radius:4.0f,Duration:400,effects:[{id:7,amplifier:1,duration:1}],Particle:"minecraft:dragon_breath"}
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_lingering_potion.a_set] run data modify entity @s Owner set from entity @e[tag=qiq2i_clga1_buff_sp_ender_dragona1,limit=1] UUID
 tag @e[tag=qiq2i_clga1_sp_ender_dragona1_lingering_potion.a_set] remove qiq2i_clga1_sp_ender_dragona1_lingering_potion.a_set

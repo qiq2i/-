@@ -24,7 +24,7 @@ execute if score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 20.. unless score #qi
 execute store result score #qiq2i_clga1_rooma1_boss1_AbsorptionAmount_1 qiq2i_1 run data get entity @e[tag=qiq2i_clga1_rooma1_bossa1,limit=1,sort=nearest] AbsorptionAmount
   
 ##抗火
-    execute as @e[tag=qiq2i_clga1_rooma1_bossa1,nbt=!{ActiveEffects:[{Id:12}]}] run effect give @s fire_resistance 30 0 true
+    execute as @e[tag=qiq2i_clga1_rooma1_bossa1,nbt=!{ActiveEffects:[{id:12}]}] run effect give @s fire_resistance 30 0 true
 
 ##拆船
     execute as @e[tag=qiq2i_clga1_rooma1_bossa1] at @s run kill @e[type=#qiq2i_clga1:boat,distance=..2]

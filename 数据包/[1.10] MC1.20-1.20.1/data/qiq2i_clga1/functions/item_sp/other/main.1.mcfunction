@@ -1,5 +1,5 @@
 ##饥饿火把
-execute if score @s qiq2i_carrot_on_a_stick matches 1.. if entity @s[nbt={SelectedItem:{tag:{qiq2i_clga1_item_sp.other:{id:"torch.1"}}}}] unless entity @s[nbt={ActiveEffects:[{Id:17}]}] run function qiq2i_clga1:item_sp/other/torch.1/a
+execute if score @s qiq2i_carrot_on_a_stick matches 1.. if entity @s[nbt={SelectedItem:{tag:{qiq2i_clga1_item_sp.other:{id:"torch.1"}}}}] unless entity @s[nbt={ActiveEffects:[{id:17}]}] run function qiq2i_clga1:item_sp/other/torch.1/a
 
 ##溅射火把
 execute if score @s qiq2i_carrot_on_a_stick matches 1.. if entity @s[nbt={SelectedItem:{tag:{qiq2i_clga1_item_sp.other:{id:"torch.2"}}}}] positioned ~ ~1 ~ run function qiq2i_clga1:item_sp/other/torch.2/a

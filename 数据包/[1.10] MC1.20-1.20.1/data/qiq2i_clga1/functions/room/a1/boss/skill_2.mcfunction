@@ -9,4 +9,4 @@ execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matc
 execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matches 1.. as @e[tag=qiq2i_clga1_rooma1_bossa1] at @s run particle minecraft:totem_of_undying ~ ~1.7 ~ 0.3 0.3 0.3 0 1 normal @a
 execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matches 0 run bossbar remove qiq2i_clga1_rooma1_1_skill_2
 execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matches 0 run item replace entity @e[tag=qiq2i_clga1_rooma1_bossa1] armor.head with air
-execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matches 0 run effect clear @e[tag=qiq2i_clga1_rooma1_bossa1,nbt={ActiveEffects:[{Id:11b,Amplifier:4b}]}] resistance
+execute if score #qiq2i_clga1_rooma1_boss1_skill_2_AbsorptionAmount qiq2i_1 matches 0 run effect clear @e[tag=qiq2i_clga1_rooma1_bossa1,nbt={ActiveEffects:[{id:11b,amplifier:4b}]}] resistance
