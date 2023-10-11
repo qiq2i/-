@@ -14,7 +14,7 @@ summon experience_orb ~ ~ ~ {Tags:["qiq2i_clga1_player_dead_experience_orb_1","q
 execute as @e[type=experience_orb,limit=1,sort=nearest,tag=qiq2i_clga1_player_dead_experience_orb_1] store result entity @s Value int 1 run scoreboard players get #qiq2i_clga1_player_dead_levels_2 qiq2i_1
 
 #execute if data storage qiq2i_clga1_player Inventory[0] run function qiq2i_clga1:player_dead/inventory/inventoryitem ##过时
-summon armor_stand ~ ~ ~ {Tags:["qiq2i_clga1_player_dead_marker1"],DisabledSlots:16191,Marker:1b,NoBasePlate:1b,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],ActiveEffects:[{id:24b,duration:2147483647}]}
+summon armor_stand ~ ~ ~ {Tags:["qiq2i_clga1_player_dead_marker1"],DisabledSlots:16191,Marker:1b,NoBasePlate:1b,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],active_effects:[{id:"minecraft:glowing",duration:2147483647}]}
 execute as @e[tag=qiq2i_clga1_player_dead_marker1,tag=!qiq2i_clga1_player_dead_marker1_end,sort=nearest,limit=1] run data modify entity @s Rotation set from storage qiq2i_clga1_player Rotation
 execute as @e[tag=qiq2i_clga1_player_dead_marker1,tag=!qiq2i_clga1_player_dead_marker1_end,sort=nearest,limit=1] run data modify entity @s ArmorItems[0] set from storage qiq2i_clga1_player Inventory[{Slot:100b}]
 execute as @e[tag=qiq2i_clga1_player_dead_marker1,tag=!qiq2i_clga1_player_dead_marker1_end,sort=nearest,limit=1] run data modify entity @s ArmorItems[1] set from storage qiq2i_clga1_player Inventory[{Slot:101b}]

@@ -35,7 +35,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_creepera1 if e
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_guardiana1 if entity @s[type=guardian,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/player_guardiana1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona4 if entity @s[type=#qiq2i_clga1:skeleton.1,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1,predicate=qiq2i_clga1:_0.5] run function qiq2i_clga1:buff/skeletona4
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona4 as @s[type=arrow,nbt={custom_potion_effects:[{id:27,amplifier:21b,duration:21}]}] at @s facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1,distance=..128] eyes run function qiq2i_clga1:buff/skeletona4/arrow.1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona4 as @s[type=arrow,nbt={custom_potion_effects:[{id:"minecraft:unluck",amplifier:21b,duration:21}]}] at @s facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1,distance=..128] eyes run function qiq2i_clga1:buff/skeletona4/arrow.1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_evokera1 if entity @s[type=evoker,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/evokera1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_evokera2 if entity @s[type=evoker,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/evokera2

@@ -9,7 +9,7 @@ execute as @s[] at @s run scoreboard players add @s qiq2i_1 1
 execute as @s[scores={qiq2i_1=21..}] run scoreboard players remove @s qiq2i_1 20
 
 ##不死
-execute if entity @e[tag=qiq2i_clga1_sp_pillagera5_Mobs1,distance=..3,nbt=!{ActiveEffects:[{id:11b}]}] run effect give @s resistance 3 4
+execute if entity @e[tag=qiq2i_clga1_sp_pillagera5_Mobs1,distance=..3,nbt=!{active_effects:[{id:11b}]}] run effect give @s resistance 3 4
 
 ##小玳瑁
 execute as @s[scores={qiq2i_1=10}] run data modify entity @s PatrolLeader set value 0
@@ -20,7 +20,7 @@ execute as @s store result score @s qiq2i_Health1 run data get entity @s Health
 ##抗性提升
 #execute if score @s qiq2i_Health1 < @s qiq2i_Health2 run effect give @s resistance 1 3
 ##抗火
-execute as @s[nbt=!{ActiveEffects:[{id:12b}]}] run effect give @s fire_resistance 30 0
+execute as @s[nbt=!{active_effects:[{id:12b}]}] run effect give @s fire_resistance 30 0
 ##灭火
 execute unless entity @s[nbt={Fire:-20s}] run data modify entity @s Fire set value -20
 
