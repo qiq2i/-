@@ -22,8 +22,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona2 if entity 
 
 
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 if entity @e[nbt={Item:{tag:{qiq2i_clga1_sp_fishinga1:1}}},tag=!qiq2i_clga1_buff] run function qiq2i_clga1:buff/sp_fishinga1
-execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @e[tag=!qiq2i_clga1_buff,type=item] if data entity @s Item.tag.qiq2i_clga1_sp_fishinga1_Item run data remove entity @s Item.tag.qiq2i_clga1_sp_fishinga1_Item
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @e[tag=!qiq2i_clga1_buff,type=item,nbt={Item:{tag:{qiq2i_clga1_sp_fishinga1:1}}}] at @s run function qiq2i_clga1:buff/sp_fishinga1
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @e[tag=!qiq2i_clga1_buff,type=item] if data entity @s Item.tag.qiq2i_clga1_sp_fishinga1_Item run kill @s
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_mobteama1 if entity @e[team=!qiq2i_clga1_mobteama1,type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/sp_mobteama1
 
@@ -34,7 +34,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera3 if enti
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera4 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera4
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera5
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 as @a if data entity @s active_effects.[{id:"minecraft:bad_omen"b,amplifier:0b}] run effect give @s bad_omen 36000 1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 as @a if data entity @s active_effects.[{id:"minecraft:bad_omen",amplifier:0b}] run effect give @s bad_omen 36000 1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera6
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera7 run function qiq2i_clga1:buff/sp_pillagera7
 
