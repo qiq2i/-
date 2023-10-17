@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 16.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:entities/drowned"
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heart_of_the_sea"
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trident"
+          }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+            }
+        ]
+      }
+    ]
+  }
