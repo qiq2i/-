@@ -33,8 +33,37 @@
         "conditions": [
             {
                 "condition": "minecraft:random_chance",
-                "chance": 0.5
+                "chance": 1
             }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/exp/type_1",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/other/helmet.1"
+          }
         ]
       }
     ]

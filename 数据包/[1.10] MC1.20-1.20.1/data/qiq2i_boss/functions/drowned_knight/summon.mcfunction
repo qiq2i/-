@@ -1,4 +1,4 @@
-summon guardian ~ ~ ~ {Passengers:[{id:"minecraft:drowned",Tags:["qiq2i_clga1_ignore","qiq2i_boss.drowned_knight.summon.1","qiq2i_boss.drowned_knight.1"]}],Tags:["qiq2i_clga1_ignore","qiq2i_boss.drowned_knight.summon.2","qiq2i_boss.drowned_knight.2"]}
+summon guardian ~ ~ ~ {Passengers:[{id:"minecraft:drowned",Tags:["qiq2i_clga1_ignore","qiq2i_boss.drowned_knight.summon.1","qiq2i_boss.drowned_knight.1"]}],Tags:["qiq2i_clga1_ignore","qiq2i_boss.drowned_knight.summon.2","qiq2i_boss.drowned_knight.2","qiq2i_clga1_sp_fishinga1_Motion"]}
 ##守卫者
 execute as @e[tag=qiq2i_boss.drowned_knight.summon.2] run attribute @s generic.max_health base set 50
 execute as @e[tag=qiq2i_boss.drowned_knight.summon.2] run attribute @s generic.attack_damage base set 5

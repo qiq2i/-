@@ -24,9 +24,14 @@ scoreboard objectives add qiq2i_sp_raina1 dummy
     scoreboard objectives add qiq2i_cookie minecraft.used:cookie
     scoreboard objectives add qiq2i_mushroom_stew minecraft.used:mushroom_stew
     scoreboard objectives add qiq2i_dried_kelp minecraft.used:dried_kelp
-scoreboard objectives add qiq2i_mined_cactus minecraft.mined:cactus
-scoreboard objectives add qiq2i_mined_tnt minecraft.mined:tnt
-scoreboard objectives add qiq2i_carrot_on_a_stick minecraft.used:carrot_on_a_stick
+##秒清除的记分板
+    scoreboard objectives add qiq2i_mined_cactus minecraft.mined:cactus
+    scoreboard objectives add qiq2i_mined_tnt minecraft.mined:tnt
+    scoreboard objectives add qiq2i_carrot_on_a_stick minecraft.used:carrot_on_a_stick
+    scoreboard objectives add qiq2i_fishing minecraft.custom:minecraft.fish_caught
+##随机效果单独
+    scoreboard objectives add qiq2i_clga1.sp_fishinga1 dummy
+    scoreboard objectives add qiq2i_clga1.sp_fishinga1.b1 dummy
 #room
     scoreboard objectives add qiq2i_clga1_rooma1_pos0 dummy 
     scoreboard objectives add qiq2i_clga1_rooma1_pos1 dummy
@@ -71,3 +76,6 @@ function qiq2i_clga1:load/text/buff/storage
 function qiq2i_clga1:load/text/book/storage
 function qiq2i_clga1:load/text/command/storage
 function qiq2i_clga1:load/text/title/storage
+
+##qiq2i_boss
+function qiq2i_boss:load

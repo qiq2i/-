@@ -41,6 +41,7 @@ execute in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:run
     function qiq2i_lucky:tick
 ##测试
     #function qiq2i_text:main
-
+##qiq2i_boss
+    function qiq2i_boss:main
 ##end
     function qiq2i_clga1:end
