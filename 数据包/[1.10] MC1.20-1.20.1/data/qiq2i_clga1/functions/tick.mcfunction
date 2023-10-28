@@ -41,6 +41,8 @@ execute in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:run
     function qiq2i_lucky:tick
 ##测试
     #function qiq2i_text:main
+##时间显示状态切换
+    function qiq2i_clga1:time/display_state
 ##qiq2i_boss
     function qiq2i_boss:main
 ##end

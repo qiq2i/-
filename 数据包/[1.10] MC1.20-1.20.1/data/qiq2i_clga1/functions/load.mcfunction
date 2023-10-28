@@ -63,7 +63,9 @@ gamerule keepInventory true
 ##死亡榜+时间
     scoreboard objectives add qiq2i_clga1_side_dead deathCount 1
     execute unless score #qiq2i_clga1_setdisplay qiq2i_1 matches 1.. run scoreboard objectives setdisplay sidebar qiq2i_clga1_side_dead
-    #scoreboard players set §e死亡数 qiq2i_clga1_side_dead -1
+scoreboard objectives modify qiq2i_clga1_side_dead displayname {"text":"","extra":[{"text":"§e死亡数"}]}
+##时间显示状态切换
+    scoreboard objectives add qiq2i_clga1.time.display_state.select dummy
 #tellraw @a {"text":"§e 数据包加载成功 "}
 me §e 数据包加载成功
 function qiq2i_clga1:command/showbuff/load
