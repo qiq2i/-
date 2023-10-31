@@ -13,7 +13,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wither_skeletona1 if 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin_brutea1 if entity @s[type=piglin_brute] run function qiq2i_clga1:buff/piglin_brutea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_wheata1 if entity @s[type=item,nbt={Item:{id:"minecraft:wheat_seeds"}}] at @s run function qiq2i_clga1:buff/player_wheata1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona1 if entity @s[type=#qiq2i_clga1:skeleton.1,tag=!qiq2i_clga1_ignore] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/skeletona1/first
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona1 if entity @s[type=#qiq2i_clga1:skeleton.1,tag=!qiq2i_clga1_ignore] if predicate qiq2i_clga1:_0.9 run function qiq2i_clga1:buff/skeletona1/first
 
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_axe if entity @s[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/item_axe
