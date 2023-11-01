@@ -51,7 +51,7 @@ data modify storage qiq2i_clga1:text buff append value {id:skeletona2,level:{1:[
 data modify storage qiq2i_clga1:text buff append value {id:slimea1,level:{1:["§2一坨粘物","史莱姆会使接近的玩家获得缓慢状态效果，且自身防击退。","史莱姆是粘的代名词。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:snow_golema1,level:{1:["§2外溢的制冷机","雪傀儡会使周围的敌对生物行走缓慢。","如临寒冬，身体发颤，怪物便不由自主地放慢脚步。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:su_guardiana1,level:{1:["§2水域旅行","守卫者可以生成在任何水域了。","海洋那么大，我想去逛逛。部分守卫者离开了海底神殿，并开始了旅行。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:villagera1,level:{1:["§2村民自卫术","村民现在有保卫自己的能力了，拥有不死图腾，甚至可以反击怪物。","起来，不愿做懦夫的村民。我们不再是只能躲在房子里的胆小鬼，我们要保卫自己！"]}}
+data modify storage qiq2i_clga1:text buff append value {id:villagera1,level:{1:["§2村民自卫术","村民现在有保卫自己的能力了，拥有不死图腾，甚至可以反击怪物。","面对日益强大的怪物，村民们也开始提高自卫能力，在遭到怪物攻击时能够进行反击。此外，村民们在MC交易市场采购不死图腾用于保全自身（每个村民自带一个不死图腾，当不死图腾被消耗后，村民可以捡不死图腾掉落物来补充）。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera1,level:{1:["§2习武的流浪商人§6§lI§8§lI","流浪商人拥有不死图腾，自动回血，并带有荆棘反伤。","只身在外，不提前做点准备是不行的。"],2:["§2习武的流浪商人§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera2,level:{1:["§2流动美食摊","流浪商人可售卖更多种类的美食。","走遍大江南北，好吃的都带上(๑¯◡¯๑)。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera3,level:{1:["§c卖玩具的商人","流浪商人可售卖像素模型。","流浪商人：别瞎说，这些都是手办，可精贵了。根本不是小孩子的玩具！"]}}
