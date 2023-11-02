@@ -5,10 +5,10 @@ data modify storage qiq2i_clga1:text buff append value {id:at_follow_range,level
 
 #'{"text":"","extra":[{"text":"§0§l["},{"nbt":"buff[{id:ABC}].level.1[0]","storage":"qiq2i_clga1:text"},{"text":"§0§l]"},{"text":"\\n"},{"nbt":"buff[{id:ABC}].level.1[1]","storage":"qiq2i_clga1:text"},{"text":"\\n"},{"nbt":"buff[{id:ABC}].level.1[2]","storage":"qiq2i_clga1:text"}]}'
 data modify storage qiq2i_clga1:text buff append value {id:axolotla1,level:{1:["§2胖胖美西螈","新生成的美西螈将拥有两倍血量。","胖可不是指身材，而是血条更长了才变胖哟。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:bata1,level:{1:["§9幸运蝙蝠","身上冒粒子的蝙蝠带有神秘宝藏，可击杀获得。","蝙蝠突然就成了国家二级保护动物。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:bata1,level:{1:["§9幸运蝙蝠","身上冒粒子的蝙蝠带有神秘宝藏，可击杀获得。","部分蝙蝠为了提高自身价值，而去寻求女巫的帮助，变成了拥有不稳定力量的蝙蝠。虽然蝙蝠的自身价值提升了，但这份价值衬托于玩家。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:blazea1,level:{1:["§9烈焰大炮§6§lI§8§lI","烈焰人有几率向其攻击目标发射火焰弹。","吐火球已不再是恶魂的专利，但烈焰人并未向恶魂支付这笔专利费。"],2:["§9烈焰大炮§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:boata1,level:{1:["§2脆弱的木舟","玩家在乘船时，船有概率沉没。","是你太重了，还是这艘破船太小了？你看看铁傀儡都没你那么重。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:cata1,level:{1:["§2猫的祝福","被驯服的猫会给附近的玩家带来随机的状态效果。","觉得猫不如狗？不不不，你的猫现在也可以祝你一臂之力啦，只是这股力量十分不稳定。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:cata1,level:{1:["§2猫的祝福","被驯服的猫会给附近的玩家带来随机的增益类状态效果。","猫咪们会通过不太明显的方式默默帮助玩家们。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:cave_spidera1,level:{1:["§2毒气蜘蛛§6§lI§8§lI","洞穴蜘蛛会使得靠近自身的攻击目标中毒。","不愧是毒蜘蛛，已经能够做到不靠咬伤就能使人中毒了。"],2:["§2毒气蜘蛛§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:creepera1,level:{1:["§2精炼炸药§6§lI§8§lII","苦力怕的爆炸范围增大。","如果燃尽了自己的生命也没能达到目的，岂不是非常的遗憾？苦力怕们在骷髅的指导下改造了自身，决定让自己死得更猛烈些！"],2:["§2精炼炸药§6§lII§8§lI","",""],3:["§2精炼炸药§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ef_fire_resistance,level:{1:["§9隔热层","敌对生物具有永久的防火状态效果。","这让所有的怪物在岩浆泡澡成为可能。"]}}
@@ -30,10 +30,10 @@ data modify storage qiq2i_clga1:text buff append value {id:phantoma1,level:{1:["
 data modify storage qiq2i_clga1:text buff append value {id:piglina1,level:{1:["§2猪灵抗体","猪灵不再会转变为僵尸猪灵。","猪灵终于获得了克服主世界僵尸变异病毒的抗体，看来主世界要变得危险了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:rabbita1,level:{1:["§2坏兔子","新生成的兔子中有一部分会变成杀手兔。","不要老是欺负兔兔，现在倒好，已经有兔兔来为死去的同伴报仇了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:ravagera1,level:{1:["§9劫掠大兽","劫掠兽可炸开挡路的方块，且防击退。","小木篱已经无法挡住劫掠兽的进攻了，你需要一座更厚更大的城墙。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:sp_cavea1,level:{1:["§d阴暗之地","底层之地会刷新蠹虫。","又不是去找末地传送门，下个矿就跟去要塞一样，还可能会被老鼠夹夹到，非常差评！"]}}
+data modify storage qiq2i_clga1:text buff append value {id:sp_cavea1,level:{1:["§d阴暗之地","底层之地会刷新蠹虫。","地底下的蠹虫开始埋伏在深层挖矿的玩家周边，它们喜欢针对长时间在同一地点挖矿的玩家。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_ender_dragona1,level:{1:["§d§l末影龙最高专业版","依旧是一条黑龙，又有什么不同呢？就快要结束了吧，还要耗多长时间？",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_firea1,level:{1:["§9热上加热§6§lI§8§lII","玩家在地狱时，碰到炎热的东西更容易被燃烧。","啊，好热，要燃起来了。"],2:["§9热上加热§6§lII§8§lI","",""],3:["§9热上加热§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:sp_fishinga1,level:{1:["§9钓鱼盲盒","现在钓鱼也可以钓出其它生物了。","也许钓出的生物并不是惊喜，而是惊吓。但是又有谁知道呢。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:sp_fishinga1,level:{1:["§9钓鱼盲盒","现在钓鱼不止能钓出鱼。","这是钓鱼机制的重大升级，与此同时玩家在钓鱼时需要注意人身安全。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_mobteama1,level:{1:["§9团结一致","在主世界的敌对生物不会内讧和互伤了。","由于玩家可以无限复活，在主世界的怪物们签署了团结一致的协议，该协议由苦力怕势力领头起草。为什么是苦力怕领头？因为苦力怕们引爆自身袭击玩家后，最多也就是使玩家的死亡数加一，而自己却灰飞烟灭。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera1,level:{1:["§d劫掠火箭军","触发袭击事件时，会出现发射烟花的掠夺者，这些烟花可造成轻微伤害。","掠夺者们通过掠夺村庄夺取了大量的资源，期间找到了合成烟花火箭的配方，据说是在村民庆祝保卫村庄胜利时发现的。于是掠夺者们大量合成烟花火箭，部分小队将其作为弩箭，以此突袭村庄可以让村民误以为过年了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera2,level:{1:["§d劫掠自爆兵","触发袭击事件时，会出现头戴TNT的卫道士，击杀后TNT爆炸。","我滴任务完成啦！当然携带TNT的卫道士们并不只靠TNT来袭击村庄，作战依然使用斧头，当他们倒下之时，便会点燃身上的TNT。"]}}
@@ -42,7 +42,7 @@ data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera4,level:{
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera5,level:{1:["§d§l劫掠首领","§d§l劫掠首领§6将会出现在第八波袭击事件中，且此后玩家触发袭击的波数将必定有八波。","灾厄村民们有一位强大的首领，其在无数次袭击村庄中还未被战胜过，因此将战利品随身携带成为了首领的习惯。此外劫掠首领身上携带有劫掠宝剑，附有突破上限的抢夺附魔。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera6,level:{1:["§d劫掠刺客","触发袭击事件时，会出现移动速度快且可瞬移的卫道士。","部分卫道士从末影人那学到了瞬移闪击能力，且具有极高的移速，其准备一段时间后就能够瞬移到其攻击目标的背后施行刺杀，且为了方便以钻石剑作为武器。劫掠刺客袭击逃逸的玩家效果十分拔群，但袭击铁傀儡效果并不明显。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera7,level:{1:["§d劫掠迫击队","灾厄村民们通过掠夺积累的资源越来越多，其甚至能够生产迫击炮炮弹了，这个过程中有苦力怕等多方势力的暗中参与。携带迫击炮的卫道士出现后不久便会停留在原地布置迫击炮，对躲在村庄内的攻击目标实施狂轰滥炸，摧毁基础设施，但迫击炮发射的炮弹无法摧毁黑曜石。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:sp_raina1,level:{1:["§9落汤鸡","玩家长时间被雨淋会有负面状态效果，而穿衣只会延缓这个过程。","喜欢被雨淋？但是不建议你再继续淋雨了。撑把伞不好吗？"]}}
+data modify storage qiq2i_clga1:text buff append value {id:sp_raina1,level:{1:["§9落汤鸡","玩家长时间被雨淋会有负面状态效果，而穿衣只会延缓这个过程。","玩家淋雨行动不会很方便了，再小的雨点通过积累也能成为玩家的负担。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_villagera1,level:{1:["§9村民包扎术","村民和铁傀儡拥有速度、抗性提升、生命恢复状态效果。","或许是偶然，村里的人们都知道该如何包扎自己。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:spidera1,level:{1:["§d精英蜘蛛","个别蜘蛛的生命值更高、攻击性更强，且防击退。","那就是一只“大号”蜘蛛而已，真的。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:shulkera1,level:{1:["§2彩色潜影盒","新生成的潜影贝拥有更多种类的颜色。","潜影贝们在MC交易市场采购了大量染料，给自身的壳染上颜色，特别好看。"]}}
@@ -73,7 +73,7 @@ data modify storage qiq2i_clga1:text buff append value {id:player_blazea1,level:
 data modify storage qiq2i_clga1:text buff append value {id:player_spidera1,level:{1:["§2蛛网密布","玩家攻击蜘蛛时有几率获得缓慢状态效果。","打蜘蛛被蜘蛛喷射蜘蛛丝，而蜘蛛丝除了蜘蛛什么都能黏住，猜这句话有多少个蜘蛛。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:creepera2,level:{1:["§2亲密接触","苦力怕会快速靠近接近其的玩家并爆炸。","苦力怕为了实现自身最大的价值，在女巫势力的帮助下改造了自身。现在苦力怕靠近玩家时会神奇的受到拉向玩家的力，像磁铁一样，非常神奇。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_aira1,level:{1:["§2溺水","氧气耗尽时，玩家会产生众多负面状态效果。","牢记防溺水六不准，预防溺水从你我做起。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_firenda1,level:{1:["§2好朋友§6§lI§8§lII","玩家在攻击、受伤、吃金苹果时，有几率给附近玩家一定的正面状态效果。","现在你和你朋友之间的关系可以更加紧密了。"],2:["§2好朋友§6§lII§8§lI","",""],3:["§2好朋友§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_firenda1,level:{1:["§2好朋友§6§lI§8§lII","若你在战斗时附近有其他的玩家，有以下效果：\\n1、受到伤害后有概率给予附近的玩家增益效果；（1级时显示）\\n2、吃金苹果时有概率给予附近的玩家同样的金苹果效果；（2级时显示）\\n3、攻击实体后有概率给予附近的玩家力量、急迫效果。（3级时显示）","现在你和你朋友之间的关系可以更加紧密了。"],2:["§2好朋友§6§lII§8§lI","",""],3:["§2好朋友§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_wheata1,level:{1:["§2落地生根","小麦种子在掉落状态下有几率会补种到耕地里。","这是植物提升覆盖面的方式之一。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_enchanting,level:{1:["§9怪物魔法§6§lI§8§lII","新生成的敌对生物若有武器，则有一定概率是附魔的武器。","卫道士们从玩家那窥探到了合成附魔台的配方，于是办了一家附魔工厂，通过MC交易采购大量青金石给怪物们的武器附魔，极大的市场需求让卫道士势力赚得盆满钵满。为了维持垄断地位，卫道士们声称这是独家的新魔法。"],2:["§9怪物魔法§6§lII§8§lI","",""],3:["§9怪物魔法§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:at_max_healtha1,level:{1:["§9额外血量§6§lI§8§lII","对于新生成的敌对生物来说，其血量会有不同程度的提升。","看来这注定要变成一场持久战了。"],2:["§9额外血量§6§lII§8§lI","",""],3:["§9额外血量§6§lIII","",""]}}
@@ -90,15 +90,15 @@ data modify storage qiq2i_clga1:text buff append value {id:player_creepera1,leve
 data modify storage qiq2i_clga1:text buff append value {id:iron_golema1,level:{1:["§9铁傀儡的强化之路","铁傀儡可以用铁块来强化了，村民也可能对铁傀儡进行强化。","铁傀儡会捡起地上的铁块强化自身，每捡起一次增加25生命值和25生命上限，最多36次。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_snow_goleama1,level:{1:["§2雪中送炭没有雪","玩家攻击雪傀儡时有几率受到生命恢复状态效果。","雪傀儡：血不够了就想到我是吧，你是故意来找茬的是吧？"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_guardiana1,level:{1:["§9强烈激光§6§lI§8§lII","个别守卫者射出的激光光束会给玩家带来负面状态效果。","汇聚的光束可以燃烧纸张，而被强化的激光更是能够给人带来强烈的不适感。"],2:["§9强烈激光§6§lII§8§lI","",""],3:["§9强烈激光§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_chesta1,level:{1:["§9地狱宝箱怪","身处地狱的玩家在打开箱子时，有几率生成敌对生物。","开个箱子还要防着怪物，怎么感觉像是在做贼？"]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_chesta1,level:{1:["§9地狱宝箱怪","身处地狱的玩家在打开箱子时，有几率生成敌对生物。","在地狱堡垒里的怪物突发奇想，躲在未被玩家开过的宝箱里试图偷袭玩家。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_huska1,level:{1:["§9让你饿","尸壳伤害到玩家后，会给予玩家可叠加的饥饿状态效果。","年轻人就应该多吃东西补补身子。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_zombie_villagera1,level:{1:["§9民间传染病","僵尸村民伤害到玩家后，玩家会中毒。","看来这僵尸村民确实非同一般村民啊。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:skeletona4,level:{1:["§d狙击手","个别骷髅会射出药水箭，且射中率更高。","或许是梦想使然，这些骷髅走向了狙击手的进阶之路。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:evokera1,level:{1:["§d冰冻术士","头戴冰块的唤魔者会使玩家缓慢，并附加其它负面状态效果。","在袭击村庄时无意在图书馆发现了《低温原理与技术》，从此便掌握了这一门技术。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:evokera2,level:{1:["§d剧毒术士","头戴仙人掌的唤魔者会使玩家中毒或者加重中毒状态效果。","在袭击村庄时无意在图书馆发现了《制药技术与科学》，只可惜只掌握了制作毒药的技术。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piga1,level:{1:["§9别小看猪","个别猪在当玩家接近时，会变成僵尸疣猪兽。","这或许意味着，扮猪吃老虎的现象普遍存在。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:lavaa1,level:{1:["§9不止炽热","玩家接触岩浆时会同时获得负面状态效果。","这使得岩浆更加碰不着、摸不得了。什么，你说你还想去泡澡？"]}}
-data modify storage qiq2i_clga1:text buff append value {id:mushroom_fields.a1,level:{1:["§2饱和蘑菇岛","玩家在蘑菇岛上会获得生命恢复和恢复饱食度状态效果。","若是使世间万物皆居住于岛上，想必这世上便再无饥荒罢。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:lavaa1,level:{1:["§9不止炽热","玩家接触岩浆时会同时获得负面状态效果。","熔岩对于玩家来说是非常危险的。对于此时正在熔岩中泡澡的玩家来说，这次经历将令人难忘。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:mushroom_fields.a1,level:{1:["§2果腹之地","玩家在蘑菇岛上会获得生命恢复和恢复饱食度状态效果。","若是使世间万物皆居住于岛上，想必这世上便再无饥荒罢。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.b1,level:{1:["§2非凡的盔甲匠","盔甲匠已开放更多的交易选项。","盔甲匠：想知道我从哪里搞到这些稀罕货？这可是商业机密。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.b2,level:{1:["§2有副业的屠夫","屠夫已开放更多的交易选项。","印象中的屠夫应该是贩卖动物肉的，不过现在他们对怪物制品也产生了兴趣。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.b3,level:{1:["§2缺染料的画师","制图师已开放更多的交易选项。","众所周知，绘制一幅画需要不同色彩的颜料。"]}}
@@ -110,8 +110,8 @@ data modify storage qiq2i_clga1:text buff append value {id:villager.b8,level:{1:
 data modify storage qiq2i_clga1:text buff append value {id:villager.b9,level:{1:["§2爱阅读的村民","图书管理员已开放更多的交易选项。","经常和书打交道的村民，自然比其它村民更懂得知识的力量。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.b10,level:{1:["§2闲不住的石匠","石匠已开放更多的交易选项。","据说某地要在平地上修建百格高的城墙，以及数不尽的石制城堡。但这可让各地石匠犯了难。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.b11,level:{1:["§2兼职的牧羊人","牧羊人已开放更多的交易选项。","放羊是牧羊人的本业，不过他们现在也开始卖点他们常用的东西了。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:villager.b12,level:{1:["§2全能的工具匠","工具匠现在有更多的交易选项了。","工具匠：小伙子你缺啥，我这的工具可是全品类的。没钱？一边凉快去。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:villager.b13,level:{1:["§2自大的武器匠","武器匠已开放更多的交易选项。","武器匠：小瞧我？盘古开天辟地的那把斧子可是我爷爷的爷爷……的爷爷造出来的。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:villager.b12,level:{1:["§2全能的工具匠","工具匠现在有更多的交易选项了。","工具匠能够售卖更高效的工具了，这根源于矿业的飞速发展。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:villager.b13,level:{1:["§2自大的武器匠","武器匠已开放更多的交易选项。","武器匠进一步提高了武器制造工艺，这成为其漫天要价的资本，但是村民们不擅长使用武器，只能卖给玩家。虽然如此，但还没有什么人能够通过动粗来抢夺武器匠的武器。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:spider.a2,level:{1:["§2浮空的珠子","现在少数蜘蛛会隐身。",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:enderman.a2,level:{1:["§9硬化末影人§6§lI§8§lII","个别末影人在愤怒时会获得抗性提升。","激怒末影人前需要好好考虑。"],2:["§9硬化末影人§6§lII§8§lI","",""],3:["§9硬化末影人§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:enderman.a3,level:{1:["§9拆迁办末影人","个别末影人在愤怒时会破坏方块。","在两格高空间内玩家终将受到拆迁办的制裁。"]}}
