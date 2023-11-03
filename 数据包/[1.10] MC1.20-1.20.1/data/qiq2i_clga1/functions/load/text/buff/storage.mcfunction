@@ -27,7 +27,7 @@ data modify storage qiq2i_clga1:text buff append value {id:llama_spita1,level:{1
 data modify storage qiq2i_clga1:text buff append value {id:magma_cubea1,level:{1:["§9岩浆球","玩家近距离攻击岩浆怪会被燃烧。","看来岩浆怪的身体里有岩浆并不是空穴来风啊。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:ocelota1,level:{1:["§2豹猫的回礼","豹猫对玩家产生信任后会给予玩家礼物。","为了感谢你给我鱼，你可不知我从哪里找到这些好东西给你，所以你应该继续给我鱼。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:phantoma1,level:{1:["§2大风筝","新生成的幻翼更大更强。","别熬夜了，每天晚上放风筝不累吗？"]}}
-data modify storage qiq2i_clga1:text buff append value {id:piglina1,level:{1:["§2猪灵抗体","猪灵不再会转变为僵尸猪灵。","猪灵终于获得了克服主世界僵尸变异病毒的抗体，看来主世界要变得危险了。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:piglina1,level:{1:["§2猪灵抗体","猪灵不再会转变为僵尸猪灵。","女巫成功研制了针对猪灵物种的僵尸疫苗，让猪灵们终于能够一览主世界的风光，但这也因此让僵尸猪灵和女巫之间的关系在这段时期内紧张了起来。获得意识的物种让这个世界变得愈发复杂。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:rabbita1,level:{1:["§2坏兔子","新生成的兔子中有一部分会变成杀手兔。","不要老是欺负兔兔，现在倒好，已经有兔兔来为死去的同伴报仇了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:ravagera1,level:{1:["§9劫掠大兽","劫掠兽可炸开挡路的方块，且防击退。","小木篱已经无法挡住劫掠兽的进攻了，你需要一座更厚更大的城墙。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_cavea1,level:{1:["§d阴暗之地","底层之地会刷新蠹虫。","地底下的蠹虫开始埋伏在深层挖矿的玩家周边，它们喜欢针对长时间在同一地点挖矿的玩家。"]}}
@@ -41,7 +41,7 @@ data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera3,level:{
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera4,level:{1:["§d劫掠骑兵","触发袭击事件时，会出现乘坐生物的卫道士或掠夺者。","部分灾厄村民们尝试采用骑兵战术袭击村庄，且坐骑种类不一，甚至还有能飞的坐骑。作为骑兵的卫道士还有携带有威力更大的下界合金斧。对于灾厄村民来说还有一个额外的好处，即其他怪物可以通过坐骑的身份参与劫掠村庄。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera5,level:{1:["§d§l劫掠首领","§d§l劫掠首领§6将会出现在第八波袭击事件中，且此后玩家触发袭击的波数将必定有八波。","灾厄村民们有一位强大的首领，其在无数次袭击村庄中还未被战胜过，因此将战利品随身携带成为了首领的习惯。此外劫掠首领身上携带有劫掠宝剑，附有突破上限的抢夺附魔。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera6,level:{1:["§d劫掠刺客","触发袭击事件时，会出现移动速度快且可瞬移的卫道士。","部分卫道士从末影人那学到了瞬移闪击能力，且具有极高的移速，其准备一段时间后就能够瞬移到其攻击目标的背后施行刺杀，且为了方便以钻石剑作为武器。劫掠刺客袭击逃逸的玩家效果十分拔群，但袭击铁傀儡效果并不明显。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera7,level:{1:["§d劫掠迫击队","灾厄村民们通过掠夺积累的资源越来越多，其甚至能够生产迫击炮炮弹了，这个过程中有苦力怕等多方势力的暗中参与。携带迫击炮的卫道士出现后不久便会停留在原地布置迫击炮，对躲在村庄内的攻击目标实施狂轰滥炸，摧毁基础设施，但迫击炮发射的炮弹无法摧毁黑曜石。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:sp_pillagera7,level:{1:["§d劫掠迫击队","触发袭击事件时，会出现携带迫击炮的卫道士。","灾厄村民们通过掠夺积累的资源越来越多，其甚至能够生产迫击炮炮弹了，这个过程中有苦力怕等多方势力的暗中参与。携带迫击炮的卫道士出现后不久便会停留在原地布置迫击炮，对躲在村庄内的攻击目标实施狂轰滥炸，摧毁基础设施，但迫击炮发射的炮弹无法摧毁黑曜石。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_raina1,level:{1:["§9落汤鸡","玩家长时间被雨淋会有负面状态效果，而穿衣只会延缓这个过程。","玩家淋雨行动不会很方便了，再小的雨点通过积累也能成为玩家的负担。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_villagera1,level:{1:["§9村民包扎术","村民和铁傀儡拥有速度、抗性提升、生命恢复状态效果。","或许是偶然，村里的人们都知道该如何包扎自己。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:spidera1,level:{1:["§d精英蜘蛛","个别蜘蛛的生命值更高、攻击性更强，且防击退。","那就是一只“大号”蜘蛛而已，真的。"]}}
@@ -55,13 +55,13 @@ data modify storage qiq2i_clga1:text buff append value {id:villagera1,level:{1:[
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera1,level:{1:["§2习武的流浪商人§6§lI§8§lI","流浪商人拥有不死图腾，自动回血，并带有荆棘反伤。","只身在外，不提前做点准备是不行的。"],2:["§2习武的流浪商人§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera2,level:{1:["§2流动美食摊","流浪商人可售卖更多种类的美食。","走遍大江南北，好吃的都带上(๑¯◡¯๑)。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wandering_tradera3,level:{1:["§c卖玩具的商人","流浪商人可售卖像素模型。","流浪商人：别瞎说，这些都是手办，可精贵了。根本不是小孩子的玩具！"]}}
-data modify storage qiq2i_clga1:text buff append value {id:witcha1,level:{1:["§2女巫也疯狂","女巫丢药水的速度更快且伤害更大。","女巫：都是酿造酿剩下的，不丢白不丢。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:witcha1,level:{1:["§2女巫也疯狂","女巫丢药水的速度更快且伤害更大。","女巫们的炼药技术有了极大的提高，特别是在伤害药水的炼制中，女巫能够做到自动化了，并将其贴上名牌推向MC交易市场。此外，女巫会在战斗前刻意多携带一些伤害药水，毕竟这才是能够直接伤害敌人的利器。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona1,level:{1:["§2凋灵射手","新生成的凋灵骷髅有几率以弓箭为武器。","凋灵骷髅们出访主世界时访问了骷髅势力时，突然发现自身射出的箭矢自带火焰，于是从MC材料工厂收购了大量材料来制备弓。不过部分凋灵骷髅仍然使用剑作为武器，给予敌人凋零状态效果仍很给力。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona2,level:{1:["§9骷髅头击","凋灵骷髅受到攻击时会向附近生物发射凋灵头以攻击。","凋灵骷髅接受女巫势力的帮助，提前觉醒了强大的黑魔法。同时，发射凋灵头能在物理上攻击玩家的同时，还能让玩家心疼这被奢侈浪费掉的凋灵骷髅头。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:withera1,level:{1:["§d§l凋灵灭世","凋灵变得更加强大。",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:zombiea1,level:{1:["§2破门而入","僵尸能立即破坏门了。","谁家的门都不安全了，哪怕装的是铁门。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:zombiea1,level:{1:["§2破门而入","僵尸能立即破坏门了。","僵尸们经过多次的破门训练，现在已经能够做到一拳打烂门口了，这比玩家用斧子拆门都要来得快。此外，僵尸们还特训了针对活板门、栅栏门、甚至是栅栏的破坏，但重来都不学习如何开门。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea2,level:{1:["§d精英僵尸","个别僵尸的生命值更高、攻击性更强，且防击退。","看来最常见的僵尸也开始不好击杀了。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对近距离的生物不再保持中立状态。","僵尸猪灵：喂，你碰到我了。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对近距离的生物不再保持中立状态。","由于僵尸猪灵势力在下界十分强大且分布广泛，驻扎在地狱堡垒的烈焰人希望拉拢僵尸猪灵加入对抗玩家行列，烈焰人知道他们必将因玩家对烈焰棒的需求而遭到攻击。僵尸猪灵虽答应与烈焰人站在一条线上，但只会在玩家靠自身非常近时才会出手。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wolfa1,level:{1:["§2并肩作战好伙伴","驯服的狼生命值提升，自动回血，受到攻击会提升攻击力，并且允许穿戴马铠。","你家的狗子被加强了，变得更适合战斗了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin_brutea1,level:{1:["§9猪灵精兵§6§lI§8§lII","猪灵蛮兵的生命值和攻击伤害获得提升。","猪灵蛮兵与末影人势力互相切磋，长时间的练习使猪灵蛮兵更加强壮。猪灵蛮兵又非常好战，为防止玩家躲着跑，遍携带了金粒和下界合金碎片等宝物来引诱玩家。"],2:["§9猪灵精兵§6§lII§8§lI","",""],3:["§9猪灵精兵§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_cactusa1,level:{1:["§2尖刺仙人掌","破坏仙人掌有几率受伤。","听说你喜欢摸仙人掌，但是仙人掌不喜欢被你摸。"]}}
@@ -73,7 +73,7 @@ data modify storage qiq2i_clga1:text buff append value {id:player_blazea1,level:
 data modify storage qiq2i_clga1:text buff append value {id:player_spidera1,level:{1:["§2蛛网密布","玩家攻击蜘蛛时有几率获得缓慢状态效果。","打蜘蛛被蜘蛛喷射蜘蛛丝，而蜘蛛丝除了蜘蛛什么都能黏住，猜这句话有多少个蜘蛛。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:creepera2,level:{1:["§2亲密接触","苦力怕会快速靠近接近其的玩家并爆炸。","苦力怕为了实现自身最大的价值，在女巫势力的帮助下改造了自身。现在苦力怕靠近玩家时会神奇的受到拉向玩家的力，像磁铁一样，非常神奇。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_aira1,level:{1:["§2溺水","氧气耗尽时，玩家会产生众多负面状态效果。","牢记防溺水六不准，预防溺水从你我做起。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_firenda1,level:{1:["§2好朋友§6§lI§8§lII","若你在战斗时附近有其他的玩家，有以下效果：\\n1、受到伤害后有概率给予附近的玩家增益效果；（1级时显示）\\n2、吃金苹果时有概率给予附近的玩家同样的金苹果效果；（2级时显示）\\n3、攻击实体后有概率给予附近的玩家力量、急迫效果。（3级时显示）","现在你和你朋友之间的关系可以更加紧密了。"],2:["§2好朋友§6§lII§8§lI","",""],3:["§2好朋友§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_firenda1,level:{1:["§2好朋友§6§lI§8§lII","现在你和你朋友之间的关系可以更加紧密了。","若你在战斗时附近有其他的玩家，有以下效果：1、受到伤害后有概率给予附近的玩家增益效果（1级随机效果）；2、吃金苹果时有概率给予附近的玩家同样的金苹果效果（2级随机效果）；3、攻击实体后有概率给予附近的玩家力量、急迫效果（3级随机效果）。"],2:["§2好朋友§6§lII§8§lI","",""],3:["§2好朋友§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_wheata1,level:{1:["§2落地生根","小麦种子在掉落状态下有几率会补种到耕地里。","这是植物提升覆盖面的方式之一。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_enchanting,level:{1:["§9怪物魔法§6§lI§8§lII","新生成的敌对生物若有武器，则有一定概率是附魔的武器。","卫道士们从玩家那窥探到了合成附魔台的配方，于是办了一家附魔工厂，通过MC交易采购大量青金石给怪物们的武器附魔，极大的市场需求让卫道士势力赚得盆满钵满。为了维持垄断地位，卫道士们声称这是独家的新魔法。"],2:["§9怪物魔法§6§lII§8§lI","",""],3:["§9怪物魔法§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:at_max_healtha1,level:{1:["§9额外血量§6§lI§8§lII","对于新生成的敌对生物来说，其血量会有不同程度的提升。","看来这注定要变成一场持久战了。"],2:["§9额外血量§6§lII§8§lI","",""],3:["§9额外血量§6§lIII","",""]}}
@@ -86,7 +86,7 @@ data modify storage qiq2i_clga1:text buff append value {id:blazea2,level:{1:["§
 data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona3,level:{1:["§9凋灵迷雾§6§lI§8§lII","个别凋灵骷髅会在原地丢出具有凋零状态效果的滞留型药水。","凋灵骷髅向女巫学习了制药后，结合自身的凋灵特性，已经能够源源不断产出凋零药水，但还没那么熟练。"],2:["§9凋灵迷雾§6§lII§8§lI","",""],3:["§9凋灵迷雾§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_armora1,level:{1:["§d护甲升级§6§lI§8§lII","个别敌对生物的盔甲会获得一定的升级。","怪物最近手头比较富裕，便升级了自己的装备。"],2:["§d护甲升级§6§lII§8§lI","",""],3:["§d护甲升级§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:straya1,level:{1:["§9虚弱之箭§6§lI§8§lII","个别流浪者射出的箭矢带有负面状态效果。","女巫正愁自己的药水卖不出去，在发现可以制成药水箭后，便卖给了流浪者，并加强了虚弱效果。"],2:["§9虚弱之箭§6§lII§8§lI","",""],3:["§9虚弱之箭§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_creepera1,level:{1:["§9震天炮§6§lI§8§lII","个别苦力怕爆炸时，被炸伤的玩家会获得负面状态效果。","部分苦力怕自带的火药当量较高，爆炸的威力会比较大，适当远离这些苦力怕会比较好。"],2:["§9震天炮§6§lII§8§lI","",""],3:["§9震天炮§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_creepera1,level:{1:["§9震天炮§6§lI§8§lII","个别苦力怕爆炸时，受波及的玩家会获得负面状态效果。","部分苦力怕接受女巫的改造，给身体灌注了女巫特制神秘药水。该药水会在苦力怕爆炸时施加大量负面效果给被波及的玩家，大大提高了苦力怕击杀持盾玩家的概率。不过灌注该药水会让苦力怕很不好受，因此只有少部分苦力怕接受了女巫的改造。"],2:["§9震天炮§6§lII§8§lI","",""],3:["§9震天炮§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:iron_golema1,level:{1:["§9铁傀儡的强化之路","铁傀儡可以用铁块来强化了，村民也可能对铁傀儡进行强化。","铁傀儡会捡起地上的铁块强化自身，每捡起一次增加25生命值和25生命上限，最多36次。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_snow_goleama1,level:{1:["§2雪中送炭没有雪","玩家攻击雪傀儡时有几率受到生命恢复状态效果。","雪傀儡：血不够了就想到我是吧，你是故意来找茬的是吧？"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_guardiana1,level:{1:["§9强烈激光§6§lI§8§lII","个别守卫者射出的激光光束会给玩家带来负面状态效果。","汇聚的光束可以燃烧纸张，而被强化的激光更是能够给人带来强烈的不适感。"],2:["§9强烈激光§6§lII§8§lI","",""],3:["§9强烈激光§6§lIII","",""]}}
