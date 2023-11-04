@@ -93,7 +93,7 @@ data modify storage qiq2i_clga1:text buff append value {id:player_guardiana1,lev
 data modify storage qiq2i_clga1:text buff append value {id:player_chesta1,level:{1:["§9地狱宝箱怪","身处地狱的玩家在打开箱子时，有几率生成敌对生物。","在地狱堡垒里的怪物突发奇想，躲在未被玩家开过的宝箱里试图偷袭玩家。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_huska1,level:{1:["§9让你饿","尸壳伤害到玩家后，会给予玩家可叠加的饥饿状态效果。","年轻人就应该多吃东西补补身子。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_zombie_villagera1,level:{1:["§9民间传染病","僵尸村民伤害到玩家后，玩家会中毒。","看来这僵尸村民确实非同一般村民啊。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:skeletona4,level:{1:["§d狙击手","个别骷髅会射出药水箭，且射中率更高。","或许是梦想使然，这些骷髅走向了狙击手的进阶之路。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:skeletona4,level:{1:["§d狙击手","少数骷髅使用特制弓，能向目标射出速度和伤害极高的飞箭。","该特制弓是骷髅们拜托史莱姆和掠夺者制作出来的，但制作难度极高，因此只有极少数训练有素的骷髅才会分配使用此弓。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:evokera1,level:{1:["§d冰冻术士","头戴冰块的唤魔者会使玩家缓慢，并附加其它负面状态效果。","在袭击村庄时无意在图书馆发现了《低温原理与技术》，从此便掌握了这一门技术。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:evokera2,level:{1:["§d剧毒术士","头戴仙人掌的唤魔者会使玩家中毒或者加重中毒状态效果。","在袭击村庄时无意在图书馆发现了《制药技术与科学》，只可惜只掌握了制作毒药的技术。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piga1,level:{1:["§9别小看猪","个别猪在当玩家接近时，会变成僵尸疣猪兽。","这或许意味着，扮猪吃老虎的现象普遍存在。"]}}

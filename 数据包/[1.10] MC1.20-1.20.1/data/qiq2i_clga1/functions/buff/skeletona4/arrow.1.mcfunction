@@ -29,3 +29,4 @@ scoreboard players reset #qiq2i_marker_3.1 qiq2i_1
 
 tag @e[tag=qiq2i_clga1_buff_skeletona4_arrow] remove qiq2i_clga1_buff_skeletona4_arrow
 kill @e[tag=qiq2i_marker_a]
+##停用

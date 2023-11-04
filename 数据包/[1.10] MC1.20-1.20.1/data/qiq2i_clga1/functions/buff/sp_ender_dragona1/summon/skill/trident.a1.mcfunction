@@ -8,7 +8,7 @@ execute if score @s qiq2i_1 matches 160 run data modify entity @s Motion[0] set 
 execute if score @s qiq2i_1 matches 160 run data modify entity @s Motion[2] set value 0.0d
 execute if score @s qiq2i_1 matches 160 run data modify entity @s inGround set value 0
 execute if score @s qiq2i_1 matches 180 run data modify entity @s DealtDamage set value 0b
-execute if score @s qiq2i_1 matches 180 facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..128,limit=1,sort=nearest] eyes run function qiq2i_clga1:motion/motion.2
+execute if score @s qiq2i_1 matches 180 facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..128,limit=1,sort=nearest] eyes run function qiq2i_clga1:buff/sp_ender_dragona1/summon/skill/trident.a1/shoot
 
 execute if score @s qiq2i_1 matches 240.. run particle cloud ~ ~ ~ 0 0 0 1 10
 execute if score @s qiq2i_1 matches 240.. run kill @s 
