@@ -16,10 +16,10 @@ data modify storage qiq2i_clga1:text buff append value {id:ef_jump_boost,level:{
 data modify storage qiq2i_clga1:text buff append value {id:ef_speed,level:{1:["§9体能训练§6§lI§8§lI","敌对生物具有永久的速度状态效果。","极快的移动速度能让怪物在对手换上装备前进行突袭。"],2:["§9体能训练§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:ef_strengtha1,level:{1:["§9拳击训练§6§lI§8§lII","敌对生物具有永久的力量状态效果。","怪物们现在变得非常的强壮！"],2:["§9拳击训练§6§lII§8§lI","",""],3:["§9拳击训练§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:endermana1,level:{1:["§9狂躁的高人§6§lI§8§lII","少数末影人的攻击力获得提升。","末影人终于发现自己为什么打不着玩家了，因为玩家总会用神奇的魔法卡住末影人，于是有少数末影人加强自身锻炼，乘玩家不注意争取一拳将其打懵。"],2:["§9狂躁的高人§6§lII§8§lI","",""],3:["§9狂躁的高人§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:ghasta1,level:{1:["§2恶魂升级版§6§lI§8§lI","恶魂会发射更多的火焰弹。","恶魂难以缩短发射火球的时间间隔，不过还是成功突破了，即通过使用额外存储的小微力火焰弹来攻击玩家，好在在火球爆炸之前玩家看不出火球的威力。"],2:["§2恶魂升级版§6§lII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:ghasta2,level:{1:["§2恶魂专业版§6§lI§8§lI","恶魂的火焰弹威力得到提升。","恶魂原本发射的火球本就难以命中玩家，就算命中了，也不能造成很高的伤害。于是恶魂加强了自身的火球威力，现在就算火球没命中玩家，巨大的弹坑也能极大的干扰玩家。"],2:["§2恶魂专业版§6§lII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:ghasta1,level:{1:["§2恶魂升级版§6§lI§8§lI","恶魂会发射更多的火焰弹。","恶魂难以缩短发射火球的时间间隔，不过还是成功突破了，即通过使用额外存储的小威力火焰弹来攻击玩家，好在在火球爆炸之前玩家看不出火球的威力。"],2:["§2恶魂升级版§6§lII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:ghasta2,level:{1:["§2恶魂专业版§6§lI§8§lI","恶魂的火焰弹威力得到提升。","恶魂原本发射的火球本就难以命中玩家，就算命中了，也不能造成很高的伤害。于是恶魂加强了自身的火球威力，现在就算火球没命中玩家，巨大的弹坑也能极大地干扰玩家。"],2:["§2恶魂专业版§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_axe,level:{1:["§9斧头帮§6§lI§8§lII","新生成的僵尸将持有斧子。","随着玩家永远也找不到的MC材料工厂的蓬勃发展，大量斧头的生产让赤手空拳的僵尸拥有了新武器。又因为斧头的攻击力极高，于是僵尸们成立了斧头帮。"],2:["§9斧头帮§6§lII§8§lI","",""],3:["§9斧头帮§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:item_boots,level:{1:["§9旅行靴§6§lI§8§lII","敌对生物都穿上了带有深海探索者、灵魂疾行的鞋子。","走遍大地神州，只为接触玩家。"],2:["§9旅行靴§6§lII§8§lI","",""],3:["§9旅行靴§6§lIII","",""]}}
+data modify storage qiq2i_clga1:text buff append value {id:item_boots,level:{1:["§9旅行靴§6§lI§8§lII","敌对生物都穿上了带有深海探索者、灵魂疾行的鞋子。","借助快速的行动能力，怪物们能够在复杂地形中占据有利位置，更好地发动进攻。"],2:["§9旅行靴§6§lII§8§lI","",""],3:["§9旅行靴§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_leggings,level:{1:["§9披着刺猬皮的动物","攻击者打伤友好生物时会受到一定的反伤。","打牛被牛踢，打狗被狗咬，掏蜂巢被蛰，便是这个道理。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_totem,level:{1:["§9不死之躯§6§lI§8§lI","敌对生物可以使用不死图腾了。","唤魔者们因苦力怕小朋友的一句“为什么你们不使用不死图腾？”而恍然大悟，后来将批量生产的不死图腾推向MC交易市场，并教会其他怪物们使用不死图腾，因而获得了大笔资金。玩家永远也找不到MC交易市场在哪，因而大量的不死图腾没能流向玩家。"],2:["§9不死之躯§6§lII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:lightning_bolta1,level:{1:["§2爆裂闪电","闪电打击处会发生爆炸。","一次性避雷针，你值得拥有。"]}}
@@ -61,7 +61,7 @@ data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona2,lev
 data modify storage qiq2i_clga1:text buff append value {id:withera1,level:{1:["§d§l凋灵灭世","凋灵变得更加强大。",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea1,level:{1:["§2破门而入","僵尸能立即破坏门了。","僵尸们经过多次的破门训练，现在已经能够做到一拳打烂门口了，这比玩家用斧子拆门都要来得快。此外，僵尸们还特训了针对活板门、栅栏门、甚至是栅栏的破坏，但重来都不学习如何开门。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea2,level:{1:["§d精英僵尸","个别僵尸的生命值更高、攻击性更强，且防击退。","看来最常见的僵尸也开始不好击杀了。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对近距离的生物不再保持中立状态。","由于僵尸猪灵势力在下界十分强大且分布广泛，驻扎在地狱堡垒的烈焰人希望拉拢僵尸猪灵加入对抗玩家行列，烈焰人知道他们必将因玩家对烈焰棒的需求而遭到攻击。僵尸猪灵虽答应与烈焰人站在一条线上，但只会在玩家靠自身非常近时才会出手。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对近距离的生物不再保持中立状态。","由于僵尸猪灵势力在下界十分强大且分布广泛，驻扎在地狱堡垒的烈焰人希望拉拢僵尸猪灵加入对抗玩家行列，烈焰人知道他们必将因玩家对烈焰棒的需求而遭到攻击。僵尸猪灵虽答应与烈焰人站在一起，但只会在玩家靠自身非常近时才会出手。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wolfa1,level:{1:["§2并肩作战好伙伴","驯服的狼生命值提升，自动回血，受到攻击会提升攻击力，并且允许穿戴马铠。","你家的狗子被加强了，变得更适合战斗了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin_brutea1,level:{1:["§9猪灵精兵§6§lI§8§lII","猪灵蛮兵的生命值和攻击伤害获得提升。","猪灵蛮兵与末影人势力互相切磋，长时间的练习使猪灵蛮兵更加强壮。猪灵蛮兵又非常好战，为防止玩家躲着跑，遍携带了金粒和下界合金碎片等宝物来引诱玩家。"],2:["§9猪灵精兵§6§lII§8§lI","",""],3:["§9猪灵精兵§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_cactusa1,level:{1:["§2尖刺仙人掌","破坏仙人掌有几率受伤。","听说你喜欢摸仙人掌，但是仙人掌不喜欢被你摸。"]}}
@@ -82,7 +82,7 @@ data modify storage qiq2i_clga1:text buff append value {id:zombiea3,level:{1:["�
 data modify storage qiq2i_clga1:text buff append value {id:skeletona3,level:{1:["§9剑击骷髅§6§lI§8§lII","骷髅小概率以铁剑为武器。","个别骷髅手臂灵活，便向凋灵骷髅学习了剑术。"],2:["§9剑击骷髅§6§lII§8§lI","",""],3:["§9剑击骷髅§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:hoglina1,level:{1:["§2横冲直撞","新生成的疣猪兽击退力获得提升。","力大砖飞，虽然这里指的是被撞飞。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea4,level:{1:["§9来，偷袭§6§lI§8§lII","个别僵尸会瞬移到攻击目标身后。","僵尸受末影人指点，学会了通过瞬移作战。僵尸使用瞬移特别灵活，但由于自身的局限性，每次瞬移都必须消耗一枚末影珍珠，且僵尸并不容易购买到末影珍珠。"],2:["§9来，偷袭§6§lII§8§lI","",""],3:["§9来，偷袭§6§lIII","",""]}}
-data modify storage qiq2i_clga1:text buff append value {id:blazea2,level:{1:["§9喷火枪","个别烈焰人会向玩家及生物发射笔直的火焰。","既来之，则燃烧之，你本不该来。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:blazea2,level:{1:["§9喷火枪","个别烈焰人会向玩家及生物发射笔直的火焰。","烈焰人并不希望自身化为烈焰棒。少数烈焰人在运作火元素时获得灵感，拥有了一个额外的技能，那便是向敌人如同喷火枪开火一般发射一道火焰。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona3,level:{1:["§9凋灵迷雾§6§lI§8§lII","个别凋灵骷髅会在原地丢出具有凋零状态效果的滞留型药水。","凋灵骷髅向女巫学习了制药后，结合自身的凋灵特性，已经能够源源不断产出凋零药水，但还没那么熟练。"],2:["§9凋灵迷雾§6§lII§8§lI","",""],3:["§9凋灵迷雾§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:item_armora1,level:{1:["§d护甲升级§6§lI§8§lII","个别敌对生物的盔甲会获得一定的升级。","怪物最近手头比较富裕，便升级了自己的装备。"],2:["§d护甲升级§6§lII§8§lI","",""],3:["§d护甲升级§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:straya1,level:{1:["§9虚弱之箭§6§lI§8§lII","个别流浪者射出的箭矢带有负面状态效果。","女巫正愁自己的药水卖不出去，在发现可以制成药水箭后，便卖给了流浪者，并加强了虚弱效果。"],2:["§9虚弱之箭§6§lII§8§lI","",""],3:["§9虚弱之箭§6§lIII","",""]}}
