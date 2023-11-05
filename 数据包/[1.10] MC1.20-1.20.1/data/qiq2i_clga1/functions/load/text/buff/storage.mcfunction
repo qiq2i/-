@@ -28,7 +28,7 @@ data modify storage qiq2i_clga1:text buff append value {id:magma_cubea1,level:{1
 data modify storage qiq2i_clga1:text buff append value {id:ocelota1,level:{1:["§2豹猫的回礼","豹猫对玩家产生信任后会给予玩家礼物。","为了感谢你给我鱼，你可不知我从哪里找到这些好东西给你，所以你应该继续给我鱼。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:phantoma1,level:{1:["§2大风筝","新生成的幻翼更大更强。","别熬夜了，每天晚上放风筝不累吗？"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglina1,level:{1:["§2猪灵抗体","猪灵不再会转变为僵尸猪灵。","女巫成功研制了针对猪灵物种的僵尸疫苗，让猪灵们终于能够一览主世界的风光，但这也因此让僵尸猪灵和女巫之间的关系在这段时期内紧张了起来。获得意识的物种让这个世界变得愈发复杂。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:rabbita1,level:{1:["§2坏兔子","新生成的兔子中有一部分会变成杀手兔。","不要老是欺负兔兔，现在倒好，已经有兔兔来为死去的同伴报仇了。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:rabbita1,level:{1:["§2坏兔子","新生成的兔子中有一部分会变成杀手兔。","隐藏在萌面外表之下的杀手，已重返MC大舞台。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:ravagera1,level:{1:["§9劫掠大兽","劫掠兽可炸开挡路的方块，且防击退。","小木篱已经无法挡住劫掠兽的进攻了，你需要一座更厚更大的城墙。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_cavea1,level:{1:["§d阴暗之地","底层之地会刷新蠹虫。","地底下的蠹虫开始埋伏在深层挖矿的玩家周边，它们喜欢针对长时间在同一地点挖矿的玩家。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:sp_ender_dragona1,level:{1:["§d§l末影龙最高专业版","依旧是一条黑龙，又有什么不同呢？就快要结束了吧，还要耗多长时间？",""]}}
@@ -48,7 +48,7 @@ data modify storage qiq2i_clga1:text buff append value {id:spidera1,level:{1:["�
 data modify storage qiq2i_clga1:text buff append value {id:shulkera1,level:{1:["§2彩色潜影盒","新生成的潜影贝拥有更多种类的颜色。","潜影贝们在MC交易市场采购了大量染料，给自身的壳染上颜色，特别好看。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:skeletona1,level:{1:["§2跟踪飞箭§6§lI§8§lII","骷髅、流浪者会向攻击目标射出额外的箭。","骷髅们受掠夺者指导，能向攻击目标毫无征兆地额外发射箭矢。"],2:["§2跟踪飞箭§6§lII§8§lI","",""],3:["§2跟踪飞箭§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:skeletona2,level:{1:["§d精英骷髅","个别骷髅的生命值更高、攻击性更强，且防击退。","那只骷髅上辈子想必是个神射手吧。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:slimea1,level:{1:["§2一坨粘物","史莱姆会使接近的玩家获得缓慢状态效果，且自身防击退。","史莱姆是粘的代名词。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:slimea1,level:{1:["§2一坨粘物","史莱姆会使接近的玩家获得缓慢状态效果，且自身防击退。","史莱姆现在能够使用史莱姆球黏住目标，也能够将自身牢牢固定在原位以防被击飞。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:snow_golema1,level:{1:["§2外溢的制冷机","雪傀儡会使周围的敌对生物行走缓慢。","如临寒冬，身体发颤，怪物便不由自主地放慢脚步。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:su_guardiana1,level:{1:["§2水域旅行","守卫者可以生成在任何水域了。","海洋那么大，我想去逛逛。部分守卫者离开了海底神殿，并开始了旅行。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villagera1,level:{1:["§2村民自卫术","村民现在有保卫自己的能力了，拥有不死图腾，甚至可以反击怪物。","面对日益强大的怪物，村民们也开始提高自卫能力，在遭到怪物攻击时能够进行反击。此外，村民们在MC交易市场采购不死图腾用于保全自身（每个村民自带一个不死图腾，当不死图腾被消耗后，村民可以捡不死图腾掉落物来补充）。"]}}
@@ -88,10 +88,10 @@ data modify storage qiq2i_clga1:text buff append value {id:item_armora1,level:{1
 data modify storage qiq2i_clga1:text buff append value {id:straya1,level:{1:["§9虚弱之箭§6§lI§8§lII","个别流浪者射出的箭矢带有负面状态效果。","女巫正愁自己的药水卖不出去，在发现可以制成药水箭后，便卖给了流浪者，并加强了虚弱效果。"],2:["§9虚弱之箭§6§lII§8§lI","",""],3:["§9虚弱之箭§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_creepera1,level:{1:["§9震天炮§6§lI§8§lII","个别苦力怕爆炸时，受波及的玩家会获得负面状态效果。","部分苦力怕接受女巫的改造，给身体灌注了女巫特制神秘药水。该药水会在苦力怕爆炸时施加大量负面效果给被波及的玩家，大大提高了苦力怕击杀持盾玩家的概率。不过灌注该药水会让苦力怕很不好受，因此只有少部分苦力怕接受了女巫的改造。"],2:["§9震天炮§6§lII§8§lI","",""],3:["§9震天炮§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:iron_golema1,level:{1:["§9铁傀儡的强化之路","铁傀儡可以用铁块来强化了，村民也可能对铁傀儡进行强化。","铁傀儡会捡起地上的铁块强化自身，每捡起一次增加25生命值和25生命上限，最多36次。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_snow_goleama1,level:{1:["§2雪中送炭没有雪","玩家攻击雪傀儡时有几率受到生命恢复状态效果。","雪傀儡：血不够了就想到我是吧，你是故意来找茬的是吧？"]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_snow_goleama1,level:{1:["§2雪中送炭没有雪","玩家攻击雪傀儡时有几率受到生命恢复状态效果。","玩家在血量不足时，可以找雪傀儡要点雪来凑合凑合。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_guardiana1,level:{1:["§9强烈激光§6§lI§8§lII","个别守卫者射出的激光光束会给玩家带来负面状态效果。","汇聚的光束可以燃烧纸张，而被强化的激光更是能够给人带来强烈的不适感。"],2:["§9强烈激光§6§lII§8§lI","",""],3:["§9强烈激光§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_chesta1,level:{1:["§9地狱宝箱怪","身处地狱的玩家在打开箱子时，有几率生成敌对生物。","在地狱堡垒里的怪物突发奇想，躲在未被玩家开过的宝箱里试图偷袭玩家。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:player_huska1,level:{1:["§9让你饿","尸壳伤害到玩家后，会给予玩家可叠加的饥饿状态效果。","年轻人就应该多吃东西补补身子。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:player_huska1,level:{1:["§9让你饿","尸壳伤害到玩家后，会给予玩家可叠加的饥饿状态效果。","尸壳们受女巫指点，强化了给予目标饥饿效果的能力，目前已经能将攻击目标的饥饿状态效果叠加到5级。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_zombie_villagera1,level:{1:["§9民间传染病","僵尸村民伤害到玩家后，玩家会中毒。","看来这僵尸村民确实非同一般村民啊。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:skeletona4,level:{1:["§d狙击手","少数骷髅使用特制弓，能向目标射出速度和伤害极高的飞箭。","该特制弓是骷髅们拜托史莱姆和掠夺者制作出来的，但制作难度极高，因此只有极少数训练有素的骷髅才会分配使用此弓。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:evokera1,level:{1:["§d冰冻术士","头戴冰块的唤魔者会使玩家缓慢，并附加其它负面状态效果。","在袭击村庄时无意在图书馆发现了《低温原理与技术》，从此便掌握了这一门技术。"]}}
