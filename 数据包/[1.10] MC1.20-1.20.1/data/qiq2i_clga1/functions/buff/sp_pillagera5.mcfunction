@@ -1,4 +1,4 @@
-
+execute as @a if data entity @s active_effects.[{id:"minecraft:bad_omen",amplifier:0b}] run effect give @s bad_omen 36000 1
 execute as @e[nbt={Item:{tag:{qiq2i_clga1_sp_pillagera5_Mobs1:1}}}] at @s run function qiq2i_clga1:buff/sp_pillagera5/treasure
 execute as @e[tag=qiq2i_clga1_sp_pillagera5_treasure_1] at @s unless block ~ ~-1 ~ chest run kill @s
 

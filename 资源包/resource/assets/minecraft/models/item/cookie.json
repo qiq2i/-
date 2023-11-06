@@ -55,6 +55,14 @@
     {
       "predicate": {"custom_model_data": 200233},
       "model": "qiq2i_clga1:clga1/wuzhou_paper_wrapped_chicken"
+    },
+    {
+      "predicate": {"custom_model_data": 200234},
+      "model": "qiq2i_clga1:clga1/braised_pork"
+    },
+    {
+      "predicate": {"custom_model_data": 200235},
+      "model": "qiq2i_clga1:clga1/fujian_fotiaoqiang"
     }
   ]
 }

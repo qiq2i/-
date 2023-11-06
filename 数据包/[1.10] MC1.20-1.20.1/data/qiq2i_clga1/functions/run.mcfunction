@@ -34,7 +34,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera3 if enti
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera4 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera4
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera5
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 as @a if data entity @s active_effects.[{id:"minecraft:bad_omen",amplifier:0b}] run effect give @s bad_omen 36000 1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera6
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera7 run function qiq2i_clga1:buff/sp_pillagera7
 
