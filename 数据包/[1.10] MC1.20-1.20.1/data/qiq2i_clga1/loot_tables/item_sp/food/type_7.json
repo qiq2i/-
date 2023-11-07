@@ -10,7 +10,7 @@
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200222, qiq2i_clga1_food:7, display:{Name:'{\"text\":\"§b紫菜蛋花汤\"}',Lore:['{\"text\":\"§f喝下去身子暖暖的~\"}']}}"
+                    "tag": "{CustomModelData:200222, qiq2i_clga1_food:7, display:{Name:'{\"text\":\"§b紫菜蛋花汤\"}',Lore:['{\"text\":\"§f\"}']}}"
                 },
                 {
                   "function": "minecraft:set_count",

@@ -10,7 +10,7 @@
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200230, qiq2i_clga1_food:18, display:{Name:'{\"text\":\"§b重庆酸辣粉\"}',Lore:['{\"text\":\"§f天下第一粉\"}']}}"
+                    "tag": "{CustomModelData:200230, qiq2i_clga1_food:18, display:{Name:'{\"text\":\"§b重庆酸辣粉\"}',Lore:['{\"text\":\"§f\"}']}}"
                 },
                 {
                   "function": "minecraft:set_count",

@@ -10,7 +10,7 @@
             "functions": [
                 {
                     "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200233, qiq2i_clga1_food:23, display:{Name:'{\"text\":\"§b生榨米粉\"}',Lore:['{\"text\":\"§f酸香可口，香气十足，汤汁醇厚\"}']}}"
+                    "tag": "{CustomModelData:200233, qiq2i_clga1_food:23, display:{Name:'{\"text\":\"§b生榨米粉\"}',Lore:['{\"text\":\"§f\"}']}}"
                 },
                 {
                   "function": "minecraft:set_count",
