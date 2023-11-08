@@ -107,6 +107,14 @@
           {
             "type": "minecraft:loot_table",
             "name": "qiq2i_clga1:item_sp/food/wuzhou_paper_wrapped_chicken"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/food/braised_pork"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "qiq2i_clga1:item_sp/food/fujian_fotiaoqiang"
           }
         ]
       }
