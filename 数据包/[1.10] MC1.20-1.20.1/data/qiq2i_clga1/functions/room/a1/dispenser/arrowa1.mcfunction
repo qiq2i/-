@@ -1,6 +1,6 @@
 summon minecraft:marker ^ ^ ^1 {Tags:["qiq2i_skill_1_arrow1a"]}
 #做差-- 用到 qiq2i_1 qiq2i_2
-summon arrow ~ ~ ~ {Tags:["qiq2i_skill_1_arrow1a_2"],damage:20}
+summon arrow ~ ~ ~ {Tags:["qiq2i_skill_1_arrow1a_2","qiq2i_arrow.kill"],damage:20}
 #0
 execute as @e[tag=qiq2i_skill_1_arrow1a_2,distance=..3,limit=1,sort=nearest] store result score @e[tag=qiq2i_skill_1_arrow1a,distance=..3,limit=1,sort=nearest] qiq2i_1 run data get entity @s Pos[0] 100
 execute as @e[tag=qiq2i_skill_1_arrow1a,distance=..3,limit=1,sort=nearest] store result score @s qiq2i_2 run data get entity @s Pos[0] 100

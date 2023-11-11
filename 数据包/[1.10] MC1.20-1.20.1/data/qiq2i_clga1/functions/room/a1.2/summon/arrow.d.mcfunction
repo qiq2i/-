@@ -1,6 +1,6 @@
 kill @e[tag=qiq2i_marker_a,distance=..2]
 execute run summon minecraft:marker ^ ^ ^1 {Tags:["qiq2i_marker_a"]}
-summon arrow ~ ~ ~ {Tags:["qiq2i_clga1_rooma1.2_arrow","qiq2i_clga1_kill.a1","qiq2i_arrow_kill1","qiq2i_clga1_rooma1.2_arrow.d"],damage:16}
+summon arrow ~ ~ ~ {Tags:["qiq2i_clga1_rooma1.2_arrow","qiq2i_clga1_kill.a1","qiq2i_arrow_kill1","qiq2i_clga1_rooma1.2_arrow.d","qiq2i_arrow.kill"],damage:16}
 data modify entity @e[tag=qiq2i_clga1_rooma1.2_arrow,distance=..5,limit=1,sort=nearest] Owner set from entity @s UUID
 #做差-- 用到 qiq2i_1 qiq2i_2
 #0
