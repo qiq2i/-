@@ -26,5 +26,6 @@ execute if score @s qiq2i_clga1_gamestart matches 14 run function qiq2i_clga1:co
 
 execute if score @s qiq2i_clga1_gamestart matches 1001 run scoreboard players set #qiq2i_clga1_GameStart qiq2i_1 1 
 scoreboard players reset @a qiq2i_clga1_gamestart
+execute unless score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. unless score #qiq2i_clga1_AddCount qiq2i_1 matches 1.. as @a run execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run tellraw @s {"text":"","extra":[{"text":"\n\n\n\n"}]}
 execute unless score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. unless score #qiq2i_clga1_AddCount qiq2i_1 matches 1.. as @a run function qiq2i_clga1:command/gamestart/a
 execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run function qiq2i_clga1:command/gamestart/start

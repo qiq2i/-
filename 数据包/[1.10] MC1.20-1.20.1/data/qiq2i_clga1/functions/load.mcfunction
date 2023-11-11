@@ -43,6 +43,7 @@ scoreboard objectives add qiq2i_sp_raina1 dummy
     scoreboard objectives add qiq2i_command trigger
     scoreboard objectives add Clga1_command trigger
     scoreboard objectives add qiq2i_clga1_gamestart trigger
+    scoreboard objectives add qiq2i_clga1_gamestart.timeset trigger
 difficulty hard
 
 schedule clear qiq2i_clga1:add
@@ -58,7 +59,6 @@ schedule function qiq2i_clga1:craft/1/a 10t replace
 schedule function qiq2i_clga1:qiq2i_skill/a 4t replace 
 
 execute in qiq2i_clga1:market run forceload add 0 0
-gamerule keepInventory true
 
 ##死亡榜+时间
     scoreboard objectives add qiq2i_clga1_side_dead deathCount 1

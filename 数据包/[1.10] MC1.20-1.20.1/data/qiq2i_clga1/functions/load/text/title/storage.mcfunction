@@ -1,1 +1,1 @@
-data modify storage qiq2i_clga1:text title set value {name:"时间追逐生存挑战",version:"1.11"}
+data modify storage qiq2i_clga1:text title set value {name:"时间追逐生存挑战",version:"1.12"}
