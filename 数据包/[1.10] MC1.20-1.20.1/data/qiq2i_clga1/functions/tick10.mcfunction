@@ -7,7 +7,7 @@
     execute as @a[tag=!qiq2i_clga1_player_get1.time_bundle.1,nbt={Dimension:"minecraft:the_end"}] at @s run loot give @s loot qiq2i_clga1:item_sp/time_bundle.1/type_1
     execute as @a[tag=!qiq2i_clga1_player_get1.time_bundle.1,nbt={Dimension:"minecraft:the_end"}] at @s run tag @s add qiq2i_clga1_player_get1.time_bundle.1
 ##死亡奖励
-    execute as @r run gamerule keepInventory true
+    execute unless score #qiq2i_clga1_dead_chest qiq2i_1 matches 1 as @r run gamerule keepInventory true
     execute as @a[nbt=!{Health:0.0f},tag=!qiq2i_clga1_player_dead.reward.1,tag=!qiq2i_clga1_player_dead.reward.getitem,scores={qiq2i_clga1_side_dead=1..}] at @s run function qiq2i_clga1:player_dead/reward.1
     execute as @a[nbt=!{Health:0.0f},tag=!qiq2i_clga1_player_dead.reward.2,tag=!qiq2i_clga1_player_dead.reward.getitem,scores={qiq2i_clga1_side_dead=2..}] at @s run function qiq2i_clga1:player_dead/reward.2
 
