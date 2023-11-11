@@ -19,7 +19,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona1 if entity 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_axe if entity @s[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/item_axe
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_leggings if entity @s[type=#qiq2i_clga1:animal] run function qiq2i_clga1:buff/item_leggings
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_boots if entity @s[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/item_boots
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_totem if entity @s[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/item_totem
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_totem if entity @s[type=#qiq2i_clga1:mob.offhand] run function qiq2i_clga1:buff/item_totem
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_enchanting if entity @s[type=#qiq2i_clga1:mob] unless data entity @s HandItems[0].tag.Enchantments if predicate qiq2i_clga1:_0.6 run function qiq2i_clga1:buff/item_enchanting
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_at_max_healtha1 if entity @s[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/at_max_healtha1
