@@ -1,5 +1,6 @@
 tag @s add qiq2i_clga1_rooma1_bossa1_start
 
+attribute @s minecraft:generic.max_absorption base set 1200
 data modify entity @s AbsorptionAmount set value 1200 
 data modify entity @s HandDropChances set value [0.0,0.0]
 data modify entity @s ArmorDropChances set value [0.0,0.0,0.0,0.0]
