@@ -4,6 +4,10 @@ fill ~2 ~ ~1 ~2 ~-1 ~-1 obsidian replace air
 fill ~-2 ~ ~1 ~-2 ~-1 ~-1 obsidian replace air
 fill ~1 ~ ~2 ~-1 ~-1 ~2 obsidian replace air
 fill ~1 ~ ~-2 ~-1 ~-1 ~-2 obsidian replace air
+fill ~2 ~ ~1 ~2 ~-1 ~-1 obsidian replace iron_bars
+fill ~-2 ~ ~1 ~-2 ~-1 ~-1 obsidian replace iron_bars
+fill ~1 ~ ~2 ~-1 ~-1 ~2 obsidian replace iron_bars
+fill ~1 ~ ~-2 ~-1 ~-1 ~-2 obsidian replace iron_bars
 fill ~2 ~-1 ~ ~2 ~-1 ~ air replace obsidian
 fill ~-2 ~-1 ~ ~-2 ~-1 ~ air replace obsidian
 fill ~ ~-1 ~2 ~ ~-1 ~2 air replace obsidian
