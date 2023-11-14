@@ -25,6 +25,7 @@ execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a] at @s run function qi
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_trident.a] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/skill/trident.a1
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_marker.b] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/skill/marker.b1
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_marker.c] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/skill/marker.c1
+execute if score #qiq2i_clga1_run_tick1 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/skill/wandering_trader.a1
 
 ##marker
 execute as @e[tag=qiq2i_clga1_buff_sp_ender_dragona1_marker.particle.gold] unless entity @e[type=ender_dragon] run function qiq2i_clga1:buff/sp_ender_dragona1/ender_dragon/end

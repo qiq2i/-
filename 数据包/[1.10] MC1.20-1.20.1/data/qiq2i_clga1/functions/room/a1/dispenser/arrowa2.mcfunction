@@ -19,7 +19,7 @@ execute as @e[tag=qiq2i_skill_1_arrow1a,distance=..3,limit=1,sort=nearest] store
 
 
 data modify entity @e[tag=qiq2i_skill_1_arrow1a_2,distance=..3,limit=1,sort=nearest] Owner set from entity @s UUID
-tag @s remove qiq2i_arrow1a
+tag @s remove qiq2i_skill_1_arrow1a_2
 kill @e[tag=qiq2i_skill_1_arrow1a]
 
 playsound entity.arrow.shoot player @a ~ ~ ~

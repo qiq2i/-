@@ -20,7 +20,7 @@ execute as @e[tag=qiq2i_skill_1_arrow1_pillagera5_a,distance=..3,limit=1,sort=ne
 data modify entity @e[tag=qiq2i_skill_1_arrow1_pillagera5_a_2,distance=..3,limit=1,sort=nearest] Owner set from entity @s UUID
 #execute as @e[distance=..64] at @s run playsound minecraft:entity.arrow.shoot player @s
 
-tag @s remove qiq2i_arrow1_pillagera5_a
+tag @s remove qiq2i_skill_1_arrow1_pillagera5_a_2
 playsound entity.arrow.shoot player @a ~ ~ ~
 kill @e[tag=qiq2i_skill_1_arrow1_pillagera5_a]
 #me 1

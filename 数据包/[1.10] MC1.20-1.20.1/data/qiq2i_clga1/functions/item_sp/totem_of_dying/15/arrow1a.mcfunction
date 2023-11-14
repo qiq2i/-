@@ -24,5 +24,5 @@ data modify entity @e[tag=qiq2i_skill_1_arrow1a_2,distance=..3,limit=1,sort=near
 
 execute as @e[distance=..64] at @s run playsound minecraft:entity.arrow.shoot player @s
 
-tag @s remove qiq2i_arrow1a
+tag @s remove qiq2i_skill_1_arrow1a_2
 kill @e[tag=qiq2i_skill_1_arrow1a]
