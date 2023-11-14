@@ -1,4 +1,4 @@
-summon wandering_trader ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_wandering_trader.a","qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set","qiq2i_clga1_summoning_1"],CustomName:'{"text":"§b在末地流浪的商人"}',DespawnDelay:-1}
+summon wandering_trader ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_wandering_trader.a","qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set","qiq2i_clga1_summoning_1"],CustomName:'{"text":"§b末地探险家-流浪商人"}',DespawnDelay:-1}
 tp @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] ~ ~ ~ ~ 0
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run attribute @s generic.max_health base set 20
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run attribute @s generic.armor base set 20

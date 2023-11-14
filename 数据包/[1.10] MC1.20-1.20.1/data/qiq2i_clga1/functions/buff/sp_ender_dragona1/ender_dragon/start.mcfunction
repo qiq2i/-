@@ -13,4 +13,5 @@ team join qiq2i_clga1_mobteama1 @s
 
 tag @s add qiq2i_clga1_buff_sp_ender_dragona1
 execute as @s[tag=!qiq2i_clga1_buff_sp_ender_dragona1.level.1,tag=!qiq2i_clga1_buff_sp_ender_dragona1.level.2,tag=!qiq2i_clga1_buff_sp_ender_dragona1.level.3,tag=!qiq2i_clga1_buff_sp_ender_dragona1.level.4,tag=!qiq2i_clga1_buff_sp_ender_dragona1.level.5] run tag @s add qiq2i_clga1_buff_sp_ender_dragona1.level.1
+execute in the_end positioned 0 70 0 unless entity @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a,distance=..256] run function qiq2i_clga1:buff/sp_ender_dragona1/summon/wandering_trader.a1
 forceload remove -50 -50 50 50
