@@ -1,4 +1,4 @@
-summon llama ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_llama.a","qiq2i_clga1_sp_ender_dragona1_llama.a_set","qiq2i_clga1_summoning_1"],CustomName:'{"text":"§b末地探险家-流浪商人的旅商羊驼"}'}
+summon llama ~ ~ ~ {Tags:["qiq2i_clga1_sp_ender_dragona1_llama.a","qiq2i_clga1_sp_ender_dragona1_llama.a_set","qiq2i_clga1_summoning_1"],CustomName:'{"text":"§b末地探险家-流浪商人的旅商羊驼"}',Variant:3,Variant:5,ChestedHorse:1,DecorItem:{id:"minecraft:purple_carpet",Count:1b}}
 tp @e[tag=qiq2i_clga1_sp_ender_dragona1_llama.a_set] ~ ~ ~ ~ 0
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_llama.a_set] run attribute @s generic.max_health base set 15
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_llama.a_set] run attribute @s generic.armor base set 20
