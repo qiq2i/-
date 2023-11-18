@@ -20,7 +20,8 @@ execute if score @s qiq2i_2 matches 400.. run scoreboard players reset @s qiq2i_
 ##休息
 scoreboard players add @s qiq2i_3 1
 execute if score @s qiq2i_3 matches ..800 unless data entity @s {DragonPhase:3} unless data entity @s {DragonPhase:6} run data modify entity @s DragonPhase set value 3
-execute if score @s qiq2i_3 matches ..800 unless data entity @s {AbsorptionAmount:128} run data modify entity @s AbsorptionAmount set value 128.0f
+execute if score @s qiq2i_3 matches ..800 unless data entity @s {AbsorptionAmount:2} run attribute @s minecraft:generic.max_absorption base set 4
+execute if score @s qiq2i_3 matches ..800 unless data entity @s {AbsorptionAmount:2} run data modify entity @s AbsorptionAmount set value 4.0f
 execute if score @s qiq2i_3 matches ..800 at @s run particle totem_of_undying ~ ~ ~ 2 2 2 0 10 force @a
 execute if score @s qiq2i_3 matches 200 at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/bat.end_crystal.a1
 execute if score @s qiq2i_3 matches 400 at @s run function qiq2i_clga1:buff/sp_ender_dragona1/summon/bat.end_crystal.a1

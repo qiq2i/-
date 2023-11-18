@@ -8,8 +8,8 @@ summon skeleton ~-1 ~ ~1 {Tags:["qiq2i_clga1_sp_ender_dragona1_mobA.1","qiq2i_cl
 summon skeleton ~1 ~ ~-1 {Tags:["qiq2i_clga1_sp_ender_dragona1_mobA.1","qiq2i_clga1_ignore"]}
 summon skeleton ~-1 ~ ~-1 {Tags:["qiq2i_clga1_sp_ender_dragona1_mobA.1","qiq2i_clga1_ignore"]}
 
-function qiq2i_clga1:buff/sp_ender_dragona1/summon/drowned.a1
-
+execute positioned 0 70 0 run function qiq2i_clga1:buff/sp_ender_dragona1/summon/drowned.a1
+execute positioned 0 70 0 run particle minecraft:cloud ~ ~ ~ 1 1 1 1 1000 force
 particle minecraft:cloud ~ ~ ~ 1 1 1 1 1000 force
 playsound minecraft:entity.elder_guardian.curse ambient @a ~ ~ ~ 100 2
 

@@ -16,5 +16,5 @@ execute if score @s qiq2i_2 matches 1 at @s rotated ~180 0 run function qiq2i_cl
 execute if score @s qiq2i_2 matches 400.. run scoreboard players reset @s qiq2i_2
 
 execute store result score #qiq2i_marker_1 qiq2i_1 run data get entity @s Health 1
-execute if score #qiq2i_marker_1 qiq2i_1 matches ..150 run function qiq2i_clga1:buff/sp_ender_dragona1/ender_dragon/level.4.end
+execute if score #qiq2i_marker_1 qiq2i_1 matches ..100 run function qiq2i_clga1:buff/sp_ender_dragona1/ender_dragon/level.4.end
 scoreboard players reset #qiq2i_marker_1 qiq2i_1
