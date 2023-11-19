@@ -1,0 +1,34 @@
+{
+    "parent": "qiq2i_clga1:boss/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:dragon_head"
+      },
+      "title": {
+        "text": "末影龙最高专业版"
+      },
+      "description": {
+        "text": "§e关键：无限弓，盾牌，装备：附魔钻套以上，其他：大量方块，水桶，船，床，金苹果等"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+       "a":{
+         "trigger": "minecraft:impossible",
+         "conditions": {
+           
+         }
+       }
+    },
+    "requirements": [
+      [
+        "a"
+      ]
+    ]
+  }
