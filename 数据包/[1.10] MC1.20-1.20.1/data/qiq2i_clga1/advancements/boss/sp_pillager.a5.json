@@ -20,9 +20,17 @@
     },
     "criteria": {
        "a":{
-         "trigger": "minecraft:impossible",
+         "trigger": "minecraft:player_killed_entity",
          "conditions": {
-           
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "nbt": "{Tags:[\"qiq2i_clga1_sp_pillagera5_Mobs1\"]}"
+              },
+              "entity": "this"
+            }
+          ]
          }
        }
     },

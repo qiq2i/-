@@ -17,6 +17,8 @@ execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 2 run function qiq2
     execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 2 if score #qiq2i_clga1_rooma1.2_best_time_tick qiq2i_1 matches 0 run function qiq2i_clga1:room/a1.2/time/input
 
 execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 2 run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] only qiq2i_clga1:boss/rooma2
+execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 2 run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] only qiq2i_clga1:boss/room.a2
+
 execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 142 run function qiq2i_clga1:room/a1.2/chest/a
 
 execute if score #qiq2i_clga1_rooma1.2_tick2 qiq2i_1 matches 182 run tellraw @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] {"text":"§f<§f骷髅§f> 路的尽头处的玻璃已开有一道裂缝。"}

@@ -18,7 +18,8 @@ execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clg
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_bossa1] run data modify entity @s Invulnerable set value 1
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_skill_1_3] run data modify entity @s NoAI set value 1
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_skill_1_3] run data modify entity @s Invulnerable set value 1
-execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_bossa1] run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"},advancements={qiq2i_clga1:room/rooma1_1=false}] only qiq2i_clga1:room/rooma1_1
+execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_bossa1] run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] only qiq2i_clga1:room/rooma1_1
+execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 as @e[tag=qiq2i_clga1_rooma1_bossa1] run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] only qiq2i_clga1:boss/room.a1
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 2 run advancement grant @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] only qiq2i_clga1:boss/rooma1
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 62 run tellraw @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] {"text":"§f<§2僵尸§f> 不错嘛，有两下子。"}
 execute if score #qiq2i_clga1_rooma1_tick2 qiq2i_1 matches 62 run playsound minecraft:entity.zombie.ambient player @s ~ ~ ~ 1 1
