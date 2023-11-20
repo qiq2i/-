@@ -1,14 +1,14 @@
 {
-    "parent": "qiq2i_clga1:boss/sp_ender_dragon",
+    "parent": "qiq2i_clga1:boss/root",
     "display": {
       "icon": {
-        "item": "minecraft:wither_skeleton_skull"
+        "item": "minecraft:trident"
       },
       "title": {
-        "text": "凋灵灭世"
+        "text": "海洋骑士"
       },
       "description": {
-        "text": "§e装备：附魔钻套以上"
+        "text": "§e关键：盾牌；装备：附魔铁套以上"
       },
       "frame": "challenge",
       "show_toast": true,
@@ -26,7 +26,7 @@
             {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "nbt": "{Tags:[\"qiq2i_clga1_buff_sp_withera1\"]}"
+                "nbt": "{Tags:[\"qiq2i_boss.drowned_knight.1\"]}"
               },
               "entity": "this"
             }

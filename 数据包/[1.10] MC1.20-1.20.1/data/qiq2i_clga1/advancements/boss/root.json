@@ -17,7 +17,7 @@
   },
   "criteria": {
     "1": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:player_hurt_entity"
     }
   },
   "requirements": [
