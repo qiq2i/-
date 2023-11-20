@@ -6,7 +6,7 @@ execute as @a at @s run function qiq2i_clga1:item_sp/other/main.2
 ##特殊实体定期清理（投掷物）
 function qiq2i_clga1:kill/main
 
-execute unless score #qiq2i_clga1_addtick1 qiq2i_1 matches -2147483648..2147483647 run scoreboard players set #qiq2i_clga1_addtick1 qiq2i_1 10
+execute unless score #qiq2i_clga1_addtick1 qiq2i_1 matches -2147483648..2147483647 run scoreboard players set #qiq2i_clga1_addtick1 qiq2i_1 240
 execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. if entity @a run scoreboard players remove #qiq2i_clga1_addtick1 qiq2i_1 1
 execute if entity @a if score #qiq2i_clga1_addtick1 qiq2i_1 matches ..-1 in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:random
 
