@@ -61,7 +61,7 @@ data modify storage qiq2i_clga1:text buff append value {id:wither_skeletona2,lev
 data modify storage qiq2i_clga1:text buff append value {id:withera1,level:{1:["§d§l凋灵灭世","凋灵变得更加强大。",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea1,level:{1:["§2破门而入","僵尸能立即破坏门了。","僵尸们经过多次的破门训练，现在已经能够做到一拳打烂门口了，这比玩家用斧子拆门都要来得快。此外，僵尸们还特训了针对活板门、栅栏门、甚至是栅栏的破坏，但重来都不学习如何开门。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombiea2,level:{1:["§d精英僵尸","个别僵尸的生命值更高、攻击性更强，且防击退。","看来最常见的僵尸也开始不好击杀了。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对近距离的生物不再保持中立状态。","由于僵尸猪灵势力在下界十分强大且分布广泛，驻扎在地狱堡垒的烈焰人希望拉拢僵尸猪灵加入对抗玩家行列，烈焰人知道他们必将因玩家对烈焰棒的需求而遭到攻击。僵尸猪灵虽答应与烈焰人站在一起，但只会在玩家靠自身非常近时才会出手。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:zombified_piglina1,level:{1:["§2别碰我","僵尸猪灵对接近自身的除小动物以外的生物不再保持中立状态。","僵尸猪灵势力在下界十分强大且分布广泛，因此有足够的底气与其他怪物叫板，现在已经到了禁止除小动物以外的生物接近自身的地步。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:wolfa1,level:{1:["§2并肩作战好伙伴","驯服的狼生命值提升，自动回血，受到攻击会提升攻击力，并且允许穿戴马铠。","你家的狗子被加强了，变得更适合战斗了。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin_brutea1,level:{1:["§9猪灵精兵§6§lI§8§lII","猪灵蛮兵的生命值和攻击伤害获得提升。","猪灵蛮兵与末影人势力互相切磋，长时间的练习使猪灵蛮兵更加强壮。猪灵蛮兵又非常好战，为防止玩家躲着跑，遍携带了金粒和下界合金碎片等宝物来引诱玩家。"],2:["§9猪灵精兵§6§lII§8§lI","",""],3:["§9猪灵精兵§6§lIII","",""]}}
 data modify storage qiq2i_clga1:text buff append value {id:player_cactusa1,level:{1:["§2尖刺仙人掌","破坏仙人掌有几率受伤。","听说你喜欢摸仙人掌，但是仙人掌不喜欢被你摸。"]}}

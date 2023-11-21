@@ -14,4 +14,4 @@ scoreboard players operation #qiq2i_clga1.time.display.C qiq2i_1 *= #qiq2i_clga1
 scoreboard players operation #qiq2i_clga1.time.display.s qiq2i_1 -= #qiq2i_clga1.time.display.C qiq2i_1
 
 ####显示
-execute unless score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run function qiq2i_clga1:time/display
+execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run function qiq2i_clga1:time/display
