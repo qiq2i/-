@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "models/armor/diamond_layer_1",
-		"1": "qiq2i_clga1:armor/armor1",
-		"particle": "models/armor/diamond_layer_1"
+		"0": "qiq2i_clga1:item/armor/diamond_layer_1",
+		"1": "qiq2i_clga1:item/armor/armor1",
+		"particle": "qiq2i_clga1:item/armor/diamond_layer_1"
 	},
 	"elements": [
 		{

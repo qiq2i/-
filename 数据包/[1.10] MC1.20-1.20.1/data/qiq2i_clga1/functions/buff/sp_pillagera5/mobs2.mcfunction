@@ -28,17 +28,18 @@ execute unless entity @s[nbt={Fire:-20s}] run data modify entity @s Fire set val
 #execute as @s at @s run particle angry_villager ~ ~1 ~ 0.5 0.5 0.5 0 2
 
 ##咬人
-execute as @s[scores={qiq2i_Health1=..250,qiq2i_1=20}] at @s if entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..8] as @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..8] at @s run summon evoker_fangs ~ ~ ~ {Tags:["qiq2i","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs_1"]}
+execute as @s[scores={qiq2i_Health1=..250,qiq2i_1=20}] at @s as @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..8] at @s run summon evoker_fangs ~ ~ ~ {Tags:["qiq2i","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs_1"]}
+execute as @s[scores={qiq2i_Health1=..250,qiq2i_1=20}] at @s as @e[type=#qiq2i_clga1:mob,tag=!qiq2i_admin,distance=..8] at @s run summon evoker_fangs ~ ~ ~ {Tags:["qiq2i","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs","qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs_1"]}
 execute if entity @s[scores={qiq2i_Health1=..250,qiq2i_1=20}] as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs2_evoker_fangs,tag=!qiq2i_clga1_buff] run data modify entity @s Owner set from entity @e[tag=qiq2i_clga1_sp_pillagera5_Mobs2,sort=nearest,limit=1] UUID
 
 ##喷火
-execute as @s[scores={qiq2i_Health1=..100,qiq2i_1=20}] at @s positioned ~ ~1.7 ~ if entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..64] facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..64] eyes run function qiq2i_clga1:qiq2i_skill/skill/small_fireball1a
-execute as @s[scores={qiq2i_Health1=..100,qiq2i_1=10}] at @s positioned ~ ~1.7 ~ if entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,distance=..64] facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..64] eyes run function qiq2i_clga1:qiq2i_skill/skill/small_fireball1a
+execute as @s[scores={qiq2i_Health1=..100,qiq2i_1=20}] at @s positioned ~ ~1.7 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/small_fireball1a
+#execute as @s[scores={qiq2i_Health1=..100,qiq2i_1=10}] at @s positioned ~ ~1.7 ~ if entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,distance=..64] facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..64] eyes run function qiq2i_clga1:qiq2i_skill/skill/small_fireball1a
 
 ##超级闹鬼初始化
 execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=!qiq2i_clga1_sp_pillagera5_Mobs3_start] run function qiq2i_clga1:buff/sp_pillagera5/mob3_start
 execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=qiq2i_clga1_sp_pillagera5_Mobs3_start] run scoreboard players add @s qiq2i_1 1
-execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=qiq2i_clga1_sp_pillagera5_Mobs3_start,scores={qiq2i_1=60}] at @s positioned ~ ~0.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=nearest,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1d
+execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=qiq2i_clga1_sp_pillagera5_Mobs3_start,scores={qiq2i_1=60}] at @s positioned ~ ~0.5 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/arrow1d
 execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=qiq2i_clga1_sp_pillagera5_Mobs3_start,scores={qiq2i_1=60..}] run scoreboard players remove @s qiq2i_1 60
 execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs3,tag=qiq2i_clga1_sp_pillagera5_Mobs3_start,nbt={LifeTicks:1}] run kill @s
 

@@ -12,7 +12,7 @@ execute as @s[scores={qiq2i_2=81}] run playsound minecraft:item.crossbow.shoot p
 
 execute as @s[scores={qiq2i_2=81..281,qiq2i_1=10}] run particle minecraft:cloud ~ ~1.7 ~ 1 1 1 0 250
 execute as @s[scores={qiq2i_2=81..281,qiq2i_1=20}] run particle minecraft:cloud ~ ~1.7 ~ 1 1 1 0 250
-execute as @s[scores={qiq2i_2=81..281,qiq2i_1=10}] positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=nearest,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
-execute as @s[scores={qiq2i_2=81..281,qiq2i_1=10}] positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
-execute as @s[scores={qiq2i_2=81..281,qiq2i_1=20}] positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=nearest,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
-execute as @s[scores={qiq2i_2=81..281,qiq2i_1=20}] positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
+execute as @s[scores={qiq2i_2=81..281,qiq2i_1=10}] positioned ~ ~1.7 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/arrow1c.1
+execute as @s[scores={qiq2i_2=81..281,qiq2i_1=10}] positioned ~ ~1.7 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/arrow1c.2
+execute as @s[scores={qiq2i_2=81..281,qiq2i_1=20}] positioned ~ ~1.7 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/arrow1c.1
+execute as @s[scores={qiq2i_2=81..281,qiq2i_1=20}] positioned ~ ~1.7 ~ run function qiq2i_clga1:buff/sp_pillagera5/skill/shoot/arrow1c.2
