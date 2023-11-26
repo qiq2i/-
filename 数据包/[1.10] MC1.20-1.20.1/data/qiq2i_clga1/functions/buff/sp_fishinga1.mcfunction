@@ -29,7 +29,7 @@ execute if score #qiq2i_marker_1 qiq2i_1 matches 23..24 run function qiq2i_clga1
 execute if score #qiq2i_marker_1 qiq2i_1 matches 23..24 run function qiq2i_clga1:buff/sp_fishinga1/summon/5
 
 #6
-execute if score #qiq2i_marker_1 qiq2i_1 matches 25 run summon skeleton ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"]}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 25 run function qiq2i_boss:drowned_new_comer/summon
 
 #7
 execute if score #qiq2i_marker_1 qiq2i_1 matches 26..27 run function qiq2i_clga1:buff/sp_fishinga1/summon/7
