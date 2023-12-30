@@ -1,6 +1,6 @@
 summon minecraft:marker ^ ^ ^1 {Tags:["qiq2i","qiq2i_skill_1","qiq2i_skill_1_tnt1_pillagera5_a"]}
 #做差-- 用到 qiq2i_1 qiq2i_2
-summon tnt ~ ~ ~ {Tags:["qiq2i","qiq2i_skill_1","qiq2i_skill_1_tnt1_pillagera5_a_2"],Fuse:20,ignited:1b,Invulnerable:1b}
+summon tnt ~ ~ ~ {Tags:["qiq2i","qiq2i_skill_1","qiq2i_skill_1_tnt1_pillagera5_a_2"],fuse:20,ignited:1b,Invulnerable:1b}
 #0
 execute as @e[tag=qiq2i_skill_1_tnt1_pillagera5_a_2,distance=..3,limit=1,sort=nearest] store result score @e[tag=qiq2i_skill_1_tnt1_pillagera5_a,distance=..3,limit=1,sort=nearest] qiq2i_1 run data get entity @s Pos[0] 100000
 execute as @e[tag=qiq2i_skill_1_tnt1_pillagera5_a,distance=..3,limit=1,sort=nearest] store result score @s qiq2i_2 run data get entity @s Pos[0] 100000

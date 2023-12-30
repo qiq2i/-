@@ -26,15 +26,15 @@ execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:7}}}] at @s run summon cave
 
 execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:8}}}] at @s run summon tnt
 
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.4,0.4,0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.4,0.4,0.0]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.4,0.4,-0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.0,0.4,-0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[-0.4,0.4,-0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[-0.4,0.4,0.0]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[-0.4,0.4,0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.0,0.4,0.4]}
-execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {Fuse:100,Motion:[0.0,0.4,0.0]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.4,0.4,0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.4,0.4,0.0]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.4,0.4,-0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.0,0.4,-0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[-0.4,0.4,-0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[-0.4,0.4,0.0]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[-0.4,0.4,0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.0,0.4,0.4]}
+execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:9}}}] at @s run summon tnt ~ ~ ~ {fuse:100,Motion:[0.0,0.4,0.0]}
 
 execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:10}}}] at @s run summon creeper ~ ~ ~ {Tags:["qiq2i_clga1_summoning_1"]}
 execute as @s[nbt={Item:{tag:{qiq2i_clga1_bata1_item:10}}}] at @s run summon creeper ~ ~ ~ {Tags:["qiq2i_clga1_summoning_1"]}

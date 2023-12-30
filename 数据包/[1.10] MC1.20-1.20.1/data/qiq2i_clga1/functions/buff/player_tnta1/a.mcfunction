@@ -1,2 +1,2 @@
-summon tnt ~ ~ ~ {Fuse:100}
+summon tnt ~ ~ ~ {fuse:100}
 kill @s

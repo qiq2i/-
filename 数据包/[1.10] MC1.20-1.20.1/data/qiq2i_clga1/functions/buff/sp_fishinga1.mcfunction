@@ -8,7 +8,7 @@ data modify storage qiq2i_clga1:qiq2i_marker_1 Motion set from entity @s Motion
 #测试
 #scoreboard players set #qiq2i_marker_1 qiq2i_1 1
 #1
-execute if score #qiq2i_marker_1 qiq2i_1 matches 1 run summon tnt ~ ~ ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion"],Fuse:20,Invulnerable:1b}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 1 run summon tnt ~ ~ ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion"],fuse:20,Invulnerable:1b}
 
 #2
 execute if score #qiq2i_marker_1 qiq2i_1 matches 2..11 run function qiq2i_clga1:buff/sp_fishinga1/summon/2
