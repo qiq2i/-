@@ -61,7 +61,7 @@ schedule function qiq2i_clga1:qiq2i_skill/a 4t replace
 execute in qiq2i_clga1:market run forceload add 0 0
 
 ##死亡榜+时间
-    scoreboard objectives add qiq2i_clga1_side_dead deathCount 1
+    scoreboard objectives add qiq2i_clga1_side_dead deathCount
     execute unless score #qiq2i_clga1_setdisplay qiq2i_1 matches 1.. run scoreboard objectives setdisplay sidebar qiq2i_clga1_side_dead
 scoreboard objectives modify qiq2i_clga1_side_dead displayname {"text":"","extra":[{"text":"§e死亡数"}]}
 ##时间显示状态切换
