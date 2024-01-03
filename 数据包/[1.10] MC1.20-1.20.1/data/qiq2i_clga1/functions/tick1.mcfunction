@@ -8,7 +8,7 @@ function qiq2i_clga1:kill/main
 
 execute unless score #qiq2i_clga1_addtick1 qiq2i_1 matches -2147483648..2147483647 run scoreboard players set #qiq2i_clga1_addtick1 qiq2i_1 240
 execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. if entity @a run scoreboard players remove #qiq2i_clga1_addtick1 qiq2i_1 1
-execute if entity @a if score #qiq2i_clga1_addtick1 qiq2i_1 matches ..-1 in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:random
+execute if entity @a if score #qiq2i_clga1_addtick1 qiq2i_1 matches ..-1 in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:random/a
 
 ##时间间隔
 function qiq2i_clga1:time/main

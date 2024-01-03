@@ -1,5 +1,5 @@
 #summon minecraft:armor_stand 0 0 0 {DisabledSlots:4079166,Marker:1b,NoBasePlate:1b,FallFlying:1b,Tags:["qiq2i","qiq2i_clga1_random1"],Invisible:1b}
-#loot replace entity @e[tag=qiq2i_clga1_random1] armor.head loot qiq2i_clga1:random1
+#loot replace entity @e[tag=qiq2i_clga1_random1] armor.head loot qiq2i_clga1:random/a1
 #execute as @e[tag=qiq2i_clga1_random1] store result score @s qiq2i_1 run data get entity @s ArmorItems[{id:"minecraft:barrier"}].tag.AttributeModifiers[{Name:"random1"}].Amount
 ##################
 forceload add 0 0
