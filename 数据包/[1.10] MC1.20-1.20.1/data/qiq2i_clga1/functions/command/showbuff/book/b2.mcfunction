@@ -1,4 +1,5 @@
 #scoreboard players reset @s qiq2i_command
+##已弃用
 execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:at_follow_range",level:1}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§0§l["},{"nbt":"buff[{id:at_follow_range}].level.1[0]","storage":"qiq2i_clga1:text"},{"text":"§0§l]"},{"text":"\\n"},{"nbt":"buff[{id:at_follow_range}].level.1[1]","storage":"qiq2i_clga1:text"},{"text":"\\n"},{"nbt":"buff[{id:at_follow_range}].level.1[2]","storage":"qiq2i_clga1:text"}]}'
 execute if data storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2[{id:"qiq2i_clga1:at_follow_range",level:2}] run data modify storage qiq2i_clga1_event_new written_book.tag1.pages prepend value '{"text":"","extra":[{"text":"§0§l["},{"nbt":"buff[{id:at_follow_range}].level.2[0]","storage":"qiq2i_clga1:text"},{"text":"§0§l]"},{"text":"\\n"},{"nbt":"buff[{id:at_follow_range}].level.1[1]","storage":"qiq2i_clga1:text"},{"text":"\\n"},{"nbt":"buff[{id:at_follow_range}].level.1[2]","storage":"qiq2i_clga1:text"}]}'
 
