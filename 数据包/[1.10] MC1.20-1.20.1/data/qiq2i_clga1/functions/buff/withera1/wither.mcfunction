@@ -35,15 +35,15 @@ kill @e[tag=qiq2i_clga1_buff_sp_withera1_marker]
 # skill 1
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill1,scores={qiq2i_1=1..301}] at @s run particle minecraft:block wither_skeleton_skull ~ ~ ~ 1 1 1 0 1
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill1] run scoreboard players add @s qiq2i_1 1
-execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill1,scores={qiq2i_1=101..301}] at @s facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..128,sort=nearest,limit=1] feet if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/withera1/a3 
+execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill1,scores={qiq2i_1=101..301}] at @s if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/withera1/shoot.a3
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill1,scores={qiq2i_1=401..}] run scoreboard players set @s qiq2i_1 0
 
 # skill 2
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=1..301}] at @s run particle minecraft:angry_villager ~ ~ ~ 1 1 1 0 1
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2] run scoreboard players add @s qiq2i_1 1
-execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..48,limit=1,sort=nearest] eyes if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.4 run function qiq2i_clga1:buff/withera1/arrow1a
-execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ positioned ^1 ^ ^ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..48,limit=2,sort=random] eyes if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/withera1/arrow1a
-execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ positioned ^-1 ^ ^ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..48,limit=2,sort=random] eyes if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/withera1/arrow1a 
+execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.4 run function qiq2i_clga1:buff/withera1/shoot.arrow1a
+execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ positioned ^1 ^ ^ if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/withera1/shoot.arrow1a
+execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}] at @s positioned ~ ~1 ~ positioned ^-1 ^ ^ if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/withera1/shoot.arrow1a
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=401..}] run scoreboard players set @s qiq2i_1 0
 
 # 多首攻击
