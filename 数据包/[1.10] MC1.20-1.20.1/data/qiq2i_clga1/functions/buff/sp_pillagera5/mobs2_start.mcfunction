@@ -1,4 +1,4 @@
-execute as @s run bossbar add sp_pillagera5 1
+execute as @s run bossbar add sp_pillagera5 {"text":"","extra":[{"text":"§d§l劫掠首领"}]}
 execute as @s run bossbar set sp_pillagera5 name {"text":"","extra":[{"text":"§d§l劫掠首领"}]}
 execute as @s run bossbar set sp_pillagera5 color pink
 execute as @s run bossbar set sp_pillagera5 visible true
