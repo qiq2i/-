@@ -1,3 +1,4 @@
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea1 if entity @e[type=blaze] run function qiq2i_clga1:buff/blazea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ghasta1 if entity @e[type=ghast] run function qiq2i_clga1:buff/ghasta1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ocelota1 if entity @e[type=ocelot,tag=!qiq2i_clga1_buff_ocelota1,nbt={Trusting:1b}] run function qiq2i_clga1:buff/ocelota1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_cavea1 if entity @a[tag=!qiq2i_admin,scores={qiq2i_pos1=..11},nbt={Dimension:"minecraft:overworld"}] run function qiq2i_clga1:buff/sp_cavea1

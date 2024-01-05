@@ -1,4 +1,3 @@
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea1 if entity @e[type=blaze] run function qiq2i_clga1:buff/blazea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_boata1 if entity @e[type=boat] run function qiq2i_clga1:buff/boata1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cata1 if entity @e[type=cat] run function qiq2i_clga1:buff/cata1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cave_spidera1 if entity @e[type=cave_spider] run function qiq2i_clga1:buff/cave_spidera1
