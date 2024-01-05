@@ -126,3 +126,4 @@ data modify storage qiq2i_clga1:text buff append value {id:allay.a1,level:{1:["�
 data modify storage qiq2i_clga1:text buff append value {id:player_go_ashore,level:{1:["§9上岸","玩家上岸时，会获得一个6秒的I级随机增益效果。","将身上的水甩干后感觉更好。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:zombie.a6,level:{1:["§9小僵尸骑士","小僵尸会主动骑上附近的生物。","小僵尸学会了借助外力，来更好地达成自己的目的。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:fox.a1,level:{1:["§9狐狸们对友情的重视","狐狸有其信任的玩家后，狐狸的生命值和攻击力等属性会有提升，且拥有永久地生命恢复效果。","狐狸们重视这十分珍贵的友情，它们会训练自身,以适应这日益恶化的生存环境，并更好地保护它们想要保护地伙伴。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:cat.a2,level:{1:["§9猫咪震慑","被驯服的猫会延长附近苦力怕膨胀爆炸所需的时间。","猫咪可以驱赶苦力怕，就算苦力怕被点燃了，苦力怕会因畏惧猫咪的尊容而在点燃自身的过程中手忙脚乱。"]}}
