@@ -1,13 +1,3 @@
-#苦力怕爆炸的范围将更加巨大
-
-#默认删除
-execute as @e[type=#qiq2i_clga1:raid,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_sp_pillagera7_Mobs1,tag=!qiq2i_clga1_ignore,sort=random,limit=1] if data entity @s Wave at @s unless entity @e[tag=qiq2i_clga1_sp_pillagera7_Mobs1,distance=..128] run function qiq2i_clga1:buff/sp_pillagera7/summon
-
-
-
-
-
-
 scoreboard players add @e[tag=qiq2i_clga1_sp_pillagera7_Mobs1] qiq2i_1 1
 execute as @e[tag=qiq2i_clga1_sp_pillagera7_Mobs1] at @s run function qiq2i_clga1:buff/sp_pillagera7/mob1_tick1
 

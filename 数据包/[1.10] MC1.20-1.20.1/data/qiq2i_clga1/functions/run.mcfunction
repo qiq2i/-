@@ -27,17 +27,13 @@ execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_mobteama1 if entity @e[team=!qiq2i_clga1_mobteama1,type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/sp_mobteama1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera1 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera2 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera2
+##劫掠召唤
+execute as @e[type=#qiq2i_clga1:raid,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_sp_pillagera1_Mobs1,tag=!qiq2i_clga1_sp_pillagera2_Mobs1,tag=!qiq2i_clga1_sp_pillagera3_Mobs1,tag=!qiq2i_clga1_sp_pillagera4_Mobs1,tag=!qiq2i_clga1_sp_pillagera5_Mobs1,tag=!qiq2i_clga1_sp_pillagera6_Mobs1,tag=!qiq2i_clga1_sp_pillagera7_Mobs1] run tag @s add qiq2i_clga1_sp_pillager.summon
+execute as @e[tag=qiq2i_clga1_sp_pillager.summon,tag=!qiq2i_clga1_buff,limit=1,sort=random] run function qiq2i_clga1:run/sp_pillager/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera2 if entity @e[type=item,nbt={Item:{tag:{qiq2i_clga1_sp_pillagera2_Mobs1:1}}}] run function qiq2i_clga1:buff/sp_pillagera2/tnt
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera3 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera3
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera4 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera4
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera5
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[type=#qiq2i_clga1:raid] run function qiq2i_clga1:buff/sp_pillagera6
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera7 run function qiq2i_clga1:buff/sp_pillagera7
-
-
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera7
 
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 if entity @e[type=spider] run function qiq2i_clga1:buff/spidera1

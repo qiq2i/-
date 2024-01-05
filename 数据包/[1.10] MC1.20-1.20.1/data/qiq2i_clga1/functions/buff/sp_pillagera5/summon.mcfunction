@@ -1,0 +1,1 @@
+execute as @s[nbt={Wave:8}] at @s unless entity @e[tag=qiq2i_clga1_sp_pillagera5_Mobs2] run function qiq2i_clga1:buff/sp_pillagera5/mob1
