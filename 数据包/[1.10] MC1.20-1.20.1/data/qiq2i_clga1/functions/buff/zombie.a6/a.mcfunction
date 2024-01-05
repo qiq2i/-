@@ -1,0 +1,1 @@
+execute if entity @e[type=#qiq2i_clga1:animal_and_mob,distance=0.1..2] run function qiq2i_clga1:buff/zombie.a6/ride

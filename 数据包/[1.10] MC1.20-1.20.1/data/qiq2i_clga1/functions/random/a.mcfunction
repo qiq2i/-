@@ -261,6 +261,7 @@ execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_allay.a1 run summ
 
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_player_go_ashore run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:player_go_ashore,level:1}}
 
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a6 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:zombie.a6,level:1}}
 ##随机，启动！
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run scoreboard players add #qiq2i_clga1_AddCount qiq2i_1 1
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run function qiq2i_clga1:random/storage
