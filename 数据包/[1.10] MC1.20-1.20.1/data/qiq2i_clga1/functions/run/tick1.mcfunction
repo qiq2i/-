@@ -7,6 +7,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_witcha1 if entity @e[
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea1 if entity @e[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/zombiea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombified_piglina1 if entity @e[type=zombified_piglin] run function qiq2i_clga1:buff/zombified_piglina1
 
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] as @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] at @s run function qiq2i_clga1:buff/sp_pillagera6/mob1_tick1
+
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ghasta1 if entity @e[type=ghast] run function qiq2i_clga1:buff/ghasta1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ocelota1 if entity @e[type=ocelot,tag=!qiq2i_clga1_buff_ocelota1,nbt={Trusting:1b}] run function qiq2i_clga1:buff/ocelota1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_cavea1 if entity @a[tag=!qiq2i_admin,scores={qiq2i_pos1=..11},nbt={Dimension:"minecraft:overworld"}] run function qiq2i_clga1:buff/sp_cavea1
