@@ -3,5 +3,5 @@ execute as @s[scores={qiq2i_1=0}] at @s if entity @a[distance=..8] run playsound
 execute as @s[scores={qiq2i_1=0}] at @s if entity @a[distance=..8] run function qiq2i_clga1:buff/cata1/a1
 execute as @s[scores={qiq2i_1=0}] at @s if entity @a[distance=..8] run scoreboard players set @s qiq2i_1 1
 
-execute as @s[scores={qiq2i_1=1..240}] run scoreboard players add @s qiq2i_1 1
-execute as @s[scores={qiq2i_1=240..}] run scoreboard players set @s qiq2i_1 0
+execute as @s[scores={qiq2i_1=1..60}] run scoreboard players add @s qiq2i_1 1
+execute as @s[scores={qiq2i_1=60..}] run scoreboard players set @s qiq2i_1 0
