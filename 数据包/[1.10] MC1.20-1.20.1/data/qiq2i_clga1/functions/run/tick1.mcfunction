@@ -1,6 +1,7 @@
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea1 if entity @e[type=blaze] run function qiq2i_clga1:buff/blazea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_boata1 if entity @e[type=boat] run function qiq2i_clga1:buff/boata1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cata1 if entity @e[type=cat] run function qiq2i_clga1:buff/cata1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cave_spidera1 if entity @e[type=cave_spider] run function qiq2i_clga1:buff/cave_spidera1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ghasta1 if entity @e[type=ghast] run function qiq2i_clga1:buff/ghasta1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ocelota1 if entity @e[type=ocelot,tag=!qiq2i_clga1_buff_ocelota1,nbt={Trusting:1b}] run function qiq2i_clga1:buff/ocelota1
