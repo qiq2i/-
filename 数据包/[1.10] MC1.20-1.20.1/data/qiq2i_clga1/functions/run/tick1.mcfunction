@@ -5,6 +5,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cave_spidera1 if enti
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_slimea1 if entity @e[type=slime] run function qiq2i_clga1:buff/slimea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_witcha1 if entity @e[type=witch] run function qiq2i_clga1:buff/witcha1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea1 if entity @e[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/zombiea1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombified_piglina1 if entity @e[type=zombified_piglin] run function qiq2i_clga1:buff/zombified_piglina1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ghasta1 if entity @e[type=ghast] run function qiq2i_clga1:buff/ghasta1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ocelota1 if entity @e[type=ocelot,tag=!qiq2i_clga1_buff_ocelota1,nbt={Trusting:1b}] run function qiq2i_clga1:buff/ocelota1
