@@ -4,7 +4,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_snow_golema1 if entit
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1 if entity @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f}] run function qiq2i_clga1:buff/sp_firea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villagera1 if entity @e[type=villager] run function qiq2i_clga1:buff/villagera1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wither_skeletona2 if entity @e[type=wither_skeleton] run function qiq2i_clga1:buff/wither_skeletona2
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea1 if entity @e[type=#qiq2i_clga1:zombie] run function qiq2i_clga1:buff/zombiea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombified_piglina1 if entity @e[type=zombified_piglin] run function qiq2i_clga1:buff/zombified_piglina1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] as @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] at @s run function qiq2i_clga1:buff/sp_pillagera6/mob1_tick1
