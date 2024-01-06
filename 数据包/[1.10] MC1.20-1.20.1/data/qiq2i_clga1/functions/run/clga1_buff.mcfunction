@@ -49,6 +49,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_enderman.a3 if entity
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a1 if entity @s[type=#qiq2i_clga1:mob,tag=!qiq2i_clga1_buff_mob.profession,tag=!qiq2i_clga1_buff_player_mob_chest.a1,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/player_mob_chest.a1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a2 if entity @s[type=#qiq2i_clga1:mob,tag=!qiq2i_clga1_buff_mob.profession,tag=!qiq2i_clga1_buff_player_mob_chest.a2,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/player_mob_chest.a2
 
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 if entity @s[type=spider,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/spidera1
+
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1,predicate=qiq2i_clga1:_0.5] run function qiq2i_clga1:buff/zombie.a5
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a6 if entity @s[type=#qiq2i_clga1:zombie,nbt={IsBaby:1b}] run function qiq2i_clga1:buff/zombie.a6

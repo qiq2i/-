@@ -36,8 +36,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run fun
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera7
 
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 if entity @e[type=spider] run function qiq2i_clga1:buff/spidera1
-
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera2 if entity @e[type=wandering_trader,tag=!qiq2i_clga1_buff_wandering_tradera2] run function qiq2i_clga1:buff/wandering_tradera2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 if entity @e[type=wandering_trader,tag=!qiq2i_clga1_buff_wandering_tradera3] run function qiq2i_clga1:buff/wandering_tradera3
 
