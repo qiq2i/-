@@ -1,3 +1,1 @@
-execute as @s[tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_buff_mob.profession,tag=!qiq2i_clga1_ignore,predicate=qiq2i_clga1:_0.1] run tag @s add qiq2i_clga1_buff_zombiea3
-execute as @s[tag=!qiq2i_clga1_buff,tag=qiq2i_clga1_buff_zombiea3,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombiea3/start
-execute as @s[tag=qiq2i_clga1_buff_zombiea3,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombiea3/a
+execute as @s run function qiq2i_clga1:buff/zombiea3/a
