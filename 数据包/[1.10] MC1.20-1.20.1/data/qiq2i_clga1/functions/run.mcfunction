@@ -50,7 +50,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona3 as @e[type
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2.marker.1] at @s run function qiq2i_clga1:buff/blazea2/marker.1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piga1 as @e[type=pig,tag=qiq2i_clga1_buff_piga1] at @s run function qiq2i_clga1:buff/piga1/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_enderman.a2 as @e[type=enderman,tag=qiq2i_clga1_buff_enderman.a2] if data entity @s AngryAt at @s run function qiq2i_clga1:buff/enderman.a2/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 if entity @e[type=wandering_trader,tag=!qiq2i_clga1_buff_wandering_trader.a4] run function qiq2i_clga1:buff/wandering_trader.a4
