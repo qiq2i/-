@@ -17,14 +17,9 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_magma_cubea1 if entit
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ravagera1 if entity @e[type=ravager] run function qiq2i_clga1:buff/ravagera1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona2 if entity @e[type=skeleton] run function qiq2i_clga1:buff/skeletona2
-
-
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @e[tag=!qiq2i_clga1_buff,type=item,nbt={Item:{tag:{qiq2i_clga1_sp_fishinga1:1}}}] at @s run function qiq2i_clga1:buff/sp_fishinga1
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_fishinga1 as @e[tag=!qiq2i_clga1_buff,type=item] if data entity @s Item.tag.qiq2i_clga1_sp_fishinga1_Item run kill @s
-
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_mobteama1 if entity @e[team=!qiq2i_clga1_mobteama1,type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/sp_mobteama1
 
 ##劫掠召唤
 execute as @e[type=#qiq2i_clga1:raid,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_sp_pillagera1_Mobs1,tag=!qiq2i_clga1_sp_pillagera2_Mobs1,tag=!qiq2i_clga1_sp_pillagera3_Mobs1,tag=!qiq2i_clga1_sp_pillagera4_Mobs1,tag=!qiq2i_clga1_sp_pillagera5_Mobs1,tag=!qiq2i_clga1_sp_pillagera6_Mobs1,tag=!qiq2i_clga1_sp_pillagera7_Mobs1] run tag @s add qiq2i_clga1_sp_pillager.summon
