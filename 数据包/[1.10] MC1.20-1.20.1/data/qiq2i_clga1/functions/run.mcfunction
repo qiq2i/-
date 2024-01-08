@@ -50,8 +50,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona3 as @e[type
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2.marker.1] at @s run function qiq2i_clga1:buff/blazea2/marker.1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 if entity @e[type=wandering_trader,tag=!qiq2i_clga1_buff_wandering_trader.a4] run function qiq2i_clga1:buff/wandering_trader.a4
-
 #特殊 =============================
 execute if entity @a[nbt={Dimension:"minecraft:the_end"}] unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_ender_dragona1 run function qiq2i_clga1:buff/sp_ender_dragona1/start
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_ender_dragona1 run function qiq2i_clga1:buff/sp_ender_dragona1
