@@ -57,6 +57,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_allay.a1 as @e[type=#
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_go_ashore as @a[tag=!qiq2i_admin] at @s run function qiq2i_clga1:buff/player_go_ashore
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 as @e[type=spider,tag=qiq2i_clga1_buff_spidera1] at @s run function qiq2i_clga1:buff/spidera1/spider
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 as @e[tag=qiq2i_clga1_buff_zombiea2] at @s run function qiq2i_clga1:buff/zombiea2/zombie
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a6 as @e[tag=qiq2i_clga1_buff_zombie.a6,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombie.a6/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_fox.a1 as @e[tag=!qiq2i_clga1_buff_fox.a1,tag=!qiq2i_clga1_ignore] if data entity @s Trusted[0] at @s run function qiq2i_clga1:buff/fox.a1/a

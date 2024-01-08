@@ -1,3 +1,12 @@
-execute as @e[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_ignore,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run tag @s add qiq2i_clga1_buff_zombiea2
-
-execute as @e[tag=qiq2i_clga1_buff_zombiea2] at @s run function qiq2i_clga1:buff/zombiea2/zombie
+tag @s add qiq2i_clga1_buff_zombiea2
+tag @s add qiq2i_clga1_buff_mob.profession
+attribute @s minecraft:generic.max_health base set 160
+attribute @s minecraft:generic.attack_knockback base set 10000
+attribute @s minecraft:generic.attack_damage base set 12
+data modify entity @s DeathLootTable set value "qiq2i_clga1:zombiea2"
+execute store result entity @s Health float 1 run attribute @s generic.max_health get
+data modify entity @s CustomName set value '{"text":"§d精英僵尸§f"}'
+data modify entity @s CustomNameVisible set value 1
+data modify entity @s CanPickUpLoot set value false
+data merge entity @s {HandDropChances:[0.0f,0.0f]} 
+execute if data entity @s HandItems[0] run data modify entity @s HandItems[0] set value {Count:1b,id:"minecraft:iron_sword",tag:{Damage:0,Enchantments:[{id:"minecraft:fire_aspect",lvl:10s}],RepairCost:1}}

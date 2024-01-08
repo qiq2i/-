@@ -52,6 +52,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a2 i
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 if entity @s[type=spider,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/spidera1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera2 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera3
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/zombiea2
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1,predicate=qiq2i_clga1:_0.5] run function qiq2i_clga1:buff/zombie.a5
 
