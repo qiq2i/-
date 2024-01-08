@@ -48,7 +48,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 if en
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona3 as @e[type=skeleton,tag=!qiq2i_clga1_ignore] run function qiq2i_clga1:buff/skeletona3
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/blazea2/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2.marker.1] at @s run function qiq2i_clga1:buff/blazea2/marker.1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piga1 as @e[type=pig,tag=qiq2i_clga1_buff_piga1] at @s run function qiq2i_clga1:buff/piga1/a

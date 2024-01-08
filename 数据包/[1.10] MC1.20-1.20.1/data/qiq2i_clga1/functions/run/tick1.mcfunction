@@ -10,6 +10,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_blazea1 as @e[
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_squida1 as @e[type=#qiq2i_clga1:squid,tag=!qiq2i_clga1_buff_player_squida1,tag=!qiq2i_clga1_ignore] run tag @s add qiq2i_clga1_buff_player_squida1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_spidera1 as @e[type=#qiq2i_clga1:spider,tag=!qiq2i_clga1_buff_player_spidera1,tag=!qiq2i_clga1_ignore] run tag @s add qiq2i_clga1_buff_player_spidera1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea3 as @e[type=#qiq2i_clga1:zombie,tag=qiq2i_clga1_buff_zombiea3,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombiea3
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/blazea2/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera6 if entity @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] as @e[tag=qiq2i_clga1_sp_pillagera6_Mobs1] at @s run function qiq2i_clga1:buff/sp_pillagera6/mob1_tick1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_iron_golema1 if entity @e[type=iron_golem] run function qiq2i_clga1:buff/iron_golema1
