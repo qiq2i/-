@@ -9,8 +9,7 @@ execute if score #qiq2i_clga1_run_tick1 qiq2i_1 matches 20.. run scoreboard play
 #####生物初次出现时，需要执行的命令。qiq2i_clga1_buff
 execute as @e[type=!player,tag=!qiq2i_clga1_buff,tag=!qiq2i_clga1_ignore] run function qiq2i_clga1:run/clga1_buff
 
-
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_bata1 run function qiq2i_clga1:buff/bata1
+execute as @e[nbt={Item:{tag:{qiq2i_clga1_bata1:1}}}] run function qiq2i_clga1:buff/bata1/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_llama_spita1 if entity @e[type=llama_spit] run function qiq2i_clga1:buff/llama_spita1
 

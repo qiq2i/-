@@ -54,7 +54,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera2 if
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera3
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a4
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/zombiea2
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea3 if entity @e[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/zombiea3/start
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea3 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/zombiea3/start
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_bata1 if entity @s[type=bat] if predicate qiq2i_clga1:_0.2 run function qiq2i_clga1:buff/bata1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1,predicate=qiq2i_clga1:_0.5] run function qiq2i_clga1:buff/zombie.a5
 
