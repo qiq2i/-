@@ -6,3 +6,4 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villagera1 if entity 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wither_skeletona2 if entity @e[type=wither_skeleton] run function qiq2i_clga1:buff/wither_skeletona2
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 if entity @e[type=creeper] run function qiq2i_clga1:buff/creepera2
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wolfa1 if entity @e[type=wolf] run function qiq2i_clga1:buff/wolfa1

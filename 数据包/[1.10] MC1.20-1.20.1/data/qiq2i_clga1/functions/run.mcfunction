@@ -35,8 +35,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera2 if enti
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera5
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera7
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wolfa1 if entity @e[type=wolf] run function qiq2i_clga1:buff/wolfa1
-
 ##不死图腾附加
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_totem as @e[type=#qiq2i_clga1:firemob] run effect clear @s fire_resistance
 
