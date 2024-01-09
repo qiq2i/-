@@ -47,4 +47,4 @@ execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=101..301}]
 execute as @s[tag=qiq2i_clga1_buff_sp_withera1_skill2,scores={qiq2i_1=401..}] run scoreboard players set @s qiq2i_1 0
 
 # 多首攻击
-execute as @s[nbt={Invul:0},scores={qiq2i_Health1=0..360}] at @s facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..128,sort=nearest,limit=8] eyes if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/withera1/witherskull1a
+execute as @s[nbt={Invul:0},scores={qiq2i_Health1=0..360}] at @s facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..128,sort=nearest,limit=8] feet if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/withera1/witherskull1a
