@@ -4,6 +4,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_snow_golema1 if entit
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1 if entity @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f}] run function qiq2i_clga1:buff/sp_firea1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villagera1 if entity @e[type=villager] run function qiq2i_clga1:buff/villagera1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wither_skeletona2 if entity @e[type=wither_skeleton] run function qiq2i_clga1:buff/wither_skeletona2
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_magma_cubea1 if entity @e[type=magma_cube] as @e[type=magma_cube,tag=qiq2i_clga1_buff_magma_cubea1] at @s if entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,distance=..32] run function qiq2i_clga1:buff/magma_cubea1/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 if entity @e[type=creeper] run function qiq2i_clga1:buff/creepera2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wolfa1 if entity @e[type=wolf] run function qiq2i_clga1:buff/wolfa1

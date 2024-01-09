@@ -57,6 +57,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 if entity @s
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea3 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/zombiea3/start
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_bata1 if entity @s[type=bat] if predicate qiq2i_clga1:_0.2 run function qiq2i_clga1:buff/bata1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona2 if entity @s[type=skeleton,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/skeletona2/skeleton
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_magma_cubea1 if entity @s[type=magma_cube] run function qiq2i_clga1:buff/magma_cubea1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a5 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession,predicate=qiq2i_clga1:_0.1,predicate=qiq2i_clga1:_0.5] run function qiq2i_clga1:buff/zombie.a5
 

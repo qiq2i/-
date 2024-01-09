@@ -13,8 +13,6 @@ execute as @e[nbt={Item:{tag:{qiq2i_clga1_bata1:1}}}] run function qiq2i_clga1:b
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_llama_spita1 if entity @e[type=llama_spit] run function qiq2i_clga1:buff/llama_spita1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_magma_cubea1 if entity @e[type=magma_cube] run function qiq2i_clga1:buff/magma_cubea1
-
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ravagera1 if entity @e[type=ravager] run function qiq2i_clga1:buff/ravagera1
 
 
