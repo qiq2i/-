@@ -14,7 +14,7 @@ execute as @e[tag=qiq2i_clga1_sp_pillager.summon,tag=!qiq2i_clga1_buff,limit=1,s
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera2 if entity @e[type=item,nbt={Item:{tag:{qiq2i_clga1_sp_pillagera2_Mobs1:1}}}] run function qiq2i_clga1:buff/sp_pillagera2/tnt
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera5
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera5 run function qiq2i_clga1:buff/sp_pillagera7
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera7 run function qiq2i_clga1:buff/sp_pillagera7
 
 ##不死图腾附加
 #execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_totem as @e[type=#qiq2i_clga1:firemob] run effect clear @s fire_resistance
