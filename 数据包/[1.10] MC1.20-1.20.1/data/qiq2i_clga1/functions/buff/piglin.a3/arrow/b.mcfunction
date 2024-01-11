@@ -4,4 +4,3 @@ scoreboard players operation #qiq2i_marker_3 qiq2i_1 += #qiq2i_marker_2 qiq2i_1
 execute store result entity @s damage float 1 run scoreboard players get #qiq2i_marker_3 qiq2i_1
 scoreboard players reset #qiq2i_marker_2 qiq2i_1
 scoreboard players reset #qiq2i_marker_3 qiq2i_1
-me 2
