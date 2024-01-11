@@ -65,3 +65,5 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a6 if entity @
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeleton.a5 if entity @s[type=#qiq2i_clga1:skeleton.1] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/skeleton.a5
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeleton.a5 if entity @s[type=arrow] run function qiq2i_clga1:buff/skeleton.a5/arrow/a
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a2 if entity @s[type=piglin] run function qiq2i_clga1:buff/piglin.a2

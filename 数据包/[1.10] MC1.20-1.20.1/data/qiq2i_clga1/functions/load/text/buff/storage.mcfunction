@@ -127,5 +127,5 @@ data modify storage qiq2i_clga1:text buff append value {id:player_go_ashore,leve
 data modify storage qiq2i_clga1:text buff append value {id:zombie.a6,level:{1:["§9小僵尸骑士","小僵尸会主动骑上附近的生物。","小僵尸学会了借助外力，来更好地达成自己的目的。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:fox.a1,level:{1:["§9狐狸们对友情的重视","狐狸有其信任的玩家后，狐狸的生命值和攻击力等属性会有提升，且拥有永久地生命恢复效果。","狐狸们重视这十分珍贵的友情，它们会训练自身,以适应这日益恶化的生存环境，并更好地保护它们想要保护地伙伴。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:cat.a2,level:{1:["§9猫咪震慑","被驯服的猫会延长附近苦力怕膨胀爆炸所需的时间。","猫咪可以驱赶苦力怕，就算苦力怕被点燃了，苦力怕会因畏惧猫咪的尊容而在点燃自身的过程中手忙脚乱。"]}}
-
 data modify storage qiq2i_clga1:text buff append value {id:skeleton.a5,level:{1:["§9骷髅的平散弓","少数骷髅配备了平散弓，能够在同一时间射出多支箭矢。","骷髅的箭矢科技得到了进一步提升，该箭矢的发明使得骷髅的猎物难逃此箭，但也极大地提高了误伤友军率。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:piglin.a2,level:{1:["§9猪灵文明——精炼装甲","新刷新的猪灵会穿上精良的装备。","猪灵文明在地狱发展出了完整的矿业体系，以及拥有完善的装备产业，故猪灵们已经能够廉价地获得更好的装备。"]}}
