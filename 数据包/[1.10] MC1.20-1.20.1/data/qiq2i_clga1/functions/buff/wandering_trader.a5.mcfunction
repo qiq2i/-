@@ -1,0 +1,2 @@
+function qiq2i_clga1:buff/wandering_trader.a5/wandering_trader
+tag @s add qiq2i_clga1_buff_wandering_trader.a5

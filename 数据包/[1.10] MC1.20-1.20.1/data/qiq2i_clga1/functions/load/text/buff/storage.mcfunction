@@ -131,4 +131,5 @@ data modify storage qiq2i_clga1:text buff append value {id:skeleton.a5,level:{1:
 data modify storage qiq2i_clga1:text buff append value {id:piglin.a2,level:{1:["§9猪灵文明——精炼装甲","新刷新的猪灵会穿上精良的装备。","猪灵文明在地狱发展出了完整的矿业体系，以及拥有完善的装备产业，故猪灵们已经能够廉价地获得更好的装备。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin.a3,level:{1:["§9猪灵文明——重型弩箭","新刷新的猪灵会使用经改装的重型弩箭。","猪灵文明已能生产出精致的重型弩箭，且拥有完善的配套产业，大部分猪灵正练习使用该弩箭。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin.a4,level:{1:["§9猪灵文明——愈疗师","新刷新的猪灵可能会成为愈疗师，治疗附近的猪灵。","为应对战斗阶段中的治疗需求，愈疗师会使用治疗光环，便捷地且应急地治疗伤员。"]}}
-data modify storage qiq2i_clga1:text buff append value {id:piglin.a5,level:{1:["§9猪灵文明——剑客","新刷新的猪灵可能会成为剑客。","部分猪灵对于金剑的运用达到了精通，极大提高了自身的攻击力，在战斗过程中会向敌人突进和横斩"]}}
+data modify storage qiq2i_clga1:text buff append value {id:piglin.a5,level:{1:["§9猪灵文明——剑客","新刷新的猪灵可能会成为剑客。","部分猪灵对于金剑的运用达到了精通，极大提高了自身的攻击力，在战斗过程中会向敌人突进和横斩。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:wandering_trader.a5,level:{1:["§9刷怪商人","流浪商人现在会兜售刷怪笼和部分刷怪蛋了。","对于流浪商人来说，世间没有任何不可获得之物，只有尚未发现如何获得之物。流浪商人兜售刷怪蛋的行为使怪物界为之震动，并强烈要求商人公开其渠道。"]}}
