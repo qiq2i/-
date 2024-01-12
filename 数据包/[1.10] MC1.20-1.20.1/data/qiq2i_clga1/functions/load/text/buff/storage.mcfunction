@@ -130,3 +130,4 @@ data modify storage qiq2i_clga1:text buff append value {id:cat.a2,level:{1:["§9
 data modify storage qiq2i_clga1:text buff append value {id:skeleton.a5,level:{1:["§9骷髅的平散弓","少数骷髅配备了平散弓，能够在同一时间射出多支箭矢。","骷髅的箭矢科技得到了进一步提升，该箭矢的发明使得骷髅的猎物难逃此箭，但也极大地提高了误伤友军率。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin.a2,level:{1:["§9猪灵文明——精炼装甲","新刷新的猪灵会穿上精良的装备。","猪灵文明在地狱发展出了完整的矿业体系，以及拥有完善的装备产业，故猪灵们已经能够廉价地获得更好的装备。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:piglin.a3,level:{1:["§9猪灵文明——重型弩箭","新刷新的猪灵会使用经改装的重型弩箭。","猪灵文明已能生产出精致的重型弩箭，且拥有完善的配套产业，大部分猪灵正练习使用该弩箭。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:piglin.a4,level:{1:["§9猪灵文明——愈疗师","新刷新的猪灵可能会成为愈疗师，治疗附近的猪灵。","为应对战斗阶段中的治疗需求，愈疗师会使用治疗光环，便捷地且应急地治疗伤员。"]}}

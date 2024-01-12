@@ -1,0 +1,1 @@
+effect give @e[type=piglin,distance=..6] regeneration 4 1 true

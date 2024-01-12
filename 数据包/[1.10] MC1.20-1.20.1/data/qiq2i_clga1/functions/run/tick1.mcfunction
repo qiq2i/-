@@ -71,6 +71,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 as @e[tag=qi
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombie.a6 as @e[tag=qiq2i_clga1_buff_zombie.a6,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/zombie.a6/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_fox.a1 as @e[tag=!qiq2i_clga1_buff_fox.a1,tag=!qiq2i_clga1_ignore] if data entity @s Trusted[0] at @s run function qiq2i_clga1:buff/fox.a1/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cat.a2 as @e[tag=!qiq2i_clga1_ignore] if data entity @s Owner at @s run function qiq2i_clga1:buff/cat.a2/a
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a4 as @e[tag=qiq2i_clga1_buff_piglin.a4,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/piglin.a4/a
 #怪物效果
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost
