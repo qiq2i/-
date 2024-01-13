@@ -74,6 +74,11 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_cat.a2 as @e[tag=!qiq
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a4 as @e[tag=qiq2i_clga1_buff_piglin.a4,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/piglin.a4/a
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a5 as @e[tag=qiq2i_clga1_buff_piglin.a5,tag=!qiq2i_clga1_ignore] at @s run function qiq2i_clga1:buff/piglin.a5/a
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera2 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera2
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera3
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a4
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a5 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a5
 #怪物效果
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost

@@ -50,9 +50,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a1 i
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_mob_chest.a2 if entity @s[type=#qiq2i_clga1:mob,tag=!qiq2i_clga1_buff_mob.profession,tag=!qiq2i_clga1_buff_player_mob_chest.a2,predicate=qiq2i_clga1:_0.1] run function qiq2i_clga1:buff/player_mob_chest.a2
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spidera1 if entity @s[type=spider,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/spidera1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera2 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera2
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_tradera3
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a4
+
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea2 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 if predicate qiq2i_clga1:_0.5 run function qiq2i_clga1:buff/zombiea2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_zombiea3 if entity @s[type=#qiq2i_clga1:zombie,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/zombiea3/start
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_bata1 if entity @s[type=bat] if predicate qiq2i_clga1:_0.2 run function qiq2i_clga1:buff/bata1
@@ -70,4 +68,3 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a2 if entity @
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a3 if entity @s[type=piglin] if data entity @s HandItems[{id:"minecraft:crossbow"}] run function qiq2i_clga1:buff/piglin.a3
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a4 if entity @s[type=piglin,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/piglin.a4
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a5 if entity @s[type=piglin,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/piglin.a5
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a5 if entity @s[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a5
