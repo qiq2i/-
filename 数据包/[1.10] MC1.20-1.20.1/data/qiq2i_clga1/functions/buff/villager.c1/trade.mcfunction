@@ -1,0 +1,2 @@
+tag @s add qiq2i_clga1_buff_villager.c1_trade
+execute run data modify entity @s Offers.Recipes append value {maxUses: 1, buy: {id: "minecraft:book", Count: 18b}, buyB: {id: "minecraft:emerald", Count: 1b}, sell: {id: "minecraft:grindstone", Count: 1b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
