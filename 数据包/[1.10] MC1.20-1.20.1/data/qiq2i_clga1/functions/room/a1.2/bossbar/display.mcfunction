@@ -1,4 +1,4 @@
-bossbar add qiq2i_clga1_rooma1.2_1 1
+bossbar add qiq2i_clga1_rooma1.2_1 "1"
 bossbar set qiq2i_clga1_rooma1.2_1 max 1200
 bossbar set qiq2i_clga1_rooma1.2_1 name {"text":"","extra":[{"text":"§f§l像素模型骷髅§e[§f1200§e\\"},{"score":{"objective": "qiq2i_1","name": "#qiq2i_clga1_rooma1.2_boss_Health"}},{"text":"§e]"}]}
 

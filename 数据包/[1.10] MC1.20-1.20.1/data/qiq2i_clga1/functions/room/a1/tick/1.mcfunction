@@ -11,7 +11,7 @@ execute align xyz run fill ~ ~48 ~ ~47 ~48 ~47 barrier
 
 summon zombie 24.0 6 24.0 {Tags:["qiq2i_clga1_room_mob","qiq2i_clga1_rooma1_bossa1","qiq2i_clga1_ignore"],PersistenceRequired:1b}
 
-bossbar add qiq2i_clga1_rooma1_1 1
+bossbar add qiq2i_clga1_rooma1_1 "1"
 bossbar set qiq2i_clga1_rooma1_1 color red
 bossbar set qiq2i_clga1_rooma1_1 style notched_10
 bossbar set qiq2i_clga1_rooma1_1 max 1200

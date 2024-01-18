@@ -1,4 +1,4 @@
-bossbar add qiq2i_clga1_rooma1_1_skill_2 1
+bossbar add qiq2i_clga1_rooma1_1_skill_2 "1"
 bossbar set qiq2i_clga1_rooma1_1_skill_2 color green
 bossbar set qiq2i_clga1_rooma1_1_skill_2 players @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}]
 
