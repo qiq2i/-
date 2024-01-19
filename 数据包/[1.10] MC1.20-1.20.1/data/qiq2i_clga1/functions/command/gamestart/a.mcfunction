@@ -1,5 +1,5 @@
 scoreboard players reset @s Clga1_command
-tellraw @s [{"text":"/n/n"}]
+tellraw @s [{"text":""},{"text":""}]
 tellraw @s [{"text":"[","bold": true},{"nbt":"title.name","storage":"qiq2i_clga1:text","bold": true},{"text":"] ","bold": true},{"text":"["},{"nbt":"title.version","storage":"qiq2i_clga1:text","bold": true},{"text":"]"}]
 tellraw @s {"text":"","extra":[{"text":"现在可以进行开局设置，点击最下方的“开始”即可正式启动数据包。默认值为标准难度，可以根据自身来调节游戏难度。开始后可以输入/trigger Clga1_command set 1来修改规则，不过需要作弊权限。"}]}
 
