@@ -135,3 +135,4 @@ data modify storage qiq2i_clga1:text buff append value {id:piglin.a5,level:{1:["
 data modify storage qiq2i_clga1:text buff append value {id:wandering_trader.a5,level:{1:["§9刷怪商人","流浪商人现在会兜售刷怪笼和部分刷怪蛋了。","对于流浪商人来说，世间没有任何不可获得之物，只有尚未发现如何获得之物。流浪商人兜售刷怪蛋的行为使怪物界为之震动，并强烈要求商人公开其渠道。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:villager.c1,level:{1:["§9傀儡研究员","二级及以上的图书管理员会对铁傀儡进行大量地学习和研究，每过一段时间会对铁傀儡进行升级。同时，玩家可以通过与图书管理员交互从而促进其研究进程。","身处知识海洋的图书管理员在工作之余阅读了大量关于铁傀儡的书籍，并创造性地改良了守护村庄的铁傀儡，被升级的铁傀儡会获得特殊技能。这是村庄受到怪物日益增强的威胁之下的历史必然。"]}}
 data modify storage qiq2i_clga1:text buff append value {id:spider.a3,level:{1:["§9微型蜘蛛","新刷新的少数蜘蛛和洞穴蜘蛛，其体型会缩小。","这才是正常大小的蜘蛛，但蜘蛛的其他属性不变。"]}}
+data modify storage qiq2i_clga1:text buff append value {id:animal.size.a1,level:{1:["§9巨型小动物","新刷新的动物，其体型有概率会变大。","巨大的躯体会使得生存更加容易吗？其实不然，愈大的身体意味着愈大的能量消耗、愈缓慢的行动速度、愈难察觉到微小的目标，不过自身拥有的能量的数量级远大于放大前，此前同等实力的敌人将不再是威胁，不同数量级大小的生物有着不同的生存境遇。"]}}

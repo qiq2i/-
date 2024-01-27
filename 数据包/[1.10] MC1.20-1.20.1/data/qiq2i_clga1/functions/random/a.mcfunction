@@ -276,6 +276,7 @@ execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a5 run sum
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a5 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:wandering_trader.a5,level:1}}
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.c1 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:villager.c1,level:1}}
 execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_spider.a3 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:spider.a3,level:1}}
+execute unless data storage qiq2i_clga1_event buff.qiq2i_clga1_animal.size.a1 run summon minecraft:marker 0 1 0 {Tags:["qiq2i","qiq2i_clga1_random1"],data:{buffid:animal.size.a1,level:1}}
 ##随机，启动！
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run scoreboard players add #qiq2i_clga1_AddCount qiq2i_1 1
 execute as @e[tag=qiq2i_clga1_random1,limit=1,sort=random] run function qiq2i_clga1:random/storage
