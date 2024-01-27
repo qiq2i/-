@@ -68,3 +68,4 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a2 if entity @
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a3 if entity @s[type=piglin] if data entity @s HandItems[{id:"minecraft:crossbow"}] run function qiq2i_clga1:buff/piglin.a3
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a4 if entity @s[type=piglin,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/piglin.a4
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_piglin.a5 if entity @s[type=piglin,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.3 run function qiq2i_clga1:buff/piglin.a5
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_spider.a3 if entity @s[type=#qiq2i_clga1:spider,tag=!qiq2i_clga1_buff_mob.profession] if predicate qiq2i_clga1:_0.1 run function qiq2i_clga1:buff/spider.a3
