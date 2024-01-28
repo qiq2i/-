@@ -1,0 +1,2 @@
+function qiq2i_boss:crimson_liquefaction_goo/summon
+kill @s

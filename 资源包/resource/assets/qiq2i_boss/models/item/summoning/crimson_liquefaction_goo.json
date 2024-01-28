@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "qiq2i_boss:item/summoning/crimson_liquefaction_goo"
+    }
+}

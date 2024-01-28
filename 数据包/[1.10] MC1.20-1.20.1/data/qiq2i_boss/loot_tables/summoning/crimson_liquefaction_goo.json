@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002021,qiq2i_boss_summoning:\"crimson_liquefaction_goo\",display:{Name:'{\"text\":\"§e“赤炼凝胶”召唤之星\"}',Lore:['{\"text\":\"§f可用于召唤“赤炼凝胶”，这是一只萌萌的史莱姆。\"}','{\"text\":\"§f推荐装备：满附魔钻石装备、弓、弩。\"}','{\"text\":\"§f特性：低攻击力、高连击数、会小范围拆方块。\"}']},EntityTag:{Tags:[\"qiq2i_boss_summoning.crimson_liquefaction_goo\"],active_effects:[{id:\"minecraft:invisibility\",amplifier:1,duration:20}]}}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  

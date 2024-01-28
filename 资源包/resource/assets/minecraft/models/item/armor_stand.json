@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/armor_stand"
+  },
+  "overrides": [
+    {
+      "predicate": {"custom_model_data": 2002021},
+      "model": "qiq2i_boss:item/summoning/crimson_liquefaction_goo"
+    }
+  ]
+}
