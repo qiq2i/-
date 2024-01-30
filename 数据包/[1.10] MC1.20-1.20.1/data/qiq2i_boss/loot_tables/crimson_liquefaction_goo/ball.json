@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:2002021,qiq2i_boss_item:\"crimson_liquefaction_goo.ball\",display:{Name:'{\"text\":\"§e赤炼球\"}'}}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+          }
+        ]
+      }
+    ]
+  }
+  
