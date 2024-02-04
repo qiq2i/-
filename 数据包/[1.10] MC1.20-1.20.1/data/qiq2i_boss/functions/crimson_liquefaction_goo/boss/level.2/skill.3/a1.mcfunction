@@ -1,0 +1,1 @@
+execute at @s run function qiq2i_boss:crimson_liquefaction_goo/boss/level.2/skill.3/motion.1

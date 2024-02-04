@@ -147,3 +147,6 @@ execute if entity @s[advancements={minecraft:husbandry/plant_any_sniffer_seed=tr
 execute if entity @s[advancements={minecraft:adventure/salvage_sherd=true}] run function qiq2i_clga1:player_attribute/task
 execute if entity @s[advancements={minecraft:adventure/trim_with_all_exclusive_armor_patterns=true}] run function qiq2i_clga1:player_attribute/challenge
 execute if entity @s[advancements={minecraft:husbandry/obtain_sniffer_egg=true}] run function qiq2i_clga1:player_attribute/task
+
+
+execute if entity @s[advancements={qiq2i_clga1:boss/crimson_liquefaction_goo=true}] run function qiq2i_clga1:player_attribute/challenge
