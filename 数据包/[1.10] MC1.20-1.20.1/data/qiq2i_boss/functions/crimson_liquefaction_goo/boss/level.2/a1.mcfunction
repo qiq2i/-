@@ -18,3 +18,5 @@ execute if score @s qiq2i_1 matches 100.. run data modify entity @s Invulnerable
 execute if score @s qiq2i_1 matches 100.. run tag @s remove qiq2i_boss.crimson_liquefaction_goo.1_level.2.a1
 execute if score @s qiq2i_1 matches 100.. run tag @s add qiq2i_boss.crimson_liquefaction_goo.1_level.2.b1
 execute if score @s qiq2i_1 matches 100.. run scoreboard players reset @s qiq2i_1
+
+execute at @s run tp @s ~ ~ ~ ~10 0
