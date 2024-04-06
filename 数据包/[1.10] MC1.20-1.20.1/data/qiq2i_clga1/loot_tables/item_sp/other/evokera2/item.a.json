@@ -12,7 +12,7 @@
                             "function": "set_components",
                             "components": {
                                 "unbreakable": {
-                                    "show_in_tooltip": 0
+                                    "show_in_tooltip": false
                                 },
                                 "custom_name": "{\"text\":\"§e剧毒粉尘\"}",
                                 "custom_model_data": 2002022,

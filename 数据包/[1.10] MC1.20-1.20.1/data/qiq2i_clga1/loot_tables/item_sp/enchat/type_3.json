@@ -15,7 +15,7 @@
                                     "levels": {
                                         "minecraft:unbreaking": 1
                                     },
-                                    "show_in_tooltip": 0
+                                    "show_in_tooltip": false
                                 },
                                 "custom_name": "{\"text\":\"§e力量宝石I\"}",
                                 "custom_model_data": 2002023,

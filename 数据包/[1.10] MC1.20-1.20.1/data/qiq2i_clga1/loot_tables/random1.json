@@ -17,7 +17,7 @@
                                         "min": 1e-08,
                                         "max": 3.99999999
                                     },
-                                    "operation": "addition",
+                                    "operation": "add_value",
                                     "slot": "mainhand"
                                 }
                             ]

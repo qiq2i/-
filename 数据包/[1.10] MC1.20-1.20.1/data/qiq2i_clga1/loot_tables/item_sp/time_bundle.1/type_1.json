@@ -12,13 +12,13 @@
                             "function": "set_components",
                             "components": {
                                 "unbreakable": {
-                                    "show_in_tooltip": 0
+                                    "show_in_tooltip": false
                                 },
                                 "enchantments": {
                                     "levels": {
                                         "minecraft:unbreaking": 1
                                     },
-                                    "show_in_tooltip": 0
+                                    "show_in_tooltip": false
                                 },
                                 "custom_name": "{\"text\":\"§6时空口袋\"}",
                                 "custom_model_data": 2002031,
