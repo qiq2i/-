@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/other/build.1"
+            "value": "qiq2i_clga1:item_sp/other/build.1"
           }
         ]
       }

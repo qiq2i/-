@@ -6,115 +6,115 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_1"
+                    "value": "qiq2i_clga1:item_sp/food/type_1"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_2"
+                    "value": "qiq2i_clga1:item_sp/food/type_2"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_3"
+                    "value": "qiq2i_clga1:item_sp/food/type_3"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_4"
+                    "value": "qiq2i_clga1:item_sp/food/type_4"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_5"
+                    "value": "qiq2i_clga1:item_sp/food/type_5"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_6"
+                    "value": "qiq2i_clga1:item_sp/food/type_6"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_7"
+                    "value": "qiq2i_clga1:item_sp/food/type_7"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_8"
+                    "value": "qiq2i_clga1:item_sp/food/type_8"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_9"
+                    "value": "qiq2i_clga1:item_sp/food/type_9"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_10"
+                    "value": "qiq2i_clga1:item_sp/food/type_10"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_11"
+                    "value": "qiq2i_clga1:item_sp/food/type_11"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_12"
+                    "value": "qiq2i_clga1:item_sp/food/type_12"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_13"
+                    "value": "qiq2i_clga1:item_sp/food/type_13"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_14"
+                    "value": "qiq2i_clga1:item_sp/food/type_14"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_15"
+                    "value": "qiq2i_clga1:item_sp/food/type_15"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_16"
+                    "value": "qiq2i_clga1:item_sp/food/type_16"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_17"
+                    "value": "qiq2i_clga1:item_sp/food/type_17"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_18"
+                    "value": "qiq2i_clga1:item_sp/food/type_18"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_19"
+                    "value": "qiq2i_clga1:item_sp/food/type_19"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_20"
+                    "value": "qiq2i_clga1:item_sp/food/type_20"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_21"
+                    "value": "qiq2i_clga1:item_sp/food/type_21"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_22"
+                    "value": "qiq2i_clga1:item_sp/food/type_22"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/type_23"
+                    "value": "qiq2i_clga1:item_sp/food/type_23"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/guilin_rice_noodles"
+                    "value": "qiq2i_clga1:item_sp/food/guilin_rice_noodles"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/hezhou_sanbao_brew"
+                    "value": "qiq2i_clga1:item_sp/food/hezhou_sanbao_brew"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/wuzhou_paper_wrapped_chicken"
+                    "value": "qiq2i_clga1:item_sp/food/wuzhou_paper_wrapped_chicken"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/braised_pork"
+                    "value": "qiq2i_clga1:item_sp/food/braised_pork"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/food/fujian_fotiaoqiang"
+                    "value": "qiq2i_clga1:item_sp/food/fujian_fotiaoqiang"
                 }
             ]
         }

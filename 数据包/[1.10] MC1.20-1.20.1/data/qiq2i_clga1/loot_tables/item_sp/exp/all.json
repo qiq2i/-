@@ -6,23 +6,23 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_1"
+                    "value": "qiq2i_clga1:item_sp/exp/type_1"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_2"
+                    "value": "qiq2i_clga1:item_sp/exp/type_2"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_3"
+                    "value": "qiq2i_clga1:item_sp/exp/type_3"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_4"
+                    "value": "qiq2i_clga1:item_sp/exp/type_4"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_5"
+                    "value": "qiq2i_clga1:item_sp/exp/type_5"
                 }
             ]
         }

@@ -161,7 +161,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "qiq2i_clga1:clga1_buff/sp_fisha1/a"
+          "value": "qiq2i_clga1:clga1_buff/sp_fisha1/a"
         }
       ],
       "conditions": [

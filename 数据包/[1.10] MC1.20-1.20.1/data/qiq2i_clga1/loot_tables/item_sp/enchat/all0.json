@@ -6,51 +6,51 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_1"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_1"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_2"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_2"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_3"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_3"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_4"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_4"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_5"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_5"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_6"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_6"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_7"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_7"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_8"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_8"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_9"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_9"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_10"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_10"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_11"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_11"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/type_12"
+                    "value": "qiq2i_clga1:item_sp/enchat/type_12"
                 }
             ]
         }

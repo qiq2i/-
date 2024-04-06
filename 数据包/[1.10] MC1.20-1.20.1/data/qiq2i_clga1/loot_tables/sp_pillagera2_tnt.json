@@ -7,7 +7,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:sp_pillagera_mob1",
+                    "value": "qiq2i_clga1:sp_pillagera_mob1",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

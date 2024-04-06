@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/bow/type.2/lvl1",
+                    "value": "qiq2i_clga1:item_sp/bow/type.2/lvl1",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",
@@ -30,7 +30,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/exp/type_1",
+                    "value": "qiq2i_clga1:item_sp/exp/type_1",
                     "functions": [
                         {
                             "function": "minecraft:set_count",

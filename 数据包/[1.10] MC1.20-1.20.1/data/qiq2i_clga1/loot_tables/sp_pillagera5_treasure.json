@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/all0",
+                    "value": "qiq2i_clga1:item_sp/enchat/all0",
                     "weight": 1,
                     "functions": [
                         {
@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/enchat/all1",
+                    "value": "qiq2i_clga1:item_sp/enchat/all1",
                     "weight": 1,
                     "functions": [
                         {
@@ -44,7 +44,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/weapon/sp_pillagera5_sword.1"
+                    "value": "qiq2i_clga1:item_sp/weapon/sp_pillagera5_sword.1"
                 }
             ]
         },

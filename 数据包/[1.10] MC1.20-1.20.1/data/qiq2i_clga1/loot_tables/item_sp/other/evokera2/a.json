@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:item_sp/other/evokera2/item.a"
+                    "value": "qiq2i_clga1:item_sp/other/evokera2/item.a"
                 }
             ]
         },
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:entities/evoker"
+                    "value": "minecraft:entities/evoker"
                 }
             ]
         },
@@ -24,7 +24,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "qiq2i_clga1:sp_pillagera_mob1"
+                    "value": "qiq2i_clga1:sp_pillagera_mob1"
                 }
             ]
         }
