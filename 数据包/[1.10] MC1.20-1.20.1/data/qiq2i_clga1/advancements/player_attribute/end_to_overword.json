@@ -1,19 +1,19 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:player_attribute/dead"
+        "function": "qiq2i_clga1:player_attribute/dead"
     },
     "criteria": {
-      "a": {
-        "trigger": "minecraft:changed_dimension",
-        "conditions": {
-            "from": "minecraft:the_end",
-            "to": "minecraft:overworld"
+        "a": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_end",
+                "to": "minecraft:overworld"
+            }
         }
-      }
     },
     "requirements": [
-      [
-        "a"
-      ]
+        [
+            "a"
+        ]
     ]
-  }
+}

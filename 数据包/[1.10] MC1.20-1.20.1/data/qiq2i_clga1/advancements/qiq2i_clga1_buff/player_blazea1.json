@@ -1,16 +1,16 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_blazea1"
+        "function": "qiq2i_clga1:buff/player_blazea1"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:player_hurt_entity",
-         "conditions": {
-             "entity": {
-                 "type": "minecraft:blaze",
-                 "nbt": "{Tags:[\"qiq2i_clga1_buff_player_blazea1\"]}"
-             }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze",
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_blazea1\"]}"
+                }
+            }
+        }
     }
-  }
+}

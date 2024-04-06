@@ -1,17 +1,17 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_huska1"
+        "function": "qiq2i_clga1:buff/player_huska1"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:entity_hurt_player",
-         "conditions": {
-             "damage": {
-              "source_entity": {
-                "type": "minecraft:husk"
-              }
-             }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:husk"
+                    }
+                }
+            }
+        }
     }
-  }
+}

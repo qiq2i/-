@@ -1,15 +1,15 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:item_sp/food/fujian_fotiaoqiang"
+        "function": "qiq2i_clga1:item_sp/food/fujian_fotiaoqiang"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:consume_item",
-         "conditions": {
-           "item": {
-             "nbt": "{qiq2i_clga1_food:\"fujian_fotiaoqiang\"}"
-           }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{qiq2i_clga1_food:\"fujian_fotiaoqiang\"}"
+                }
+            }
+        }
     }
-  }
+}

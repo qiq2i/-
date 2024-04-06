@@ -1,33 +1,40 @@
 {
-  "parent": "qiq2i_clga1:common/exp/exp1",
-  "display": {
-    "icon": {
-      "item": "minecraft:dried_kelp",
-      "nbt": "{CustomModelData:2002023,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+    "parent": "qiq2i_clga1:common/exp/exp1",
+    "display": {
+        "icon": {
+            "id": "minecraft:dried_kelp",
+            "components": {
+                "enchantments": {
+                    "levels": {
+                        "minecraft:unbreaking": 1
+                    }
+                },
+                "custom_model_data": 2002023
+            }
+        },
+        "title": {
+            "text": "浑身都是经验"
+        },
+        "description": {
+            "text": "§e经验等级达到120"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "title": {
-      "text": "浑身都是经验"
+    "rewards": {
+        "experience": 100,
+        "function": "qiq2i_clga1:player_attribute/challenge"
     },
-    "description": {
-      "text": "§e经验等级达到120"
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
     },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "rewards": {
-    "experience": 100,
-    "function": "qiq2i_clga1:player_attribute/challenge"
-  },
-  "criteria": {
-    "1": {
-      "trigger": "minecraft:impossible"
-    }
-  },
-  "requirements": [
-    [
-      "1"
+    "requirements": [
+        [
+            "1"
+        ]
     ]
-  ]
 }

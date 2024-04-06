@@ -1,15 +1,15 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:item_sp/food/qiq2i_food.1003"
+        "function": "qiq2i_clga1:item_sp/food/qiq2i_food.1003"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:consume_item",
-         "conditions": {
-           "item": {
-             "nbt": "{qiq2i_clga1_food:1003}"
-           }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{qiq2i_clga1_food:1003}"
+                }
+            }
+        }
     }
-  }
+}

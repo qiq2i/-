@@ -1,46 +1,49 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_squida1"
+        "function": "qiq2i_clga1:buff/player_squida1"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:player_hurt_entity",
-         "conditions": {
-           "entity": {
-               "type": "minecraft:squid",
-               "nbt": "{Tags:[\"qiq2i_clga1_buff_player_squida1\"]}"
-           },
-           "damage": {
-               "type": {
-                   "is_explosion": false,
-                   "is_fire": false,
-                   "is_lightning": false,
-                   "is_projectile": false,
-                   "is_magic": false
-               }
-           }
-         }
-       },
-       "2":{
-        "trigger": "minecraft:player_hurt_entity",
-        "conditions": {
-          "entity": {
-              "type": "minecraft:glow_squid",
-              "nbt": "{Tags:[\"qiq2i_clga1_buff_player_squida1\"]}"
-          },
-          "damage": {
-              "type": {
-                  "is_explosion": false,
-                  "is_fire": false,
-                  "is_lightning": false,
-                  "is_projectile": false,
-                  "is_magic": false
-              }
-          }
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:squid",
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_squida1\"]}"
+                },
+                "damage": {
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_projectile": false,
+                        "is_magic": false
+                    }
+                }
+            }
+        },
+        "2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:glow_squid",
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_squida1\"]}"
+                },
+                "damage": {
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_projectile": false,
+                        "is_magic": false
+                    }
+                }
+            }
         }
-      }
     },
     "requirements": [
-      ["1","2"]
+        [
+            "1",
+            "2"
+        ]
     ]
-  }
+}

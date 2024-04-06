@@ -1,15 +1,15 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_mob_chest.a1/a"
+        "function": "qiq2i_clga1:buff/player_mob_chest.a1/a"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:player_hurt_entity",
-         "conditions": {
-             "entity": {
-                 "nbt": "{Tags:[\"qiq2i_clga1_buff_player_mob_chest.a1\"]}"
-             }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_mob_chest.a1\"]}"
+                }
+            }
+        }
     }
-  }
+}

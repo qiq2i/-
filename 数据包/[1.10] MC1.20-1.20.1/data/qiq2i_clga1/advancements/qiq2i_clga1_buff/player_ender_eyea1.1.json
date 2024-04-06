@@ -1,10 +1,10 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_ender_eyea1"
+        "function": "qiq2i_clga1:buff/player_ender_eyea1"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:used_ender_eye"
-       }
+        "1": {
+            "trigger": "minecraft:used_ender_eye"
+        }
     }
-  }
+}

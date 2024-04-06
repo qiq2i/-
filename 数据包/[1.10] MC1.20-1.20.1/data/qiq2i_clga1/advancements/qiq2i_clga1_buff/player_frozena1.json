@@ -1,10 +1,10 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:buff/player_frozena1"
+        "function": "qiq2i_clga1:buff/player_frozena1"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:entity_hurt_player"
-       }
+        "1": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
     }
-  }
+}

@@ -1,15 +1,15 @@
 {
     "rewards": {
-      "function": "qiq2i_clga1:item_sp/totem_of_dying/10"
+        "function": "qiq2i_clga1:item_sp/totem_of_dying/10"
     },
     "criteria": {
-       "1":{
-         "trigger": "minecraft:used_totem",
-         "conditions": {
-           "item": {
-             "nbt": "{qiq2i_clga1_totem_of_undying:10}"
-           }
-         }
-       }
+        "1": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "nbt": "{qiq2i_clga1_totem_of_undying:10}"
+                }
+            }
+        }
     }
-  }
+}
