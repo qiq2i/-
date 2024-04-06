@@ -38,4 +38,4 @@ execute rotated ~135 ~ positioned ^ ^ ^-8 run function qiq2i_clga1:item_sp/other
 execute rotated ~135 ~ positioned ^ ^ ^-12 run function qiq2i_clga1:item_sp/other/torch.2/b1
 execute rotated ~135 ~ positioned ^ ^ ^-16 run function qiq2i_clga1:item_sp/other/torch.2/b1
 
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"torch.2"}} 1
+clear @s carrot_on_a_stick[custom_data={qiq2i_clga1_item_sp.other: {id: "torch.2"}}] 1
