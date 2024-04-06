@@ -1,25 +1,30 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cookie",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200228, qiq2i_clga1_food:15, display:{Name:'{\"text\":\"§b芥末\"}',Lore:['{\"text\":\"§e\"}']}}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§b芥末\"}",
+                                "custom_model_data": 200228,
+                                "custom_data": {
+                                    "qiq2i_clga1_food": 15
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

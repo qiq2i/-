@@ -1,25 +1,30 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:mushroom_stew",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200233, qiq2i_clga1_food:23, display:{Name:'{\"text\":\"§b生榨米粉\"}',Lore:['{\"text\":\"§f\"}']}}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:mushroom_stew",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§b生榨米粉\"}",
+                                "custom_model_data": 200233,
+                                "custom_data": {
+                                    "qiq2i_clga1_food": 23
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

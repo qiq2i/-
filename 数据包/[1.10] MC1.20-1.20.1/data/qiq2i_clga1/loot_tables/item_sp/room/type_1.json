@@ -1,25 +1,33 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bat_spawn_egg",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{display:{Name:'{\"text\":\"§2§l中央林园 §b精致的玩具模型\"}',Lore:['{\"text\":\"§e一个非常精致的模型\"}','{\"text\":\"§e而且栩栩如生，就像真的一样（强行解释）\"}','{\"text\":\"§e一个非常精致的模型\"}','{\"text\":\"\"}','{\"text\":\"§e提示：该模型道具需右键一个方块来使用\"}','{\"text\":\"§e放置后无法撤回！使用前请三思\"}','{\"text\":\"§e放置后，模型会在15秒后会将8格内的玩家传送进模型里\"}','{\"text\":\"§e击杀模型里的怪物，能够获得奖励\"}','{\"text\":\"§e在模型里的玩家死亡后不会掉落物品和经验\"}','{\"text\":\"§e模型开启后若模型里没人，将会破碎成经验\"}']},CustomModelData:2002021,EntityTag:{id:\"minecraft:marker\",Tags:[\"qiq2i_clga1_rooma1_marker_test\"]},qiq2i_clga1_buff_item_room.type:1}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§2§l中央林园 §b精致的玩具模型\"}",
+                                "custom_model_data": 2002021,
+                                "entity_data": {
+                                    "id": "minecraft:marker"
+                                },
+                                "custom_data": {
+                                    "qiq2i_clga1_buff_item_room.type": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

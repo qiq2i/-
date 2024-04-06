@@ -1,25 +1,32 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bow",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:2002024,qiq2i_clga1_item_bow:1,qiq2i_clga1_item_bow.3:1,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"凋零玫瑰弓\"}',Lore:['{\"text\":\"§e凋零玫瑰 I\"}']}}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"凋零玫瑰弓\"}",
+                                "custom_model_data": 2002024,
+                                "custom_data": {
+                                    "qiq2i_clga1_item_bow": 1,
+                                    "qiq2i_clga1_item_bow.3": 1,
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

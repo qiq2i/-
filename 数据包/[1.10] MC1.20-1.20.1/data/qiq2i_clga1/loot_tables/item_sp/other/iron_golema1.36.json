@@ -1,25 +1,43 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:ghast_spawn_egg",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§d金属强化铁傀儡 36级\"}',Lore:['{\"text\":\"§71000血量\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],Unbreakable:1b,HideFlags:63,EntityTag:{id:\"minecraft:iron_golem\",Attributes: [{Base: 1000.0d, Name: \"minecraft:generic.max_health\"}], Tags: [\"qiq2i_clga1_buff\"], Health: 1000.0f, ArmorItems: [{}, {}, {}, {id: \"minecraft:iron_block\", Count: 36b}]}}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "unbreakable": {
+                                    "show_in_tooltip": 0
+                                },
+                                "enchantments": {
+                                    "levels": {
+                                        "minecraft:unbreaking": 1
+                                    },
+                                    "show_in_tooltip": 0
+                                },
+                                "custom_name": "{\"text\":\"§d金属强化铁傀儡 36级\"}",
+                                "hide_additional_tooltip": {},
+                                "entity_data": {
+                                    "id": "minecraft:iron_golem",
+                                    "Health": 1000.0
+                                },
+                                "custom_data": {
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

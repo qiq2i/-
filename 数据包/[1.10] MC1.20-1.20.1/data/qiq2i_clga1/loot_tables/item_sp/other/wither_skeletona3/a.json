@@ -1,40 +1,39 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 8,
-        "entries":[
-            {
-                "type": "minecraft:loot_table",
-                "name": "minecraft:entities/wither_skeleton"
-            }
-        ]
-      },
-      {
-        "rolls": 1.0,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_1",
-            "functions": [
+        {
+            "rolls": 8,
+            "entries": [
                 {
-                    "function": "minecraft:set_count",
-                    "count": {
-                        "max": 2,
-                        "min": 1
-                    }
-                },
-                {
-                  "function": "minecraft:looting_enchant",
-                  "count": {
-                    "max": 1,
-                    "min": 1
-                  }
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:entities/wither_skeleton"
                 }
             ]
-         }
-        ]
-      }
+        },
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_1",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "max": 1,
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     ]
-  }
-  
+}

@@ -1,54 +1,53 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 2,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:ender_pearl",
-            "functions": [
+        {
+            "rolls": 2,
+            "entries": [
                 {
-                  "function": "minecraft:set_count",
-                  "count": {
-                      "max": 2,
-                      "min": 1
-                  }
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ]
                 }
-              ]
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:killed_by_player"
-          }
-        ]
-      },
-      {
-        "rolls": 4,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "weight": 10,
-            "name": "minecraft:end_stone",
-            "functions": [
+            ],
+            "conditions": [
                 {
-                  "function": "minecraft:set_count",
-                  "count": {
-                      "max": 2,
-                      "min": 1
-                  }
+                    "condition": "minecraft:killed_by_player"
                 }
-              ]
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:killed_by_player"
-          }
-        ]
-      }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:end_stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ]
+        }
     ]
-  }
-  
+}

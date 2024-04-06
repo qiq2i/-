@@ -1,31 +1,30 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_1"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_2"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_3"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_4"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "qiq2i_clga1:item_sp/exp/type_5"
-          }
-        ]
-      }
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_2"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_3"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_4"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "qiq2i_clga1:item_sp/exp/type_5"
+                }
+            ]
+        }
     ]
-  }
-  
+}

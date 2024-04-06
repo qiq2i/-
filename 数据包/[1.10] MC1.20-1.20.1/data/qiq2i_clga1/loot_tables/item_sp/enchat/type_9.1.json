@@ -1,25 +1,40 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:2002042,qiq2i_clga1_item_enchat:1,qiq2i_clga1_item_enchat_type:9,qiq2i_clga1_item_enchat_type_level:2,qiq2i_clga1_item_sp:1,display:{Name:'{\"text\":\"§e弹射物保护宝石II\"}',Lore:['{\"text\":\"§7弹射物保护 1-8 级附魔的物品可用\"}','{\"text\":\"§75级以上继续使用需要§a消耗经验\"}','{\"text\":\"§76级附魔等级使用需消耗§a30级经验\"}','{\"text\":\"§7此后每高1级需多消耗§a5级\"}','{\"text\":\"§7直接提升1级附魔等级\"}','{\"text\":\"\"}','{\"text\":\"§7主手持宝石，副手持需提升附魔等级的物品\"}','{\"text\":\"\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}],HideFlags:63}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "minecraft:unbreaking": 1
+                                    },
+                                    "show_in_tooltip": 0
+                                },
+                                "custom_name": "{\"text\":\"§e弹射物保护宝石II\"}",
+                                "custom_model_data": 2002042,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_item_enchat": 1,
+                                    "qiq2i_clga1_item_enchat_type": 9,
+                                    "qiq2i_clga1_item_enchat_type_level": 2,
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

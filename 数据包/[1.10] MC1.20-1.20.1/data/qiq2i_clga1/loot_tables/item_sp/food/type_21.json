@@ -1,25 +1,35 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:cookie",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:200230, qiq2i_clga1_food:21, display:{Name:'{\"text\":\"§b熟掠夺者蛋\"}',Lore:['{\"text\":\"§e\"}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "minecraft:unbreaking": 1
+                                    }
+                                },
+                                "custom_name": "{\"text\":\"§b熟掠夺者蛋\"}",
+                                "custom_model_data": 200230,
+                                "custom_data": {
+                                    "qiq2i_clga1_food": 21
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}
