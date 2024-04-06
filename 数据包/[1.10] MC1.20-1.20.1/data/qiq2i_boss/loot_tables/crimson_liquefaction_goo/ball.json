@@ -1,25 +1,30 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:slime_ball",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:2002021,qiq2i_boss_item:\"crimson_liquefaction_goo.ball\",display:{Name:'{\"text\":\"§e赤炼球\"}'}}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:slime_ball",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§e赤炼球\"}",
+                                "custom_model_data": 2002021,
+                                "custom_data": {
+                                    "qiq2i_boss_item": "crimson_liquefaction_goo.ball"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

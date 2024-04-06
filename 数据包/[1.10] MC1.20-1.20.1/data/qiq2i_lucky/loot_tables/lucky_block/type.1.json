@@ -1,25 +1,33 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bat_spawn_egg",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type:1, display:{Name:'{\"text\":\"§e幸运方块\"}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"qiq2i_lucky_block.type.1\"]},CustomModelData:2002022}"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:bat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§e幸运方块\"}",
+                                "custom_model_data": 2002022,
+                                "entity_data": {
+                                    "id": "minecraft:marker"
+                                },
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}

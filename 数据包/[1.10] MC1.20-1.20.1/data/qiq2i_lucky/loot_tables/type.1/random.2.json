@@ -1,161 +1,235 @@
 {
     "type": "minecraft:entity",
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+        {
+            "rolls": 1,
+            "entries": [
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:1,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 1,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:2,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 2,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:3,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 3,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:4,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 4,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:5,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 5,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:6,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 6,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:7,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 7,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:8,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 8,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:9,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 9,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:10,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 10,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:11,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 11,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:12,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 12,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:13,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 13,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:14,qiq2i_lucky_block.type.1_random:1}"
-                }
-              ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stone",
-            "functions": [
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 14,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
+                },
                 {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{qiq2i_lucky_block.type.1_random.2:15,qiq2i_lucky_block.type.1_random:1}"
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_lucky_block.type.1_random.2": 15,
+                                    "qiq2i_lucky_block.type.1_random": 1
+                                }
+                            }
+                        }
+                    ]
                 }
-              ]
-          }
-        ]
-      }
+            ]
+        }
     ]
-  }
-  
+}
