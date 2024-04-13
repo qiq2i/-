@@ -24,7 +24,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "",
+                    "value": "qiq2i_clga1:item_sp/totem_of_undying/all",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -42,7 +42,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "",
+                    "value": "qiq2i_clga1:item_sp/exp/type_1",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
