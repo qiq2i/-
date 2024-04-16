@@ -4,7 +4,7 @@ execute if score @s qiq2i_1 matches 10 store result score #qiq2i_marker_1 qiq2i_
 execute if score @s qiq2i_1 matches 10 run scoreboard players remove #qiq2i_marker_1 qiq2i_1 1
 execute if score @s qiq2i_1 matches 10 if score #qiq2i_marker_1 qiq2i_1 matches 0.. store result entity @s Size byte 1 run scoreboard players get #qiq2i_marker_1 qiq2i_1
 execute if score @s qiq2i_1 matches 10 run playsound entity.slime.jump ambient @a ~ ~ ~ 4 1
-execute if score @s qiq2i_1 matches 10 run particle dust 0 1 0.149 3 ~ ~0.5 ~ 0.5 0.5 0.5 0 10
+execute if score @s qiq2i_1 matches 10 run particle dust{color:[0.0,1.0,0.149],scale:3} ~ ~0.5 ~ 0.5 0.5 0.5 0 10
 execute if score @s qiq2i_1 matches 10.. run scoreboard players reset @s qiq2i_1
 
 scoreboard players add @s qiq2i_2 1
