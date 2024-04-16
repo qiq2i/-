@@ -1,1 +1,1 @@
-execute if entity @a[distance=..16] run particle block gold_block ~ ~ ~ 0.3 0.3 0.3 0 20
+execute if entity @a[distance=..16] run particle block{block_state:"gold_block"} ~ ~ ~ 0.3 0.3 0.3 0 20

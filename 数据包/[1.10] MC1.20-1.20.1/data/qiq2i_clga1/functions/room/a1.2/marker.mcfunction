@@ -35,7 +35,7 @@ execute if score @s qiq2i_1 matches 281..301 as @a[distance=..8] at @s run parti
 execute if score @s qiq2i_1 matches 300 run particle minecraft:witch ~ ~ ~ 0.2 0.2 0.2 10 128
 execute if score @s qiq2i_1 matches 300 unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run playsound entity.enderman.teleport voice @a ~ ~ ~ 16 1 
 execute if score @s qiq2i_1 matches 301 unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run function qiq2i_clga1:room/a1.2/start
-execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run particle block glass ~ ~0.5 ~ 0.25 0.25 0.25 0 1024 normal @a
+execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run particle block{block_state: "glass"} ~ ~0.5 ~ 0.25 0.25 0.25 0 1024 normal @a
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run playsound minecraft:block.glass.break player @a ~ ~ ~ 16 0
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run summon minecraft:experience_bottle
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1.2_tick1 qiq2i_1 matches 1.. run summon minecraft:experience_orb ~ ~ ~ {Value:1024}
