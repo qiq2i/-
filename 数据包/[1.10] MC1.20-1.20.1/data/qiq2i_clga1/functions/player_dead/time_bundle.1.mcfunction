@@ -1,4 +1,4 @@
-clear @s carrot_on_a_stick{qiq2i_clga1_item_time_bundle.1:1} 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{qiq2i_clga1_item_time_bundle.1: 1}] 1
 execute store result score #qiq2i_clga1_player_dead_pos0 qiq2i_1 run data get entity @s Pos[0] 1
 execute store result score #qiq2i_clga1_player_dead_pos1 qiq2i_1 run data get entity @s Pos[1] 1
 execute store result score #qiq2i_clga1_player_dead_pos2 qiq2i_1 run data get entity @s Pos[2] 1
