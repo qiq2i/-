@@ -4,7 +4,7 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-                "custom_model_data": 2002030
+                "minecraft:custom_model_data": 2002030
             }
         },
         "title": {

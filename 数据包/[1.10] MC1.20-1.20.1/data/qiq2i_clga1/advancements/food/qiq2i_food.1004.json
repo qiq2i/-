@@ -7,7 +7,13 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "nbt": "{qiq2i_clga1_food:1004}"
+                    "components": {
+                        "minecraft:custom_data": {
+                            "qiq2i_clga1_food": "1004",
+                            "qiq2i_clga1_item_exp": 1,
+                            "qiq2i_clga1_item_sp": 1
+                        }
+                    }
                 }
             }
         }

@@ -4,7 +4,7 @@
         "icon": {
             "id": "minecraft:arrow",
             "components": {
-                "enchantments": {
+                "minecraft:enchantments": {
                     "levels": {
                         "minecraft:unbreaking": 1
                     }

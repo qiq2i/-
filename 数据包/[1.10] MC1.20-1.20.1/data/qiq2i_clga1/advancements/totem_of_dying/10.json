@@ -7,7 +7,11 @@
             "trigger": "minecraft:used_totem",
             "conditions": {
                 "item": {
-                    "nbt": "{qiq2i_clga1_totem_of_undying:10}"
+                    "components": {
+                        "minecraft:custom_data": {
+                            "qiq2i_clga1_totem_of_undying": 10
+                        }
+                    }
                 }
             }
         }

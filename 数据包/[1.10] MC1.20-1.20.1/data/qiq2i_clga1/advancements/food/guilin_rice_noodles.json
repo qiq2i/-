@@ -7,7 +7,11 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "nbt": "{qiq2i_clga1_food:\"guilin_rice_noodles\"}"
+                    "components": {
+                        "minecraft:custom_data": {
+                            "qiq2i_clga1_food": "guilin_rice_noodles"
+                        }
+                    }
                 }
             }
         }
