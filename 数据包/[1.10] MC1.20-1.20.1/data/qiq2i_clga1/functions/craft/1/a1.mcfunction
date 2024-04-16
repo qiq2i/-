@@ -1,4 +1,4 @@
-execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.5] run function qiq2i_clga1:command/showbuff/book/item1
-execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.5] run particle cloud ~ ~ ~ 0.1 0.1 0.1 0.1 32
-execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.5] run kill @e[type=item,nbt={Item:{id:"minecraft:compass",Count:1b}},distance=..0.6,limit=1,sort=nearest]
-execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.5] run kill @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}},distance=..0.6,limit=1,sort=nearest]
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",count:1}},distance=..0.5] run function qiq2i_clga1:command/showbuff/book/item1
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",count:1}},distance=..0.5] run particle cloud ~ ~ ~ 0.1 0.1 0.1 0.1 32
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",count:1}},distance=..0.5] run kill @e[type=item,nbt={Item:{id:"minecraft:compass",count:1}},distance=..0.6,limit=1,sort=nearest]
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:book",count:1}},distance=..0.5] run kill @e[type=item,nbt={Item:{id:"minecraft:book",count:1}},distance=..0.6,limit=1,sort=nearest]
