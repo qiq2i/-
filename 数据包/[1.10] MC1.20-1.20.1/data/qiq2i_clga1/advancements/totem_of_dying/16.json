@@ -9,7 +9,8 @@
                 "item": {
                     "components": {
                         "minecraft:custom_data": {
-                            "qiq2i_clga1_totem_of_undying": 16
+                            "qiq2i_clga1_totem_of_undying": 16,
+                            "qiq2i_clga1_item_sp": 1
                         }
                     }
                 }
