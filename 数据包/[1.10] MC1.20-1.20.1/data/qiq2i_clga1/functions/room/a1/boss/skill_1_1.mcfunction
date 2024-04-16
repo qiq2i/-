@@ -1,7 +1,7 @@
 scoreboard players add #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 1
 
 #execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run tellraw @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}] {"text":"§e这里.. 有树，有路 ，还有一只僵尸！"}
-execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run item replace entity @s weapon with bow{Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
+execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run item replace entity @s weapon with bow[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}}]
 
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 41 positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,nbt=!{Health:0.0f},tag=!qiq2i_admin,distance=..48,limit=1,sort=nearest] eyes run function qiq2i_clga1:room/a1/dispenser/arrowa1
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 61 positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,nbt=!{Health:0.0f},tag=!qiq2i_admin,distance=..48,limit=1,sort=nearest] eyes run function qiq2i_clga1:room/a1/dispenser/arrowa1

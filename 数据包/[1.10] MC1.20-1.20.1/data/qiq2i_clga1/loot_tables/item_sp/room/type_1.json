@@ -14,7 +14,8 @@
                                 "custom_name": "{\"text\":\"§2§l中央林园 §b精致的玩具模型\"}",
                                 "custom_model_data": 2002021,
                                 "entity_data": {
-                                    "id": "minecraft:marker"
+                                    "id": "minecraft:marker", 
+                                    "Tags": ["qiq2i_clga1_rooma1_marker_test"]
                                 },
                                 "custom_data": {
                                     "qiq2i_clga1_buff_item_room.type": 1

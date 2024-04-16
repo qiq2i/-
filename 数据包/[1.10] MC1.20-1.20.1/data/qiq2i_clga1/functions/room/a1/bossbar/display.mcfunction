@@ -2,4 +2,4 @@ bossbar set qiq2i_clga1_rooma1_1 name {"text":"","extra":[{"text":"§2§l像素�
 execute store result bossbar qiq2i_clga1_rooma1_1 value run data get entity @e[tag=qiq2i_clga1_rooma1_bossa1,limit=1,sort=nearest] AbsorptionAmount
 bossbar set qiq2i_clga1_rooma1_1 players @a[nbt={Dimension:"qiq2i_clga1:room/rooma1"}]
 
-execute as @e[tag=qiq2i_clga1_rooma1_bossa1] at @s run particle block redstone_block ~ ~1.7 ~ 0.2 0.2 0.2 0 128 normal
+execute as @e[tag=qiq2i_clga1_rooma1_bossa1] at @s run particle block{block_state: {Name: "redstone_block"}} ~ ~1.7 ~ 0.2 0.2 0.2 0 128 normal

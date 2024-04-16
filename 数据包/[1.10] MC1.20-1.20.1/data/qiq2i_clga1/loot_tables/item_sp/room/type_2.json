@@ -12,7 +12,8 @@
                             "function": "set_components",
                             "components": {
                                 "entity_data": {
-                                    "id": "minecraft:marker"
+                                    "id": "minecraft:marker", 
+                                    "Tags": ["qiq2i_clga1_rooma1.2_marker_test"]
                                 },
                                 "custom_data": {
                                     "qiq2i_clga1_buff_item_room.type": 2

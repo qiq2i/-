@@ -3,8 +3,8 @@
 scoreboard players add @s qiq2i_1 1
 #execute if score @s qiq2i_1 matches 1 run forceload add ~ ~
 execute if score @s qiq2i_1 matches 1 run tp @s ~ ~ ~
-execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:2002025}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1.2_item_frame_1","qiq2i_clga1_rooma1.2_item_frame"]}
-execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:2002026}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1.2_item_frame_2","qiq2i_clga1_rooma1.2_item_frame"]}
+execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",count:1,tag:{CustomModelData:2002025}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1.2_item_frame_1","qiq2i_clga1_rooma1.2_item_frame"]}
+execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",count:1,tag:{CustomModelData:2002026}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1.2_item_frame_2","qiq2i_clga1_rooma1.2_item_frame"]}
 execute if score @s qiq2i_1 matches 1 run tellraw @a {"text":"§f§l石棘矿区 §e15秒后，8格内的玩家都会被吸进去!"}
 #execute if score @s qiq2i_1 matches 1 run tellraw @a {"text":"§e（进入裂缝是一个新的维度，处于该维度的玩家 死亡不掉落。）"}
 

@@ -3,8 +3,8 @@
 scoreboard players add @s qiq2i_1 1
 #execute if score @s qiq2i_1 matches 1 run forceload add ~ ~
 execute if score @s qiq2i_1 matches 1 run tp @s ~ ~ ~
-execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:2002025}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1_item_frame_1","qiq2i_clga1_rooma1_item_frame"]}
-execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:2002026}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1_item_frame_2","qiq2i_clga1_rooma1_item_frame"]}
+execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data": 2002025}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1_item_frame_1","qiq2i_clga1_rooma1_item_frame"]}
+execute if score @s qiq2i_1 matches 1 run summon item_frame ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data": 2002025}},Facing:1b,Invisible:1b,Fixed:1b,Invulnerable:1b,Tags:["qiq2i_clga1_rooma1_item_frame_2","qiq2i_clga1_rooma1_item_frame"]}
 execute if score @s qiq2i_1 matches 1 run tellraw @a {"text":"§f§l中央林园 §e15秒后，8格内的玩家都会被吸进去!"}
 #execute if score @s qiq2i_1 matches 1 run tellraw @a {"text":"§e（进入裂缝是一个新的维度，处于该维度的玩家 死亡不掉落。）"}
 
@@ -35,7 +35,7 @@ execute if score @s qiq2i_1 matches 281..301 as @a[distance=..8] at @s run parti
 execute if score @s qiq2i_1 matches 300 run particle minecraft:witch ~ ~ ~ 0.2 0.2 0.2 10 128
 execute if score @s qiq2i_1 matches 300 unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run playsound entity.enderman.teleport voice @a ~ ~ ~ 16 1 
 execute if score @s qiq2i_1 matches 301 unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run function qiq2i_clga1:room/a1/start
-execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run particle block glass ~ ~0.5 ~ 0.25 0.25 0.25 0 1024 normal @a
+execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run particle block{block_state: {Name: "glass"}} ~ ~0.5 ~ 0.25 0.25 0.25 0 1024 normal @a
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run playsound minecraft:block.glass.break player @a ~ ~ ~ 16 0
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run summon minecraft:experience_bottle
 execute if score @s qiq2i_1 matches 321.. unless score #qiq2i_clga1_rooma1_tick1 qiq2i_1 matches 1.. run summon minecraft:experience_orb ~ ~ ~ {Value:1024}
