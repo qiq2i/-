@@ -12,4 +12,4 @@ effect clear @s weakness
 effect clear @s wither
 
 playsound entity.generic.drink ambient @a ~ ~ ~
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"milk.1"}} 1
+clear @s carrot_on_a_stick[minecraft:custom_data={qiq2i_clga1_item_sp.other: {id: "milk.1"}}] 1

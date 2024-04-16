@@ -32,4 +32,4 @@ scoreboard players reset #qiq2i_marker_3.1 qiq2i_1
 tag @e[tag=qiq2i_clga1_buff_item_sp.other_fireball.1_mob_fireball] remove qiq2i_clga1_buff_item_sp.other_fireball.1_mob_fireball
 playsound minecraft:entity.blaze.shoot player @a ~ ~ ~
 kill @e[tag=qiq2i_marker_a]
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"fireball.1"}} 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{qiq2i_clga1_item_sp.other: {id: "fireball.1"}}] 1

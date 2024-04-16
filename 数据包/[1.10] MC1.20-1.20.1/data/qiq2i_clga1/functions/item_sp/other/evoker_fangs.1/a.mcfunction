@@ -66,4 +66,4 @@ data remove storage qiq2i_clga1:marker marker
 tag @e[tag=qiq2i_clga1_item_sp.other_evoker_fangs.1_mob1] remove qiq2i_clga1_item_sp.other_evoker_fangs.1_mob1
 
 playsound entity.evoker.prepare_summon ambient @a ~ ~ ~
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"evoker_fangs.1"}} 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{qiq2i_clga1_item_sp.other: {id: "evoker_fangs.1"}}] 1

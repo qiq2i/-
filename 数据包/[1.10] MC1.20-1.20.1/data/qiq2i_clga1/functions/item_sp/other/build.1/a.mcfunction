@@ -25,4 +25,4 @@ execute positioned ~ ~1 ~-1 if block ~ ~ ~ #qiq2i_clga1:air run setblock ~ ~ ~ g
 execute positioned ~ ~2 ~ if block ~ ~ ~ #qiq2i_clga1:air run setblock ~ ~ ~ glass destroy
 
 playsound block.anvil.use ambient @a
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"build.1"}} 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{qiq2i_clga1_item_sp.other: {id: "build.1"}}] 1

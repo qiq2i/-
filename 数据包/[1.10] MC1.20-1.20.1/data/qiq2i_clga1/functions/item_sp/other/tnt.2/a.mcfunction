@@ -6,4 +6,4 @@ data remove storage qiq2i_clga1:marker marker
 tag @e[tag=qiq2i_clga1_item_sp.other_tnt.2_mob1] remove qiq2i_clga1_item_sp.other_tnt.2_mob1
 
 playsound entity.tnt.primed ambient @a ~ ~ ~
-clear @s carrot_on_a_stick{qiq2i_clga1_item_sp.other:{id:"tnt.2"}} 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{qiq2i_clga1_item_sp.other: {id: "tnt.2"}}] 1
