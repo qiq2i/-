@@ -25,10 +25,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_pillagera7 run fun
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_cactusa1 as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,scores={qiq2i_mined_cactus=1..}] run function qiq2i_clga1:buff/player_cactusa1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_tnta1 as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,scores={qiq2i_mined_tnt=1..}] at @s run function qiq2i_clga1:buff/player_tnta1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_aira1 if entity @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt={Air:0s}] as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt={Air:0s}] run function qiq2i_clga1:buff/player_aira1
-
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=!qiq2i_clga1_buff_player_frozena1.hurt,nbt=!{HurtTime:0s}] run function qiq2i_clga1:buff/player_frozena1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=qiq2i_clga1_buff_player_frozena1.hurt,nbt={HurtTime:0s}] if data entity @s TicksFrozen run tag @s remove qiq2i_clga1_buff_player_frozena1.hurt
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_aira1 as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt={Air:0s}] run function qiq2i_clga1:buff/player_aira1
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona3 as @e[type=skeleton,tag=!qiq2i_clga1_ignore] run function qiq2i_clga1:buff/skeletona3
 

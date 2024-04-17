@@ -8,3 +8,6 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_magma_cubea1 if entit
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_creepera2 if entity @e[type=creeper] run function qiq2i_clga1:buff/creepera2
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wolfa1 if entity @e[type=wolf] run function qiq2i_clga1:buff/wolfa1
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=!qiq2i_clga1_buff_player_frozena1.hurt,nbt=!{HurtTime:0s}] run function qiq2i_clga1:buff/player_frozena1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=qiq2i_clga1_buff_player_frozena1.hurt,nbt={HurtTime:0s}] if data entity @s TicksFrozen run tag @s remove qiq2i_clga1_buff_player_frozena1.hurt
