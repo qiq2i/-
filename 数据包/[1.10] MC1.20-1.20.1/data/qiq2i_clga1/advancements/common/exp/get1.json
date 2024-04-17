@@ -33,7 +33,11 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{qiq2i_clga1_item_exp:1}"
+                        "components": {
+                            "minecraft:custom_data": {
+                                "qiq2i_clga1_item_exp": 1
+                            }
+                        }
                     }
                 ]
             }

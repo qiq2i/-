@@ -33,7 +33,13 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{Enchantments:[{id:\"minecraft:protection\",lvl:9}]}"
+                        "components": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:protection": 9
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -43,7 +49,13 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:9}]}"
+                        "components": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:blast_protection": 9
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -53,7 +65,13 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:9}]}"
+                        "components": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:projectile_protection": 9
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -63,7 +81,13 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{Enchantments:[{id:\"minecraft:feather_falling\",lvl:9}]}"
+                        "components": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:feather_falling": 9
+                                }
+                            }
+                        }
                     }
                 ]
             }

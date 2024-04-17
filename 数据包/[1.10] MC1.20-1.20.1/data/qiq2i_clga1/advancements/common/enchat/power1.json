@@ -33,7 +33,13 @@
             "conditions": {
                 "items": [
                     {
-                        "nbt": "{Enchantments:[{id:\"minecraft:power\",lvl:11}]}"
+                        "components": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:power": 11
+                                }
+                            }
+                        }
                     }
                 ]
             }
