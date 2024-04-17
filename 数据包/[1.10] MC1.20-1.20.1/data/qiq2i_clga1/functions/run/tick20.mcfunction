@@ -27,12 +27,12 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_tnta1 as @a[ta
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_aira1 if entity @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt={Air:0s}] as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt={Air:0s}] run function qiq2i_clga1:buff/player_aira1
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 if entity @a[tag=!qiq2i_clga1_buff_player_frozena1.hurt,nbt=!{HurtTime:0s}] as @a[tag=!qiq2i_clga1_buff_player_frozena1.hurt,nbt=!{HurtTime:0s}] run function qiq2i_clga1:buff/player_frozena1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 if entity @a[tag=qiq2i_clga1_buff_player_frozena1.hurt,nbt={HurtTime:0s}] as @a[tag=qiq2i_clga1_buff_player_frozena1.hurt,nbt={HurtTime:0s}] if data entity @s TicksFrozen run tag @s remove qiq2i_clga1_buff_player_frozena1.hurt
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=!qiq2i_clga1_buff_player_frozena1.hurt,nbt=!{HurtTime:0s}] run function qiq2i_clga1:buff/player_frozena1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_frozena1 as @a[tag=qiq2i_clga1_buff_player_frozena1.hurt,nbt={HurtTime:0s}] if data entity @s TicksFrozen run tag @s remove qiq2i_clga1_buff_player_frozena1.hurt
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_skeletona3 as @e[type=skeleton,tag=!qiq2i_clga1_ignore] run function qiq2i_clga1:buff/skeletona3
 
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[tag=qiq2i_clga1_buff_blazea2.marker.1] at @s run function qiq2i_clga1:buff/blazea2/marker.1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_blazea2 as @e[type=blaze,tag=qiq2i_clga1_buff_blazea2.marker.1] at @s run function qiq2i_clga1:buff/blazea2/marker.1
 
 #特殊 =============================
 execute if entity @a[nbt={Dimension:"minecraft:the_end"}] unless data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_ender_dragona1 run function qiq2i_clga1:buff/sp_ender_dragona1/start
