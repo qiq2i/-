@@ -31,7 +31,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 1
                         }
@@ -43,7 +43,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 2
                         }
@@ -55,7 +55,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 3
                         }
@@ -67,7 +67,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 4
                         }
@@ -79,7 +79,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 5
                         }
@@ -91,7 +91,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 6
                         }
@@ -103,7 +103,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 7
                         }
@@ -115,7 +115,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 8
                         }
@@ -127,7 +127,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 9
                         }
@@ -139,7 +139,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 10
                         }
@@ -151,7 +151,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 11
                         }
@@ -163,7 +163,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 12
                         }
@@ -175,7 +175,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 13
                         }
@@ -187,7 +187,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 14
                         }
@@ -199,7 +199,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 15
                         }
@@ -211,7 +211,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 16
                         }
@@ -223,7 +223,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 17
                         }
@@ -235,7 +235,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 18
                         }
@@ -247,7 +247,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 19
                         }
@@ -259,7 +259,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 20
                         }
@@ -271,7 +271,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 21
                         }
@@ -283,7 +283,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 22
                         }
@@ -295,7 +295,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": 23
                         }
@@ -307,7 +307,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": "guilin_rice_noodles"
                         }
@@ -319,7 +319,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": "wuzhou_paper_wrapped_chicken"
                         }
@@ -331,7 +331,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": "hezhou_sanbao_brew"
                         }
@@ -345,7 +345,8 @@
                 "item": {
                     "items": [
                         "minecraft:apple"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -355,7 +356,8 @@
                 "item": {
                     "items": [
                         "minecraft:mushroom_stew"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -365,7 +367,8 @@
                 "item": {
                     "items": [
                         "minecraft:bread"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -375,7 +378,8 @@
                 "item": {
                     "items": [
                         "minecraft:porkchop"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -385,7 +389,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_porkchop"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -395,7 +400,8 @@
                 "item": {
                     "items": [
                         "minecraft:golden_apple"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -405,7 +411,8 @@
                 "item": {
                     "items": [
                         "minecraft:enchanted_golden_apple"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -415,7 +422,8 @@
                 "item": {
                     "items": [
                         "minecraft:cod"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -425,7 +433,8 @@
                 "item": {
                     "items": [
                         "minecraft:salmon"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -435,7 +444,8 @@
                 "item": {
                     "items": [
                         "minecraft:tropical_fish"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -445,7 +455,8 @@
                 "item": {
                     "items": [
                         "minecraft:pufferfish"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -455,7 +466,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_cod"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -465,7 +477,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_salmon"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -475,7 +488,8 @@
                 "item": {
                     "items": [
                         "minecraft:cookie"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -485,7 +499,8 @@
                 "item": {
                     "items": [
                         "minecraft:melon_slice"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -495,7 +510,8 @@
                 "item": {
                     "items": [
                         "minecraft:beef"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -505,7 +521,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_beef"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -515,7 +532,8 @@
                 "item": {
                     "items": [
                         "minecraft:chicken"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -525,7 +543,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_chicken"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -535,7 +554,8 @@
                 "item": {
                     "items": [
                         "minecraft:rotten_flesh"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -545,7 +565,8 @@
                 "item": {
                     "items": [
                         "minecraft:spider_eye"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -555,7 +576,8 @@
                 "item": {
                     "items": [
                         "minecraft:carrot"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -565,7 +587,8 @@
                 "item": {
                     "items": [
                         "minecraft:potato"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -575,7 +598,8 @@
                 "item": {
                     "items": [
                         "minecraft:baked_potato"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -585,7 +609,8 @@
                 "item": {
                     "items": [
                         "minecraft:poisonous_potato"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -595,7 +620,8 @@
                 "item": {
                     "items": [
                         "minecraft:golden_carrot"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -605,7 +631,8 @@
                 "item": {
                     "items": [
                         "minecraft:pumpkin_pie"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -615,7 +642,8 @@
                 "item": {
                     "items": [
                         "minecraft:rabbit"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -625,7 +653,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_rabbit"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -635,7 +664,8 @@
                 "item": {
                     "items": [
                         "minecraft:rabbit_stew"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -645,7 +675,8 @@
                 "item": {
                     "items": [
                         "minecraft:mutton"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -655,7 +686,8 @@
                 "item": {
                     "items": [
                         "minecraft:cooked_mutton"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -665,7 +697,8 @@
                 "item": {
                     "items": [
                         "minecraft:chorus_fruit"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -675,7 +708,8 @@
                 "item": {
                     "items": [
                         "minecraft:beetroot"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -685,7 +719,8 @@
                 "item": {
                     "items": [
                         "minecraft:beetroot_soup"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -695,7 +730,8 @@
                 "item": {
                     "items": [
                         "minecraft:dried_kelp"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -705,7 +741,8 @@
                 "item": {
                     "items": [
                         "minecraft:suspicious_stew"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -715,7 +752,8 @@
                 "item": {
                     "items": [
                         "minecraft:sweet_berries"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -725,7 +763,8 @@
                 "item": {
                     "items": [
                         "minecraft:honey_bottle"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         },
@@ -735,7 +774,8 @@
                 "item": {
                     "items": [
                         "minecraft:glow_berries"
-                    ]
+                    ],
+                    "predicates": {}
                 }
             }
         }

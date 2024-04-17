@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:enchantments": {
                                 "levels": {
                                     "minecraft:power": 11
