@@ -33,7 +33,7 @@
             "conditions": {
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "qiq2i_clga1_item_exp": 1
                             }
