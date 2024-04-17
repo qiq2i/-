@@ -12,5 +12,14 @@ execute if entity @a if score #qiq2i_clga1_addtick1 qiq2i_1 matches ..-1 in qiq2
 
 ##时间间隔
 function qiq2i_clga1:time/main
+##qiq2i_clga1_buff_playerban
+    execute as @a[tag=!qiq2i_clga1_buff_playerban] run function qiq2i_clga1:buff_playerban/ban
+
+    execute as @a[tag=qiq2i_clga1_buff_playerban] run function qiq2i_clga1:buff_playerban/common
+##qiq2i_clga1_gamemode
+    function qiq2i_clga1:gamemode/adventure
+    execute as @a[tag=qiq2i_clga1_buff_adventure] run function qiq2i_clga1:gamemode/remove_adventure
+
+    execute as @a[tag=!qiq2i_clga1_buff_adventure,gamemode=adventure] run gamemode survival @s 
 
 schedule function qiq2i_clga1:tick1 1s replace

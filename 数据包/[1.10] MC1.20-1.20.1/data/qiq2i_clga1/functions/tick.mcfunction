@@ -5,15 +5,7 @@ execute in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:run
 ##开局设置
     execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. if score @s qiq2i_clga1_gamestart matches 1.. run scoreboard players reset @a qiq2i_clga1_gamestart
     execute unless score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run function qiq2i_clga1:command/gamestart/main
-##qiq2i_clga1_buff_playerban
-    execute as @a[tag=!qiq2i_clga1_buff_playerban] run function qiq2i_clga1:buff_playerban/ban
 
-    execute as @a[tag=qiq2i_clga1_buff_playerban] run function qiq2i_clga1:buff_playerban/common
-##qiq2i_clga1_gamemode
-    function qiq2i_clga1:gamemode/adventure
-    execute as @a[tag=qiq2i_clga1_buff_adventure] run function qiq2i_clga1:gamemode/remove_adventure
-
-    execute as @a[tag=!qiq2i_clga1_buff_adventure,gamemode=adventure] run gamemode survival @s 
 #@attribute
     execute as @a[scores={qiq2i_clga1_dead1=1..},nbt=!{Health:0.0f}] run function qiq2i_clga1:player_attribute/dead
     execute as @a[scores={qiq2i_clga1_dead1=1..},nbt=!{Health:0.0f}] run scoreboard players reset @s qiq2i_clga1_dead1
