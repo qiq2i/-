@@ -21,7 +21,9 @@
                                 "custom_model_data": 2002021,
                                 "hide_additional_tooltip": {},
                                 "custom_data": {
-                                    "qiq2i_clga1_food": "1001",
+                                    "qiq2i_clga1_food": {
+                                        "id":"1001"
+                                    },
                                     "qiq2i_clga1_item_exp": 1,
                                     "qiq2i_clga1_item_sp": 1
                                 }

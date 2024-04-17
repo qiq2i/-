@@ -9,7 +9,9 @@
                 "item": {
                     "components": {
                         "minecraft:custom_data": {
-                            "qiq2i_clga1_food": "1005",
+                            "qiq2i_clga1_food": {
+                                "id":"1005"
+                            },
                             "qiq2i_clga1_item_exp": 1,
                             "qiq2i_clga1_item_sp": 1
                         }
