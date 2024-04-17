@@ -1,4 +1,4 @@
-execute as @e[nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_bata1: 1b}}}}] run function qiq2i_clga1:buff/bata1/a
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_bata1: 1b}}}}] run function qiq2i_clga1:buff/bata1/a
 
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_llama_spita1 if entity @e[type=llama_spit] run function qiq2i_clga1:buff/llama_spita1
 
