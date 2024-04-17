@@ -9,4 +9,4 @@ data modify entity @s CustomName set value '{"text":"§d精英僵尸§f"}'
 data modify entity @s CustomNameVisible set value 1
 data modify entity @s CanPickUpLoot set value false
 data merge entity @s {HandDropChances:[0.0f,0.0f]} 
-execute if data entity @s HandItems[0] run data modify entity @s HandItems[0] set value {Count:1b,id:"minecraft:iron_sword",tag:{Damage:0,Enchantments:[{id:"minecraft:fire_aspect",lvl:10s}],RepairCost:1}}
+execute if data entity @s HandItems[0] run data modify entity @s HandItems[0] set value {count:1,id:"minecraft:iron_sword",components:{"minecraft:damage": 0, "minecraft:repair_cost": 1, "minecraft:enchantments": {levels: {"minecraft:fire_aspect": 10s}}}}

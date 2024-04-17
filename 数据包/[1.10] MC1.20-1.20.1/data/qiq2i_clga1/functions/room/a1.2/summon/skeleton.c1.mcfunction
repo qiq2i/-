@@ -1,4 +1,4 @@
-summon skeleton ~ ~ ~ {Tags:["qiq2i_clga1_rooma1.2_skeleton.c","qiq2i_clga1_rooma1.2_skeleton.c_set","qiq2i_clga1_ignore","qiq2i_clga1_rooma1.2_skeleton_mob"],HandItems:[{id:"minecraft:bow",Count:1b,tag:{Enchantments:[{id:"minecraft:power",lvl:5},{id:"minecraft:flame",lvl:1}]}},{}],HandDropChances:[0.0f,0.0f],DeathLootTable:"",Silent:1b,CustomName:'{"text":"§f§l像素模型骷髅§f的弓"}'}
+summon skeleton ~ ~ ~ {Tags:["qiq2i_clga1_rooma1.2_skeleton.c","qiq2i_clga1_rooma1.2_skeleton.c_set","qiq2i_clga1_ignore","qiq2i_clga1_rooma1.2_skeleton_mob"],HandItems:[{id:"minecraft:bow",count:1,components:{"minecraft:enchantments": {levels: {"minecraft:power": 5, "minecraft:flame": 1}}}},{}],HandDropChances:[0.0f,0.0f],DeathLootTable:"",Silent:1b,CustomName:'{"text":"§f§l像素模型骷髅§f的弓"}'}
 execute as @e[tag=qiq2i_clga1_rooma1.2_skeleton.c_set] run effect give @s invisibility 1000000 0 true
 execute as @e[tag=qiq2i_clga1_rooma1.2_skeleton.c_set] run effect give @s speed 1000000 2 true
 execute as @e[tag=qiq2i_clga1_rooma1.2_skeleton.c_set] run attribute @s generic.attack_damage base set 10

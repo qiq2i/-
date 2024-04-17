@@ -19,9 +19,9 @@ execute if score #qiq2i_marker_1 qiq2i_1 matches 2..11 run function qiq2i_clga1:
 execute if score #qiq2i_marker_1 qiq2i_1 matches 12..21 run function qiq2i_clga1:buff/sp_fishinga1/summon/3
 
 #4
-execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon pillager ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:crossbow",Count:1},{}]}
-execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon pillager ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:crossbow",Count:1},{}]}
-execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon vindicator ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:iron_axe",Count:1},{}],PatrolLeader:1}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon pillager ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon pillager ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 22 run summon vindicator ~ ~1 ~ {Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:iron_axe",count:1},{}],PatrolLeader:1}
 
 #5
 execute if score #qiq2i_marker_1 qiq2i_1 matches 23..24 run function qiq2i_clga1:buff/sp_fishinga1/summon/5
@@ -38,10 +38,10 @@ execute if score #qiq2i_marker_1 qiq2i_1 matches 26..27 run function qiq2i_clga1
 execute if score #qiq2i_marker_1 qiq2i_1 matches 28..37 run function qiq2i_clga1:buff/sp_fishinga1/summon/8
 
 #9
-execute if score #qiq2i_marker_1 qiq2i_1 matches 38 run summon item ~ ~1 ~ {Item:{id:"minecraft:heart_of_the_sea",Count:1b},Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"]}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 38 run summon item ~ ~1 ~ {Item:{id:"minecraft:heart_of_the_sea",count:1},Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"]}
 
 #10
-execute if score #qiq2i_marker_1 qiq2i_1 matches 39 run summon item ~ ~1 ~ {Item:{id:"minecraft:sponge",Count:1b},Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"]}
+execute if score #qiq2i_marker_1 qiq2i_1 matches 39 run summon item ~ ~1 ~ {Item:{id:"minecraft:sponge",count:1},Tags:["qiq2i_clga1_sp_fishinga1_Motion","qiq2i_clga1_summoning_1"]}
 
 #11
 execute if score #qiq2i_marker_1 qiq2i_1 matches 40 run function qiq2i_boss:drowned_knight/summon

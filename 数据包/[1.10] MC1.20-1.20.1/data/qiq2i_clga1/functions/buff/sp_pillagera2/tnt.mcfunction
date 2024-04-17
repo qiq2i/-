@@ -1,3 +1,3 @@
-execute as @e[type=item,nbt={Item:{tag:{qiq2i_clga1_sp_pillagera2_Mobs1:1}}}] at @s run summon tnt ~ ~1 ~ {fuse:20,Tags:["qiq2i","qiq2i_clga1_summoning_1"]}
-execute as @e[type=item,nbt={Item:{tag:{qiq2i_clga1_sp_pillagera2_Mobs1:1}}}] at @s run effect give @e[type=#qiq2i_clga1:mob,distance=..10] resistance 2 5
-execute as @e[type=item,nbt={Item:{tag:{qiq2i_clga1_sp_pillagera2_Mobs1:1}}}] at @s run kill @s
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_sp_pillagera2_Mobs1: 1b}}}}] at @s run summon tnt ~ ~1 ~ {fuse:20,Tags:["qiq2i","qiq2i_clga1_summoning_1"]}
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_sp_pillagera2_Mobs1: 1b}}}}] at @s run effect give @e[type=#qiq2i_clga1:mob,distance=..10] resistance 2 5
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_sp_pillagera2_Mobs1: 1b}}}}] at @s run kill @s

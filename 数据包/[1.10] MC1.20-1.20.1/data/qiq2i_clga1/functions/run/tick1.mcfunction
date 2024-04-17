@@ -80,7 +80,7 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_tradera3 as
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a4 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a4
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_wandering_trader.a5 as @e[type=wandering_trader] run function qiq2i_clga1:buff/wandering_trader.a5
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.c1 as @e[type=villager,nbt={VillagerData:{profession:"minecraft:librarian"}},tag=!qiq2i_clga1_buff_villager.c1_trade] run function qiq2i_clga1:buff/villager.c1
-execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.c1 as @e[type=item] if data entity @s Item.tag."qiq2i_clga1_buff_villager.c1_trade" run function qiq2i_clga1:buff/villager.c1/a1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.c1 as @e[type=item] if data entity @s Item.components."minecraft:custom_data"."qiq2i_clga1_buff_villager.c1_trade" run function qiq2i_clga1:buff/villager.c1/a1
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_villager.c1 as @e[type=iron_golem] run function qiq2i_clga1:buff/villager.c1/skill
 #怪物效果
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if entity @e[type=#qiq2i_clga1:mob,type=!#qiq2i_clga1:firemob] run function qiq2i_clga1:buff/ef_fire_resistance

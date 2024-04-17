@@ -2,8 +2,8 @@
 kill @e[type=item,distance=..1,nbt={Item:{id:"minecraft:iron_block"}},limit=1,sort=nearest]
 
 ##将清除的铁块数量添加到脑壳上
-data modify entity @s ArmorItems[3] set value {id:"minecraft:iron_block",Count:1b}
-execute store result entity @s ArmorItems[3].Count byte 1 run scoreboard players get #qiq2i_marker_4 qiq2i_1 
+data modify entity @s ArmorItems[3] set value {id:"minecraft:iron_block",count:1}
+execute store result entity @s ArmorItems[3].count byte 1 run scoreboard players get #qiq2i_marker_4 qiq2i_1 
 
 ##增加生命上限
 function qiq2i_clga1:buff/iron_golema1/c

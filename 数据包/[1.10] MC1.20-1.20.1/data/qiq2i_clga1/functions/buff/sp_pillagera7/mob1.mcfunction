@@ -1,1 +1,1 @@
-summon minecraft:vindicator ~ ~ ~ {Tags:["qiq2i_clga1_sp_pillagera7_Mobs1","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:iron_sword",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:redstone",Count:1}],DeathLootTable:"qiq2i_clga1:sp_pillagera_mob1",CanJoinRaid:1}
+summon minecraft:vindicator ~ ~ ~ {Tags:["qiq2i_clga1_sp_pillagera7_Mobs1","qiq2i_clga1_summoning_1"],HandItems:[{id:"minecraft:iron_sword",count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:redstone",count:1}],DeathLootTable:"qiq2i_clga1:sp_pillagera_mob1",CanJoinRaid:1}

@@ -1,4 +1,4 @@
-kill @e[type=item,nbt={Item:{tag:{qiq2i_clga1_buff_item_enchanting:1}}}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_buff_item_enchanting:1b}}}}]
 data modify storage qiq2i_marker marker1.SelectedItem set from entity @s HandItems[0]
 
 execute if data storage qiq2i_marker marker1.SelectedItem{id:"minecraft:wooden_sword"} run data modify storage qiq2i_marker marker1.Type set value "sword"
@@ -29,8 +29,8 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_enchanting{level
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_enchanting{level:2} if data storage qiq2i_marker marker1{Type:"trident"} run loot spawn ~ ~ ~ loot qiq2i_clga1:clga1_buff/item_enchanting/trident25
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_item_enchanting{level:3} if data storage qiq2i_marker marker1{Type:"trident"} run loot spawn ~ ~ ~ loot qiq2i_clga1:clga1_buff/item_enchanting/trident39
 
-data modify storage qiq2i_marker marker1.Item set from entity @e[tag=!qiq2i_clga1_buff,nbt={Item:{tag:{qiq2i_clga1_buff_item_enchanting:1}}},limit=1,sort=nearest] Item
-data modify entity @s HandItems[0].tag.Enchantments set from storage qiq2i_marker marker1.Item.tag.Enchantments
+data modify storage qiq2i_marker marker1.Item set from entity @e[tag=!qiq2i_clga1_buff,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_buff_item_enchanting:1b}}}},limit=1,sort=nearest] Item
+data modify entity @s HandItems[0].components."minecraft:enchantments" set from storage qiq2i_marker marker1.Item.components."minecraft:enchantments"
 
 #data remove storage qiq2i_marker marker1
- kill @e[type=item,nbt={Item:{tag:{qiq2i_clga1_buff_item_enchanting:1}}}]
+ kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data": {qiq2i_clga1_buff_item_enchanting:1b}}}}]
