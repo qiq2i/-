@@ -14,7 +14,8 @@
                                 "custom_name": "{\"text\":\"§e幸运方块\"}",
                                 "custom_model_data": 2002022,
                                 "entity_data": {
-                                    "id": "minecraft:marker"
+                                    "id": "minecraft:marker", 
+                                    "Tags": ["qiq2i_lucky_block.type.1"]
                                 },
                                 "custom_data": {
                                     "qiq2i_lucky_block.type": 1
