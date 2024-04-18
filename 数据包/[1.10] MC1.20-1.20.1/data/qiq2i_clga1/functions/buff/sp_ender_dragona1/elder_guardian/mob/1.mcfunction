@@ -12,7 +12,7 @@ execute if score @s qiq2i_1 matches 200.. run particle minecraft:snowflake ~ ~1 
 execute if score @s qiq2i_1 matches 200.. at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run particle minecraft:snowflake ~ ~2 ~ 0.2 0 0.2 0.1 4
 execute if score @s qiq2i_1 matches 200.. at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run particle minecraft:snowflake ~ ~ ~ 0.2 0 0.2 0.1 4
 execute if score @s qiq2i_1 matches 200.. at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run playsound minecraft:block.powder_snow.place ambient @a
-execute if score @s qiq2i_1 matches 240 at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run particle minecraft:block ice ~ ~1 ~ 0.05 0.5 0.05 0.1 40
+execute if score @s qiq2i_1 matches 240 at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run particle block{block_state: {Name: "ice"}} ~ ~1 ~ 0.05 0.5 0.05 0.1 40
 execute if score @s qiq2i_1 matches 240 at @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] run playsound minecraft:block.glass.break ambient @a
 execute if score @s qiq2i_1 matches 240 run effect give @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] slowness 6 2
 execute if score @s qiq2i_1 matches 240 run effect give @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,nbt=!{Health:0.0f},distance=..48] mining_fatigue 6 2
