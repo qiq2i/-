@@ -20,7 +20,7 @@ execute as @s store result score @s qiq2i_Health1 run data get entity @s Health
 ##抗性提升
 #execute if score @s qiq2i_Health1 < @s qiq2i_Health2 run effect give @s resistance 1 3
 ##抗火
-execute as @s[nbt=!{active_effects:[{id:12b}]}] run effect give @s fire_resistance 30 0
+execute as @s[nbt=!{active_effects:[{id:"minecraft:fire_resistance"}]}] run effect give @s fire_resistance 30 0
 ##灭火
 execute unless entity @s[nbt={Fire:-20s}] run data modify entity @s Fire set value -20
 

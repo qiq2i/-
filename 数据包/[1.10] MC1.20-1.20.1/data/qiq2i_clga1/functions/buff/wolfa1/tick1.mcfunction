@@ -1,4 +1,4 @@
-execute if entity @s[nbt=!{active_effects:[{id:10b}]}] run effect give @s regeneration 30 0 true
+execute if entity @s[nbt=!{active_effects:[{id:"minecraft:regeneration"}]}] run effect give @s regeneration 30 0 true
 
 execute if entity @s[tag=qiq2i_clga1_wolfa1_leatheritem] run attribute @s generic.armor modifier add 1001-1-1-1-1001 "armor_leather" 2.0 add
 
