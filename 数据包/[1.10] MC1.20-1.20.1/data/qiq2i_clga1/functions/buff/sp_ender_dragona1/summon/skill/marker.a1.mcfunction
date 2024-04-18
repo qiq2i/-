@@ -1,6 +1,6 @@
 execute run tp @s ~ ~ ~ ~18 0
 execute positioned ~ ~-0.1 ~ if block ~ ~ ~ #qiq2i_clga1:air run tp @s ~ ~ ~
-execute run particle dust{color:[1.0,0.0,0.0],scale:5} ^ ^ ^4 0 0 0 0 1
+execute run particle dust{color:[1.0,0.0,0.0],scale:3} ^ ^ ^4 0 0 0 0 1
 execute run particle dust{color:[1.0,0.851,0.0],scale:1} ~ ~ ~ 2 0 0 0 20
 execute run particle dust{color:[1.0,0.851,0.0],scale:1} ~ ~ ~ 0 0 2 0 20
 
