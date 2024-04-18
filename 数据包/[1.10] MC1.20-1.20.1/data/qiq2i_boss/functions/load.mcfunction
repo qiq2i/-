@@ -1,3 +1,7 @@
+scoreboard objectives add qiq2i_1 dummy
+scoreboard objectives add qiq2i_2 dummy
+scoreboard objectives add qiq2i_3 dummy
+scoreboard objectives add qiq2i_4 dummy
 ##时间间隔
 scoreboard objectives add qiq2i_boss_tick.20 dummy
 

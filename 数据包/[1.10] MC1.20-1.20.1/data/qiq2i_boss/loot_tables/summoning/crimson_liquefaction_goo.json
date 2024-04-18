@@ -13,7 +13,10 @@
                             "components": {
                                 "custom_name": "{\"text\":\"§e“赤炼凝胶”召唤之星\"}",
                                 "custom_model_data": 2002021,
-                                "entity_data": {},
+                                "entity_data": {
+                                    "id":"minecraft:armor_stand",
+									"Tags":["qiq2i_boss_summoning.crimson_liquefaction_goo"]
+								},
                                 "custom_data": {
                                     "qiq2i_boss_summoning": "crimson_liquefaction_goo"
                                 }
