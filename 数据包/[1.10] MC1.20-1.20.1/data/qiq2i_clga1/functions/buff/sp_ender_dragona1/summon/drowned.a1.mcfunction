@@ -4,8 +4,8 @@ execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run attribute @s 
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run attribute @s generic.max_health base set 120
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run attribute @s generic.attack_damage base set 5
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] store result entity @s Health float 1 run attribute @s generic.max_health get 1 
-execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s armor.chest with leather_chestplate{Enchantments:[{id:"minecraft:unbreaking",lvl:3}],display:{color:42751}}
-execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s armor.feet with leather_boots{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4}],display:{color:42751}}
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s armor.chest with leather_chestplate[minecraft:enchantments={levels: {"minecraft:unbreaking": 3}},minecraft:dyed_color={rgb: 42751}]
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s armor.feet with leather_boots[minecraft:enchantments={levels: {"minecraft:unbreaking": 3, "minecraft:feather_falling": 4}},minecraft:dyed_color={rgb: 42751}]
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s weapon.mainhand with trident
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run item replace entity @s weapon.offhand with trident
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_drowned.a_set] run effect give @s speed 1000000 1

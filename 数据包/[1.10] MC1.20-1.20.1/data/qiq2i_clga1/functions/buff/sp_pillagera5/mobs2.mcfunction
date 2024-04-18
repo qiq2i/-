@@ -13,7 +13,7 @@ execute if entity @e[tag=qiq2i_clga1_sp_pillagera5_Mobs1,distance=..3,nbt=!{acti
 
 ##小玳瑁
 execute as @s[scores={qiq2i_1=10}] run data modify entity @s PatrolLeader set value 0
-execute as @s[scores={qiq2i_1=10}] run item replace entity @s armor.head with minecraft:carrot_on_a_stick{CustomModelData:2002027,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
+execute as @s[scores={qiq2i_1=10}] run item replace entity @s armor.head with minecraft:carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002027]
 ##血量计数
 execute as @s store result score @s qiq2i_Health1 run data get entity @s Health
 

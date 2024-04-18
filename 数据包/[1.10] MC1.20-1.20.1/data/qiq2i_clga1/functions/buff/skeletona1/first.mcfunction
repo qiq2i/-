@@ -1,2 +1,2 @@
 tag @s add qiq2i_clga1_buff_skeletona1
-execute unless data entity @s HandItems[1].count run item replace entity @s weapon.offhand with bow{Enchantments:[{id:"minecraft:power",lvl:2}],qiq2i_clga1:"buff_skeletona1"}
+execute unless data entity @s HandItems[1].count run item replace entity @s weapon.offhand with bow[minecraft:enchantments={levels: {"minecraft:power": 2}},minecraft:custom_data={qiq2i_clga1: "buff_skeletona1"}]

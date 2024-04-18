@@ -3,7 +3,7 @@ tp @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] ~ ~ ~ ~ 0
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run attribute @s generic.max_health base set 20
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run attribute @s generic.armor base set 20
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] store result entity @s Health float 1 run attribute @s generic.max_health get 1 
-execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run item replace entity @s armor.chest with leather_chestplate{Enchantments:[{id:"minecraft:thorns",lvl:18}]}
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run item replace entity @s armor.chest with leather_chestplate[minecraft:enchantments={levels: {"minecraft:thorns": 18}}]
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run item replace entity @s weapon.mainhand with totem_of_undying
 execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_wandering_trader.a_set] run item replace entity @s weapon.offhand with totem_of_undying
 

@@ -5,5 +5,5 @@ data modify entity @s Health set value 100
 
 data modify entity @s HandDropChances set value [0.0f,0.0f]
 data modify entity @s ArmorDropChances set value [0.0f,0.0f,0.0f,0.0f]
-item replace entity @s weapon.mainhand with golden_axe{Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
-item replace entity @s weapon.offhand with bow{Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
+item replace entity @s weapon.mainhand with golden_axe[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}}]
+item replace entity @s weapon.offhand with bow[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}}]

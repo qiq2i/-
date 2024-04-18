@@ -4,12 +4,12 @@ execute as @s run bossbar set sp_pillagera5 color pink
 execute as @s run bossbar set sp_pillagera5 visible true
 #
 
-execute as @s run item replace entity @s weapon.offhand with carrot_on_a_stick{CustomModelData:2002029,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
-execute as @s run item replace entity @s weapon.mainhand with carrot_on_a_stick{CustomModelData:2002029,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
-execute as @s run item replace entity @s armor.head with minecraft:carrot_on_a_stick{CustomModelData:2002027,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
+execute as @s run item replace entity @s weapon.offhand with carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002029]
+execute as @s run item replace entity @s weapon.mainhand with carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002029]
+execute as @s run item replace entity @s armor.head with minecraft:carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002027]
 execute as @s run item replace entity @s armor.chest with minecraft:netherite_chestplate{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
-execute as @s run item replace entity @s armor.legs with minecraft:netherite_leggings{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
-execute as @s run item replace entity @s armor.feet with minecraft:netherite_boots{Enchantments:[{id:"minecraft:thorns",lvl:3},{id:"depth_strider",lvl:5},{id:"soul_speed",lvl:5}]}
+execute as @s run item replace entity @s armor.legs with minecraft:netherite_leggings[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
+execute as @s run item replace entity @s armor.feet with minecraft:netherite_boots[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
 
 execute as @s run data modify entity @s HandDropChances set value [0.0f,0.0f]
 execute as @s run data modify entity @s ArmorDropChances set value [0.0f,0.0f,0.0f,0.0f]

@@ -1,7 +1,7 @@
 scoreboard players add #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 1
 scoreboard players add #qiq2i_clga1_rooma1.2_skill.e2.1 qiq2i_1 1
-execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.mainhand with shield{Enchantments:[{id:"minecraft:knockback",lvl:5}]}
-execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.offhand with shield{Enchantments:[{id:"minecraft:knockback",lvl:5}]}
+execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.mainhand with shield[minecraft:enchantments={levels: {"minecraft:knockback": 5}}]
+execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.offhand with shield[minecraft:enchantments={levels: {"minecraft:knockback": 5}}]
 execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run effect give @s speed 23 2
 execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run effect give @s resistance 23 3
 execute if score #qiq2i_clga1_rooma1.2_skill.e2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run attribute @s generic.knockback_resistance base set 10000

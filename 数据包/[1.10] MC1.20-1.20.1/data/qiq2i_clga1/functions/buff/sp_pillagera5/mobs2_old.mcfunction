@@ -7,12 +7,12 @@ execute as @s at @s store result bossbar sp_pillagera5 value run data get entity
 execute as @s run bossbar set sp_pillagera5 max 300
 #
 
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s weapon.offhand with minecraft:netherite_sword{CustomModelData:1056231}
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s weapon.mainhand with minecraft:netherite_sword{CustomModelData:1056231}
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.head with minecraft:carrot_on_a_stick{CustomModelData:2002027,Enchantments:[{id:"minecraft:unbreaking",lvl:1}]}
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.chest with minecraft:netherite_chestplate{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.legs with minecraft:netherite_leggings{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
-execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.feet with minecraft:netherite_boots{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s weapon.offhand with minecraft:netherite_sword[minecraft:custom_model_data=1056231]
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s weapon.mainhand with minecraft:netherite_sword[minecraft:custom_model_data=1056231]
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.head with minecraft:carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002027]
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.chest with minecraft:netherite_chestplate[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.legs with minecraft:netherite_leggings[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
+execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run item replace entity @s armor.feet with minecraft:netherite_boots[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
 execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run data modify entity @s HandDropChances set value [0.0f,0.0f]
 execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run data modify entity @s ArmorDropChances set value [0.0f,0.0f,0.0f,0.0f]
 execute as @s[tag=!qiq2i_clga1_sp_pillagera5_bossstart] run effect give @s glowing 72000 2
@@ -81,7 +81,7 @@ execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=51
 execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=61}] at @s run playsound minecraft:item.crossbow.shoot player @a ~ ~ ~ 10 1.9
 execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=81}] at @s run playsound minecraft:item.crossbow.shoot player @a ~ ~ ~ 10 2
 
-execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=81}] at @s run item replace entity @s weapon.offhand with bow{Enchantments:[]}
+execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=81}] at @s run item replace entity @s weapon.offhand with bow
 execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=81..281}] at @s if predicate qiq2i_clga1:_0.1 positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=nearest,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
 execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=81..281}] at @s if predicate qiq2i_clga1:_0.1 positioned ~ ~1.7 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,limit=1,sort=random,distance=..32] eyes run function qiq2i_clga1:buff/sp_pillagera5/arrow1c
 execute as @s[tag=qiq2i_clga1_sp_pillagera5_Mobs2_skill_1_use,scores={qiq2i_2=281}] at @s run item replace entity @s weapon.offhand with tnt
