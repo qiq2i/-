@@ -7,7 +7,7 @@ execute as @s run bossbar set sp_pillagera5 visible true
 execute as @s run item replace entity @s weapon.offhand with carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002029]
 execute as @s run item replace entity @s weapon.mainhand with carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002029]
 execute as @s run item replace entity @s armor.head with minecraft:carrot_on_a_stick[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}},minecraft:custom_model_data=2002027]
-execute as @s run item replace entity @s armor.chest with minecraft:netherite_chestplate{Enchantments:[{id:"minecraft:thorns",lvl:3}]}
+execute as @s run item replace entity @s armor.chest with minecraft:netherite_chestplate[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
 execute as @s run item replace entity @s armor.legs with minecraft:netherite_leggings[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
 execute as @s run item replace entity @s armor.feet with minecraft:netherite_boots[minecraft:enchantments={levels: {"minecraft:thorns": 3}}]
 
