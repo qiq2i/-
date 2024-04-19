@@ -1,6 +1,4 @@
 
-##弓类特殊物品 射一次箭触发一次
-execute as @a[scores={qiq2i_bow=1..}] at @s run function qiq2i_clga1:item_sp/bow/main
 
 ####other
 #execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data": {qiq2i_clga1_item_sp: 1b}}}}] at @s run function qiq2i_clga1:item_sp/other/main.1
