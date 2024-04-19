@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:shield"
+    },
+    "base": {
+      "item": "minecraft:shield"
+    },
+    "addition": {
+      "item": "minecraft:shield"
+    },
+    "result": {
+      "id": "minecraft:shield",
+      "count": 1
+    }
+  }

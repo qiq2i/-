@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:arrow"
+    },
+    "base": {
+      "item": "minecraft:arrow"
+    },
+    "addition": {
+      "item": "minecraft:arrow"
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 1
+    }
+  }

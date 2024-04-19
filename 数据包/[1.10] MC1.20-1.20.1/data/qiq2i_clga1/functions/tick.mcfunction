@@ -37,5 +37,7 @@ execute in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:run
     function qiq2i_clga1:time/display_state
 ##qiq2i_boss
     function qiq2i_boss:main
+##qiq2i_items
+    function qiq2i_items:tick
 ##end
     function qiq2i_clga1:end

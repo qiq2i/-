@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_blue_dye",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_name": "{\"text\":\"铁制装备升级器\"}",
+                  "max_stack_size":99
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "在锻造台上使用，同下界合金锭。",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "看起来只是把铁装备涂成蓝色，不过只要能骗过游戏就行。",
+                    "color": "yellow"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

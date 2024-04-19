@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:iron_axe"
+    },
+    "base": {
+      "item": "minecraft:iron_axe"
+    },
+    "addition": {
+      "item": "minecraft:iron_axe"
+    },
+    "result": {
+      "id": "minecraft:iron_axe",
+      "count": 1
+    }
+  }

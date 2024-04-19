@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mace",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "minecraft:wind_burst": 3,
+                    "minecraft:density": 5,
+                    "minecraft:breach": 4
+                  }
+                }
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
