@@ -87,3 +87,5 @@ execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_fire_resistance if
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_jump_boost if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_jump_boost
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_speed if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_speed
 execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_ef_strengtha1 if entity @e[type=#qiq2i_clga1:mob] run function qiq2i_clga1:buff/ef_strengtha1
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_boss.a1 as @e[type=villager,nbt={VillagerData:{profession:"minecraft:cleric"}},tag=!qiq2i_clga1_ignore,tag=!qiq2i_clga1_buff_boss.a1] run function qiq2i_clga1:buff/boss.a1
