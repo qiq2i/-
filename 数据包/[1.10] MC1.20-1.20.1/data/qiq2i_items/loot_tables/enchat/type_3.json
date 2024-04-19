@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "enchantments": {
+                                    "levels": {
+                                        "minecraft:unbreaking": 1
+                                    },
+                                    "show_in_tooltip": false
+                                },
+                                "custom_name": "{\"text\":\"§e力量宝石I\"}",
+                                "custom_model_data": 2002023,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_item_enchat": 1,
+                                    "qiq2i_clga1_item_enchat_type": 3,
+                                    "qiq2i_clga1_item_enchat_type_level": 1,
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

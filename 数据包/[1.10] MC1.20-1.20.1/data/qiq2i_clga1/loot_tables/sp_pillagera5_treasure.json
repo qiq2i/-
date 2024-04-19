@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "qiq2i_clga1:item_sp/enchat/all1",
+                    "value": "qiq2i_items:enchat/all1",
                     "weight": 1,
                     "functions": [
                         {
