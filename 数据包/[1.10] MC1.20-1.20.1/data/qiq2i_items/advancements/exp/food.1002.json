@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "qiq2i_clga1:item_sp/food/qiq2i_food.1002"
+        "function": "qiq2i_items:exp/food.1002"
     },
     "criteria": {
         "1": {

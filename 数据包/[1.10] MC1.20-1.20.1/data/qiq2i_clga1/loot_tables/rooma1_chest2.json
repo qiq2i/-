@@ -44,7 +44,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "qiq2i_clga1:item_sp/exp/type_1",
+                    "value": "qiq2i_items:exp/type_1",
                     "weight": 6,
                     "functions": [
                         {
@@ -58,7 +58,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "qiq2i_clga1:item_sp/exp/type_2",
+                    "value": "qiq2i_items:exp/type_2",
                     "weight": 2,
                     "functions": [
                         {

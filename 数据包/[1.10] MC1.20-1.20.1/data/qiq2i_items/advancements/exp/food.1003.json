@@ -1,6 +1,6 @@
 {
     "rewards": {
-        "function": "qiq2i_clga1:item_sp/food/qiq2i_food.1001"
+        "function": "qiq2i_items:exp/food.1003"
     },
     "criteria": {
         "1": {
@@ -10,7 +10,7 @@
                     "components": {
                         "minecraft:custom_data": {
                             "qiq2i_clga1_food": {
-                                "id":"1001"
+                                "id":"1003"
                             },
                             "qiq2i_clga1_item_exp": 1,
                             "qiq2i_clga1_item_sp": 1

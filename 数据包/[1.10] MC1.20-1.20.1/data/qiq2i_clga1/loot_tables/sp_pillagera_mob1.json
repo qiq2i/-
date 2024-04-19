@@ -7,7 +7,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "qiq2i_clga1:item_sp/exp/type_1",
+                    "value": "qiq2i_items:exp/type_1",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
