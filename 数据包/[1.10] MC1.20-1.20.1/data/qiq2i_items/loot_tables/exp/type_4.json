@@ -11,6 +11,12 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "food":{
+                                    "nutrition":1,
+                                    "saturation":0.6,
+                                    "can_always_eat":true,
+                                    "eat_seconds":0.8
+                                },
                                 "enchantments": {
                                     "levels": {
                                         "minecraft:unbreaking": 1
@@ -28,6 +34,21 @@
                                     "qiq2i_clga1_item_sp": 1
                                 }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§e经验食物，恢复半点饱食度"
+                              },
+                              {
+                                  "text": "§e获得65536点经验值（从0级直接升到138级）"
+                              },
+                              {
+                                  "text": "§e获得的经验会修补有经验修补的装备上"
+                              }
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_count",
