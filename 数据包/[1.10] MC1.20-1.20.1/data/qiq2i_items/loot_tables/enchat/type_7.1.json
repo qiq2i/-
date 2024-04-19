@@ -17,7 +17,7 @@
                                     },
                                     "show_in_tooltip": false
                                 },
-                                "custom_name": "{\"text\":\"§e摔落保护宝石II\"}",
+                                "custom_name": "{\"text\":\"§e摔落缓冲宝石II\"}",
                                 "custom_model_data": 2002040,
                                 "hide_additional_tooltip": {},
                                 "custom_data": {
@@ -27,6 +27,33 @@
                                     "qiq2i_clga1_item_sp": 1
                                 }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                  "text": "§7摔落缓冲 1-8 级附魔的物品可用"
+                              },
+                              {
+                                  "text": "§76级以上继续使用需要§a消耗经验"
+                              },
+                              {
+                                  "text": "§76级附魔等级使用需消耗§a30级经验"
+                              },
+                              {
+                                  "text": "§7此后附魔等级每高1级需多消耗§a5级经验"
+                              },
+                              {
+                                  "text": "§7直接提升1级附魔等级"
+                              },
+                              {
+                                  "text": ""
+                              },
+                              {
+                                  "text": "§7主手持宝石，副手持需提升附魔等级的物品"
+                              }
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_count",

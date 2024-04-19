@@ -29,6 +29,24 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7截肢杀手 1-5 级附魔的物品可用"
+                              },
+                              {
+                                  "text": "§7直接提升1级附魔等级"
+                              },
+                              {
+                                  "text": ""
+                              },
+                              {
+                                  "text": "§7主手持宝石，副手持需提升附魔等级的物品"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }
