@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "qiq2i_clga1:item_sp/bow/type.2/lvl1",
+                    "value": "qiq2i_items:weapons/bow/type.2/lvl1",
                     "conditions": [
                         {
                             "condition": "minecraft:random_chance",
@@ -21,7 +21,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "minecraft:entities/skeleton"
+                    "value": "minecraft:entities/skeleton"
                 }
             ]
         },
