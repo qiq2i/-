@@ -1,0 +1,1 @@
+scoreboard objectives add qiq2i_clga1_player_use1 trigger
