@@ -11,4 +11,4 @@ execute as @a[tag=!qiq2i_clga1_player_selectedItem_item_othernbt] if items entit
 execute as @a[tag=qiq2i_clga1_player_selectedItem_item_othernbt] unless items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_othernbt: 1b}] run tag @s remove qiq2i_clga1_player_selectedItem_item_othernbt
 
 #使用
-execute as @a[scores={qiq2i_clga1_player_use1=1..}] run function qiq2i_clga1:item_sp/use1
+execute as @a[scores={qiq2i_clga1_player_use1=1..}] run function qiq2i_items:enchat/use1
