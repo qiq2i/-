@@ -8,4 +8,4 @@ data modify entity @s HandDropChances[0] set value 0.0f
 data modify entity @s HandDropChances[1] set value 0.0f
 
 data modify entity @s CustomName set value '{"text":"骷髅狙击手"}'
-data modify entity @s DeathLootTable set value "qiq2i_clga1:item_sp/other/skeletona4/a"
+data modify entity @s DeathLootTable set value "qiq2i_items:other_items/skeletona4/a"

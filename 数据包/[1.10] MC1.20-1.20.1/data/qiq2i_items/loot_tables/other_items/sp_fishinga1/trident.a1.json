@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 16,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:entities/drowned"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

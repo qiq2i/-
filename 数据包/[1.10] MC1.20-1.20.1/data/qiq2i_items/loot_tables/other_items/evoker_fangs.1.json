@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "custom_name": "{\"text\":\"§e尖牙\"}",
+                                "custom_model_data": 2002034,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_item_sp": 1,
+                                    "qiq2i_clga1_item_sp.other": {
+                                        "id": "evoker_fangs.1"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

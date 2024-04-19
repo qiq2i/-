@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§e迅捷靴\"}",
+                                "dyed_color": {
+                                    "rgb": 54783
+                                },
+                                "custom_model_data": 2002021,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_item_sp": 1,
+                                    "qiq2i_clga1_item_sp.other": {
+                                        "id": "boots.1"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
