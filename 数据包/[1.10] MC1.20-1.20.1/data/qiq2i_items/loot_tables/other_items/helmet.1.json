@@ -26,6 +26,15 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7看清一切。"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }

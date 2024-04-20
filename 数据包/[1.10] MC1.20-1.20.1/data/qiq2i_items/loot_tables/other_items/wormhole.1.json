@@ -26,6 +26,18 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7砸碎后，传送至最近的玩家身边，如果没有则无效。§7不支持跨维度传送。"
+                              },
+                              {
+                                "text": "§7[一次性道具]"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }

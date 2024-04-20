@@ -26,6 +26,18 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7享用后，清除自身所有负面效果。"
+                              },
+                              {
+                                "text": "§7[一次性道具]"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }

@@ -26,6 +26,18 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7原地释放点燃的TNT，2秒后爆炸。"
+                              },
+                              {
+                                "text": "§7[一次性道具]"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }

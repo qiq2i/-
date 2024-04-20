@@ -26,6 +26,18 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7破坏自身所在坐标的两格方块，不可破坏的方块除外。"
+                              },
+                              {
+                                "text": "§7[一次性道具]"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "minecraft:set_count",
                             "count": 1
                         }
