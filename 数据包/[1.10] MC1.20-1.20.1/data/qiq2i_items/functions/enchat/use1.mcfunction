@@ -48,6 +48,9 @@ execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_
 
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"efficiency","enchantments_level_range":"1..10","name":"效率宝石II"}
 
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:13b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"density","enchantments_level_range":"1..5","name":"致密宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:13b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"density","enchantments_level_range":"1..10","name":"致密宝石II"}
 
 scoreboard players set @s qiq2i_clga1_player_use1 0
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_othernbt_type:1b}] run function qiq2i_items:enchat/othernbt/type_1/check

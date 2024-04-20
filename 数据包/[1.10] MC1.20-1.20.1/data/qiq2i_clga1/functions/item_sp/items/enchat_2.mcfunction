@@ -10,3 +10,4 @@ loot give @s loot qiq2i_items:enchat/type_9.1
 loot give @s loot qiq2i_items:enchat/type_10.1
 loot give @s loot qiq2i_items:enchat/type_11.1
 loot give @s loot qiq2i_items:enchat/type_12.1
+loot give @s loot qiq2i_items:enchat/type_13.1

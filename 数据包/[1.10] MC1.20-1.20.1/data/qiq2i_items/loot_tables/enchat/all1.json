@@ -51,6 +51,10 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "qiq2i_items:enchat/type_12.1"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "qiq2i_items:enchat/type_13.1"
                 }
             ]
         }
