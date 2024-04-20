@@ -1,55 +1,54 @@
 execute store result score #qiq2i_clga1_item_use1_marker1 qiq2i_1 run experience query @s levels
 
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_1/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_1/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_1/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_1/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_2/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_2/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_2/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_2/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_3/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_3/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_3/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_3/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_4/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_4/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_4/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_4/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_5/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_5/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_5/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_5/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_6/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_6/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_6/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_6/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_7/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_7/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_7/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_7/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_8/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_8/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_8/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_8/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_9/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_9/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_9/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_9/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_10/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_10/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_10/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_10/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_11/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_11/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_11/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_11/check_2
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:1b}}}}] run function qiq2i_items:enchat/type_12/check
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/type_12/check
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:2b}}}}] run function qiq2i_items:enchat/type_12/check_2
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/type_12/check_2
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"sharpness","enchantments_level_range":"1..5","name":"锋利宝石I"}
 
-#execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{qiq2i_clga1_item_othernbt_type:1b}}}}] run function qiq2i_items:enchat/othernbt/type_1/check
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:1b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"sharpness","enchantments_level_range":"1..10","name":"锋利宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"protection","enchantments_level_range":"1..4","name":"保护宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:2b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"protection","enchantments_level_range":"1..8","name":"保护宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"power","enchantments_level_range":"1..5","name":"力量宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:3b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"power","enchantments_level_range":"1..10","name":"力量宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"smite","enchantments_level_range":"1..5","name":"亡灵杀手宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:4b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"smite","enchantments_level_range":"1..10","name":"亡灵杀手宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"bane_of_arthropods","enchantments_level_range":"1..5","name":"截肢杀手宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:5b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"bane_of_arthropods","enchantments_level_range":"1..10","name":"截肢杀手宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"fire_protection","enchantments_level_range":"1..4","name":"火焰保护宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:6b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"fire_protection","enchantments_level_range":"1..8","name":"火焰保护宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"feather_falling","enchantments_level_range":"1..4","name":"摔落缓冲宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:7b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"feather_falling","enchantments_level_range":"1..8","name":"摔落缓冲宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"blast_protection","enchantments_level_range":"1..4","name":"爆炸保护宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:8b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"blast_protection","enchantments_level_range":"1..8","name":"爆炸保护宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"projectile_protection","enchantments_level_range":"1..4","name":"弹射物保护宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:9b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"projectile_protection","enchantments_level_range":"1..8","name":"弹射物保护宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"unbreaking","enchantments_level_range":"1..3","name":"耐久宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:10b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"unbreaking","enchantments_level_range":"1..6","name":"耐久宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"impaling","enchantments_level_range":"1..5","name":"穿刺宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:11b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"impaling","enchantments_level_range":"1..10","name":"穿刺宝石II"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:1b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"efficiency","enchantments_level_range":"1..5","name":"效率宝石I"}
+
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_enchat_type:12b,qiq2i_clga1_item_enchat_type_level:2b}] run function qiq2i_items:enchat/enchantments_level/check {"enchantments":"efficiency","enchantments_level_range":"1..10","name":"效率宝石II"}
+
+
 scoreboard players set @s qiq2i_clga1_player_use1 0
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{qiq2i_clga1_item_othernbt_type:1b}] run function qiq2i_items:enchat/othernbt/type_1/check
 
