@@ -1,6 +1,6 @@
 ﻿{
     "pack": {
-        "pack_format": 37,
+        "pack_format": 41,
         "description": "§b时间追逐 §6by xiao_qi_zi MC1.20.5",
         "supported_formats": {
             "max_inclusive": 41,
