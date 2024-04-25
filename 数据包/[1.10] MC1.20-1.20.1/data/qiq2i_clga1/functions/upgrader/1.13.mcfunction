@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.* *[minecraft:custom_data~{qiq2i_clga1_food:1001s}|minecraft:custom_data~{qiq2i_clga1_food:1002s}|minecraft:custom_data~{qiq2i_clga1_food:1003s}|minecraft:custom_data~{qiq2i_clga1_food:1004s}|minecraft:custom_data~{qiq2i_clga1_food:1005s}] run function qiq2i_clga1:upgrader/1.13/exp

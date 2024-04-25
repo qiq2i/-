@@ -2,6 +2,9 @@
 execute in qiq2i_clga1:market positioned 0 1 0 run function qiq2i_clga1:run
 #function qiq2i_clga1:qiq2i_skill/a
 
+##更新MC1.20.5，数据包1.13
+    function qiq2i_clga1:upgrader/1.13
+
 ##开局设置
     execute if score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. if score @s qiq2i_clga1_gamestart matches 1.. run scoreboard players reset @a qiq2i_clga1_gamestart
     execute unless score #qiq2i_clga1_GameStart qiq2i_1 matches 1.. run function qiq2i_clga1:command/gamestart/main
