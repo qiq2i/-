@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "qiq2i_items:food/qiq2i_food.15"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "qiq2i_clga1_food": 15
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

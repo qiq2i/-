@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:knowledge_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:recipes": [
+                    "qiq2i_items:cheats/fresh_rotten_flesh"
+                  ],
+                  "item_name": "{\"text\":\"秘籍——健康腐肉\"}"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "拾取的腐肉会变得健康，食用不会获得饥饿效果。",
+                    "color": "yellow"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

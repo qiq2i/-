@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:knowledge_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:recipes": [
+                    "qiq2i_items:cheats/kill_protection"
+                  ],
+                  "item_name": "{\"text\":\"秘籍——杀戮护盾\"}"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "每击杀一个怪物时，会获得2秒抗性提升II。",
+                    "color": "yellow"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

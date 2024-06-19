@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "food":{
+                        "nutrition":4,
+                        "saturation":0.8,
+                        "effects":[]
+                    },
+                    "item_name": "{\"text\":\"健康腐肉\"}",
+                    "max_stack_size":99,
+                    "custom_data":{
+                        "qiq2i_items.cheats":"fresh_rotten_flesh"
+                    }
+                }
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

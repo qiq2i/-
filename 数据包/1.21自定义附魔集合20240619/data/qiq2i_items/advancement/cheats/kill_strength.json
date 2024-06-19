@@ -1,0 +1,51 @@
+{
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{recipeBook:{recipes:[\"qiq2i_items:cheats/kill_strength\"]}}",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "wooden_axe",
+                  "stone_axe",
+                  "iron_axe",
+                  "diamond_axe",
+                  "netherite_axe"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "2": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{recipeBook:{recipes:[\"qiq2i_items:cheats/kill_strength\"]}}",
+            "equipment": {
+              "offhand": {
+                "items": [
+                  "wooden_axe",
+                  "stone_axe",
+                  "iron_axe",
+                  "diamond_axe",
+                  "netherite_axe"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+  ],
+    "rewards": {
+      "function": "qiq2i_items:cheats/kill_strength/ad"
+    }
+  }

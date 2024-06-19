@@ -1,0 +1,151 @@
+{
+    "description": {
+      "text": "绿洲行者",
+      "color": "green",
+      "bold": true
+    },
+    "exclusive_set": "#minecraft:exclusive_set/boots",
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "weight": 20,
+    "max_level": 2,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 2
+    },
+    "max_cost": {
+      "base": 28,
+      "per_level_above_first": 2
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "feet"
+    ],
+    "effects": {
+      "minecraft:location_changed": [
+        {
+          "effect": {
+            "type": "minecraft:replace_disk",
+            "block_state": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "minecraft:moss_block"
+                  }
+                },
+                {
+                  "weight": 6,
+                  "data": {
+                    "Name": "minecraft:clay"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:big_dripleaf_stem",
+                    "Properties": {
+                      "facing": "north",
+                      "waterlogged": "true"
+                    }
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:small_dripleaf",
+                    "Properties": {
+                      "facing": "south",
+                      "half": "lower",
+                      "waterlogged": "true"
+                    }
+                  }
+                },
+                {
+                  "weight": 12,
+                  "data": {
+                    "Name": "minecraft:grass_block",
+                    "Properties": {
+                      "snowy": "false"
+                    }
+                  }
+                }
+              ]
+            },
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:sand",
+                    "minecraft:red_sand"
+                  ]
+                },
+                {
+                  "type": "minecraft:unobstructed"
+                }
+              ]
+            },
+            "radius": {
+              "type": "minecraft:clamped",
+              "value": {
+                "type": "minecraft:linear",
+                "base": 12,
+                "per_level_above_first": 1
+              },
+              "min": 0,
+              "max": 16
+            },
+            "height": 1,
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_ground": true
+              }
+            }
+          }
+        },
+        {
+          "effect": {
+            "type": "minecraft:spawn_particles",
+            "particle": {
+              "type": "minecraft:happy_villager"
+            },
+            "horizontal_position": {
+              "type": "entity_position",
+              "scale": 1
+            },
+            "vertical_position": {
+              "type": "entity_position",
+              "offset": 1,
+              "scale": 1
+            },
+            "horizontal_velocity": {
+              "base": 1,
+              "movement_scale": 1
+            },
+            "vertical_velocity": {
+              "base": 1,
+              "movement_scale": 1
+            },
+            "speed": 1
+          }
+        }
+      ]
+    }
+  }
+  
