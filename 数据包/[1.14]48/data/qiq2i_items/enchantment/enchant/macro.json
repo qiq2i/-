@@ -12,9 +12,8 @@
           "per_level_above_first": 0.1
         },
         "attribute": "minecraft:generic.scale",
-        "name": "enchantment.aqua_affinity",
         "operation": "add_multiplied_total",
-        "uuid": "e38d1c0d-f0cd-4f0e-aab6-e4bda3e97d2f"
+        "id": "e38d1c0d-f0cd-4f0e-aab6-e4bda3e97d2f"
       }
     ]
   },

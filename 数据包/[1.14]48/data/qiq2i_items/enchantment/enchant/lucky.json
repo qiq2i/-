@@ -12,9 +12,8 @@
           "per_level_above_first": 0.2
         },
         "attribute": "minecraft:generic.luck",
-        "name": "enchantment.aqua_affinity",
         "operation": "add_multiplied_total",
-        "uuid": "72b2d537-7ec6-4ed3-8cc0-7dc38f26af3a"
+        "id": "72b2d537-7ec6-4ed3-8cc0-7dc38f26af3a"
       }
     ]
   },
