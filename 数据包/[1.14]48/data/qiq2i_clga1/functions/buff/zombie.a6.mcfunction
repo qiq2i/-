@@ -1,0 +1,1 @@
+execute as @s[] run tag @s add qiq2i_clga1_buff_zombie.a6

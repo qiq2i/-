@@ -1,0 +1,3 @@
+advancement revoke @s only qiq2i_clga1:qiq2i_clga1_buff/player_squida1.1
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_squida1 if entity @s[tag=!qiq2i_admin] if predicate qiq2i_clga1:_0.8 run effect give @s blindness 5 0
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_player_squida1 if entity @s[tag=!qiq2i_admin] if predicate qiq2i_clga1:_0.8 at @s run particle minecraft:squid_ink ~ ~1.7 ~ 0.5 0.5 0.5 0.1 100

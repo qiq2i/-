@@ -1,0 +1,4 @@
+$data modify storage qiq2i_clga1_event buff.qiq2i_clga1_$(buffid) set value {level:$(level)}
+$data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff prepend value {id:"qiq2i_clga1:$(buffid)",level:$(level)}
+$tellraw @a [{"text":"§7[随机效果] "},{"nbt":"buff[{id:$(buffid)}].level.$(level)[0]","storage":"qiq2i_clga1:text"}]
+$execute unless score #qiq2i_clga1_buffdisplay qiq2i_1 matches 1.. run tellraw @a [{"nbt":"buff[{id:$(buffid)}].level.1[1]","storage":"qiq2i_clga1:text","color": "gold"},{"text":"\n"},{"nbt":"buff[{id:$(buffid)}].level.$(level)[2]","storage":"qiq2i_clga1:text","color": "yellow"}]

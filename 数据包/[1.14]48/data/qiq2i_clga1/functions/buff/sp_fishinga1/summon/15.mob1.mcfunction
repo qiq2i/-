@@ -1,0 +1,6 @@
+summon guardian ~ ~ ~ {Tags:["qiq2i_clga1_summoning_1","qiq2i_clga1_sp_fishinga1_Motion"],Passengers:[{id:"minecraft:drowned",Tags:["qiq2i_clga1_summoning_1","qiq2i_clga1_buff_mob.profession","qiq2i_clga1_sp_fishinga1_15.mob1_set"],CustomName:'{"text":"初来乍到的溺尸"}',DeathLootTable:"qiq2i_items:other_items/sp_fishinga1/trident.a1",HandItems:[{id:"minecraft:trident",count:1,components:{"minecraft:enchantments": {levels: {"minecraft:unbreaking": 3}}}},{}],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",count:1,components:{"minecraft:enchantments": {levels: {"minecraft:unbreaking": 3}}, "minecraft:dyed_color": {rgb: 616850}}}]}]}
+
+execute as @e[tag=qiq2i_clga1_sp_fishinga1_15.mob1_set] run attribute @s generic.max_health base set 96
+execute as @e[tag=qiq2i_clga1_sp_fishinga1_15.mob1_set] run attribute @s generic.attack_damage base set 6
+execute as @e[tag=qiq2i_clga1_sp_fishinga1_15.mob1_set] store result entity @s Health float 1 run attribute @s generic.max_health get 1 
+tag @e[tag=qiq2i_clga1_sp_fishinga1_15.mob1_set] remove qiq2i_clga1_sp_fishinga1_15.mob1_set

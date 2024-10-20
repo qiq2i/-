@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"史莱姆弦弓\"}",
+                                "custom_model_data": 2002023,
+                                "custom_data": {
+                                    "qiq2i_clga1_item_bow": 1,
+                                    "qiq2i_clga1_item_bow.2": 1,
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

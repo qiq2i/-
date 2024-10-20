@@ -1,0 +1,1 @@
+execute if predicate qiq2i_clga1:_0.8 as @e[type=item,nbt={Item:{id:"minecraft:tnt"}},tag=!qiq2i_clga1_buff,distance=..6,sort=nearest,limit=1] at @s align xz positioned ~0.5 ~ ~0.5 run function qiq2i_clga1:buff/player_tnta1/a

@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:advancements/attack.v.1"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

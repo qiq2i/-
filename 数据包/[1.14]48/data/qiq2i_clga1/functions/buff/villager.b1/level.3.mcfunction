@@ -1,0 +1,3 @@
+tag @s add qiq2i_clga1_buff_villager.b1_level.3
+execute run data modify entity @s Offers.Recipes append value {maxUses: 12, buy: {id: "minecraft:emerald", count: 10}, buyB: {id: "minecraft:air", count: 1}, sell: {id: "minecraft:iron_ingot", count: 3 }, xp: 2, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 12, buy: {id: "minecraft:emerald", count: 14}, buyB: {id: "minecraft:air", count: 1}, sell: {id: "minecraft:gold_ingot", count: 3 }, xp: 2, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}

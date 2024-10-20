@@ -1,0 +1,19 @@
+scoreboard players add #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.mainhand with bow
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 1 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] run item replace entity @s weapon.offhand with bow
+
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 41 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 61 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 81 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 101 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 121 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 141 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 161 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 181 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 201 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 221 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 241 as @e[tag=qiq2i_clga1_rooma1.2_bossa1] at @s positioned ~ ~1.5 ~ facing entity @e[type=#qiq2i_clga1:friend,tag=!qiq2i_admin,sort=nearest,limit=1] eyes positioned ~ ~-0.5 ~ run function qiq2i_clga1:room/a1.2/skill/c2.1
+
+
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 241.. run scoreboard players set #qiq2i_clga1_rooma1.2_skill.b1 qiq2i_1 0
+execute if score #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1 matches 241.. run scoreboard players reset #qiq2i_clga1_rooma1.2_skill.c2 qiq2i_1

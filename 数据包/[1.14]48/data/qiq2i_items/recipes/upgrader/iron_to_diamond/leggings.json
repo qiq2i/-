@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "base": {
+      "item": "minecraft:iron_leggings"
+    },
+    "addition": {
+      "item": "minecraft:diamond"
+    },
+    "result": {
+      "id": "minecraft:diamond_leggings",
+      "count": 1
+    }
+  }
+  
+  

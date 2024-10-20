@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "qiq2i_items:other_items/evokera1/item.a"
+                }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "minecraft:entities/evoker"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "qiq2i_clga1:sp_pillagera_mob1"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "max_stack_size":99
+                            }
+                        },
+                        {
+                            "add": false,
+                            "count": 20,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": 1,
+                            "function": "minecraft:looting_enchant"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "max_stack_size":99
+                            }
+                        },
+                        {
+                            "add": false,
+                            "count": 32,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": 8,
+                            "function": "minecraft:looting_enchant"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

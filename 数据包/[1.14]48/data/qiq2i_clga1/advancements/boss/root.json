@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_sword"
+        },
+        "title": {
+            "text": "§e强力怪物"
+        },
+        "description": {
+            "text": "§e可以根据提示做好相应的准备。"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/iron_block.png"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ]
+}

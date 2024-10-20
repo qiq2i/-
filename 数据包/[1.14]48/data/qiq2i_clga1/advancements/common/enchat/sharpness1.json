@@ -1,0 +1,87 @@
+{
+    "parent": "qiq2i_clga1:common/enchat/unbreaking1",
+    "display": {
+        "icon": {
+            "id": "minecraft:emerald",
+            "components": {
+                "minecraft:enchantments": {
+                    "levels": {
+                        "minecraft:unbreaking": 1
+                    }
+                },
+                "minecraft:custom_model_data": 2002034
+            }
+        },
+        "title": {
+            "text": "锋芒逼人"
+        },
+        "description": {
+            "text": "§e获得拥有锋利11、亡灵杀手11和截肢杀手11中其中一个附魔的物品"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:sharpness": 11
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:bane_of_arthropods": 11
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:smite": 11
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2",
+            "3"
+        ]
+    ]
+}

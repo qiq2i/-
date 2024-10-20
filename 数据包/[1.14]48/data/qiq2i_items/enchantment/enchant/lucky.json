@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "幸运"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:generic.luck",
+        "name": "enchantment.aqua_affinity",
+        "operation": "add_multiplied_total",
+        "uuid": "72b2d537-7ec6-4ed3-8cc0-7dc38f26af3a"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 41,
+    "per_level_above_first": 0
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 2
+}

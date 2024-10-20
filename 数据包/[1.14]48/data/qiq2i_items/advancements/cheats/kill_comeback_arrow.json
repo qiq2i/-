@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{recipeBook:{recipes:[\"qiq2i_items:cheats/kill_comeback_arrow\"]}}"
+          },
+          "killing_blow": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "qiq2i_items:cheats/kill_comeback_arrow/ad"
+    }
+  }

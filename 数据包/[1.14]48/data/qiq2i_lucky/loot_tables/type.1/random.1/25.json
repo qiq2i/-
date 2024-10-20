@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "qiq2i_items:other_items/evoker_fangs.1"
+                }
+            ]
+        }
+    ]
+}

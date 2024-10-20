@@ -1,0 +1,42 @@
+{
+    "parent": "qiq2i_clga1:sp_pillager/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:saddle"
+        },
+        "title": {
+            "text": "射人先射马"
+        },
+        "description": {
+            "text": "§e击杀一只骑兵的坐骑"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+        "killed_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "nbt": "{Tags:[\"qiq2i_clga1_sp_pillagera4_Mobs1\"]}"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_dragon"
+        ]
+    ]
+}

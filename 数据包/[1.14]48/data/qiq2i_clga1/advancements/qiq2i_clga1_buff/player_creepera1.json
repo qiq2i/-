@@ -1,0 +1,26 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_creepera1/a"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "minecraft:is_explosion"
+                            }
+                        ]
+                    },
+                    "source_entity": {
+                        "type": "minecraft:creeper",
+                        "nbt": "{Tags:[\"qiq2i_clga1_buff_player_creepera1\"]}"
+                    }
+                }
+            }
+        }
+    }
+}

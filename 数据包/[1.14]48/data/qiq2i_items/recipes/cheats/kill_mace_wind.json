@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:mace"
+    },
+    "base": {
+      "item": "minecraft:mace"
+    },
+    "addition": {
+      "item": "minecraft:mace"
+    },
+    "result": {
+      "id": "minecraft:mace",
+      "count": 1
+    }
+  }

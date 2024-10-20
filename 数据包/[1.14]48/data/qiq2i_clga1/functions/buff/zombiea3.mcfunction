@@ -1,0 +1,1 @@
+execute as @s run function qiq2i_clga1:buff/zombiea3/a

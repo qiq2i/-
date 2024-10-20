@@ -1,0 +1,1 @@
+execute as @e[type=creeper,distance=..8] run data modify entity @s Fuse set value 300

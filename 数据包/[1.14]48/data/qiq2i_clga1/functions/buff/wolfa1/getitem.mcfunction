@@ -1,0 +1,4 @@
+execute if entity @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:leather_horse_armor"}},tag=!qiq2i_clga1_wolfa1_getitem] run function qiq2i_clga1:buff/wolfa1/leatheritem
+execute if entity @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:golden_horse_armor"}},tag=!qiq2i_clga1_wolfa1_getitem] run function qiq2i_clga1:buff/wolfa1/golditem
+execute if entity @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:iron_horse_armor"}},tag=!qiq2i_clga1_wolfa1_getitem] run function qiq2i_clga1:buff/wolfa1/ironitem
+execute if entity @e[type=item,distance=..0.8,nbt={Item:{id:"minecraft:diamond_horse_armor"}},tag=!qiq2i_clga1_wolfa1_getitem] run function qiq2i_clga1:buff/wolfa1/diamonditem

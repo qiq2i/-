@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "nbt": "{recipeBook:{recipes:[\"qiq2i_items:cheats/kill_protection\"]}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "qiq2i_items:cheats/kill_protection/ad"
+    }
+  }

@@ -1,0 +1,3 @@
+scoreboard objectives add qiq2i_clga1_player_use1 trigger
+scoreboard objectives add qiq2i_bow minecraft.used:bow
+scoreboard objectives add qiq2i_carrot_on_a_stick minecraft.used:carrot_on_a_stick

@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:knowledge_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:recipes": [
+                    "qiq2i_items:cheats/kill_haste"
+                  ],
+                  "item_name": "{\"text\":\"秘籍——灵巧挥舞\"}"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "使用剑击杀目标后，会获得4秒急迫II。",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "第二轮后，需要额外花费铁粒换取。",
+                    "color": "yellow"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_spidera1"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_spidera1\"]}"
+                },
+                "damage": {
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        },
+        "2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cave_spider",
+                    "nbt": "{Tags:[\"qiq2i_clga1_buff_player_spidera1\"]}"
+                },
+                "damage": {
+                    "type": {
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_lightning": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2"
+        ]
+    ]
+}

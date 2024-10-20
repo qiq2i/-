@@ -1,0 +1,10 @@
+execute if score @s qiq2i_boss_tick.20 matches 1 rotated ~36 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 2 rotated ~72 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 3 rotated ~108 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 4 rotated ~144 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 5 rotated ~180 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 6 rotated ~216 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 7 rotated ~252 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 8 rotated ~288 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 9 rotated ~324 ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20
+execute if score @s qiq2i_boss_tick.20 matches 10 rotated ~ ~ positioned ^ ^ ^2 run particle rain ~ ~ ~ 0.1 0.1 0.1 0 20

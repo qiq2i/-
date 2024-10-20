@@ -1,0 +1,1 @@
+execute at @s unless entity @e[tag=qiq2i_clga1_sp_pillagera4_Mobs1,distance=..128] run function qiq2i_clga1:buff/sp_pillagera4/summon

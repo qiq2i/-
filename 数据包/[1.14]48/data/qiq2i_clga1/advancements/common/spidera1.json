@@ -1,0 +1,42 @@
+{
+    "parent": "qiq2i_clga1:common/skeletona2",
+    "display": {
+        "icon": {
+            "id": "minecraft:string"
+        },
+        "title": {
+            "text": "精英蜘蛛"
+        },
+        "description": {
+            "text": "§e击杀一只精英蜘蛛"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "nbt": "{Tags:[\"qiq2i_clga1_buff_spidera1\"]}"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

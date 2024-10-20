@@ -1,0 +1,5 @@
+data remove storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list1
+data remove storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list2
+data modify storage qiq2i_clga1_event_new qiq2i_clga1_buff_show_list1 set from storage qiq2i_clga1_event_new qiq2i_clga1_buff
+function qiq2i_clga1:command/showbuff/a1
+scoreboard players reset @s qiq2i_command

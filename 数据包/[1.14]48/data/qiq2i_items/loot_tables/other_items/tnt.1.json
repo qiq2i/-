@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "custom_name": "{\"text\":\"§e瞬爆炸弹\"}",
+                                "custom_model_data": 2002035,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_item_sp": 1,
+                                    "qiq2i_clga1_item_sp.other": {
+                                        "id": "tnt.1"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§7原地爆炸，就像苦力怕一样。"
+                              },
+                              {
+                                "text": "§7[一次性道具]"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

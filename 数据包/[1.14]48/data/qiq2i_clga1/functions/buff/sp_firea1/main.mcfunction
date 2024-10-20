@@ -1,0 +1,8 @@
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:1} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] at @s run function qiq2i_clga1:buff/sp_firea1/a
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:2} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] at @s run function qiq2i_clga1:buff/sp_firea1/a
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:3} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] at @s run function qiq2i_clga1:buff/sp_firea1/a
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:3} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] if items entity @s container.* minecraft:lava_bucket at @s positioned ~ ~0.1 ~ align xyz run fill ~ ~ ~ ~ ~1 ~ fire replace #qiq2i_clga1:air
+
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:2} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] at @s if predicate qiq2i_clga1:is_fire positioned ~ ~0.1 ~ align xyz run fill ~ ~ ~ ~ ~1 ~ fire replace #qiq2i_clga1:air
+execute if data storage qiq2i_clga1_event buff.qiq2i_clga1_sp_firea1{level:3} as @a[tag=!qiq2i_admin,tag=!qiq2i_clga1_buff_playerban,nbt=!{Health:0.0f},nbt={Dimension:"minecraft:the_nether"}] at @s if predicate qiq2i_clga1:is_fire positioned ~ ~0.1 ~ align xyz run fill ~ ~ ~ ~ ~1 ~ fire replace #qiq2i_clga1:air

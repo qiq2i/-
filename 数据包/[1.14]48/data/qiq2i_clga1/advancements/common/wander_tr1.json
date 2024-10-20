@@ -1,0 +1,41 @@
+{
+    "parent": "qiq2i_clga1:common/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:music_disc_11"
+        },
+        "title": {
+            "text": "你也有今天"
+        },
+        "description": {
+            "text": "§e被流浪商人射中一箭！"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "source_entity": {
+                        "type": "minecraft:wandering_trader"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

@@ -1,0 +1,1 @@
+tag @s add qiq2i_items.enchantment.giant_damage.attacker

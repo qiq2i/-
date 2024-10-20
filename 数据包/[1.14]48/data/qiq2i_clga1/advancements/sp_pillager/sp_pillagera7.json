@@ -1,0 +1,45 @@
+{
+    "parent": "qiq2i_clga1:sp_pillager/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 2002030
+            }
+        },
+        "title": {
+            "text": "切后排"
+        },
+        "description": {
+            "text": "§e击杀迫击炮小队队员"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+        "killed_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "nbt": "{Tags:[\"qiq2i_clga1_sp_pillagera7_Mobs1\"]}"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_dragon"
+        ]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_firenda1/2a"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:enchanted_golden_apple"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ]
+}

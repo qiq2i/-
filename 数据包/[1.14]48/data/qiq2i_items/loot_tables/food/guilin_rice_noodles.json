@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": "{\"text\":\"§b桂林米粉\"}",
+                                "custom_model_data": 200231,
+                                "custom_data": {
+                                    "qiq2i_clga1_food": "guilin_rice_noodles"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

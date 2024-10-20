@@ -1,0 +1,1 @@
+function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/mob/8/particle.1

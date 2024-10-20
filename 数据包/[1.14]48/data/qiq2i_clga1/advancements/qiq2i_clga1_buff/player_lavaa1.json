@@ -1,0 +1,13 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_lavaa1/a"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    }
+}

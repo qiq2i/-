@@ -1,0 +1,32 @@
+{
+    "parent": "qiq2i_clga1:common/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:fire_charge"
+        },
+        "title": {
+            "text": "又是渡劫的一天"
+        },
+        "description": {
+            "text": "§e被爆裂闪电击中！"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/task"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

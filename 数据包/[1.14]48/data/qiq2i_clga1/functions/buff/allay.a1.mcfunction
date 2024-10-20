@@ -1,0 +1,1 @@
+effect give @a[distance=..16,tag=!qiq2i_admin] regeneration 8 0

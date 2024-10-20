@@ -1,0 +1,1 @@
+execute summon slime run function qiq2i_boss:crimson_liquefaction_goo/boss/start

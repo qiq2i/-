@@ -1,0 +1,42 @@
+{
+    "parent": "qiq2i_clga1:boss/sp_ender_dragon",
+    "display": {
+        "icon": {
+            "id": "minecraft:wither_skeleton_skull"
+        },
+        "title": {
+            "text": "凋灵灭世"
+        },
+        "description": {
+            "text": "§e装备：附魔钻套以上。"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "nbt": "{Tags:[\"qiq2i_clga1_buff_sp_withera1\"]}"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

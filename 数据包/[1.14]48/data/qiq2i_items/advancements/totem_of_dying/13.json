@@ -1,0 +1,20 @@
+{
+    "rewards": {
+        "function": "qiq2i_items:totem_of_dying/13"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "qiq2i_clga1_totem_of_undying": 13,
+                            "qiq2i_clga1_item_sp": 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

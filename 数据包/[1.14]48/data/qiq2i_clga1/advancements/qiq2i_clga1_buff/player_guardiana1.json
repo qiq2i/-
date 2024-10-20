@@ -1,0 +1,21 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_guardiana1/a"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_magic": true
+                    },
+                    "source_entity": {
+                        "type": "minecraft:guardian",
+                        "nbt": "{Tags:[\"qiq2i_clga1_buff_player_guardiana1\"]}"
+                    }
+                }
+            }
+        }
+    }
+}

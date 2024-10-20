@@ -1,0 +1,4 @@
+tag @s add qiq2i_clga1_buff_villager.b10_level.2
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:cobblestone", count: 30}, buyB: {id: "minecraft:air", count: 1}, sell: {id: "minecraft:emerald", count: 1 }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:deepslate", count: 16}, buyB: {id: "minecraft:air", count: 1}, sell: {id: "minecraft:emerald", count: 1 }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:cobbled_deepslate", count: 24}, buyB: {id: "minecraft:air", count: 1}, sell: {id: "minecraft:emerald", count: 1 }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}

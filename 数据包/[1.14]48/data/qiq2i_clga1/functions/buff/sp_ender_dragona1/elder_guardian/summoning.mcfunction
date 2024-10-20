@@ -1,0 +1,1 @@
+execute as @e[tag=qiq2i_clga1_sp_ender_dragona1_elder_guardian_marker1,tag=!qiq2i_clga1_sp_ender_dragona1_elder_guardian_marker1.use,sort=random,limit=1] at @s run function qiq2i_clga1:buff/sp_ender_dragona1/elder_guardian/ramdom

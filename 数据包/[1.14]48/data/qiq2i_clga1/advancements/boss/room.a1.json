@@ -1,0 +1,32 @@
+{
+    "parent": "qiq2i_clga1:boss/sp_pillager.a5",
+    "display": {
+        "icon": {
+            "id": "minecraft:zombie_head"
+        },
+        "title": {
+            "text": "像素模型僵尸"
+        },
+        "description": {
+            "text": "§e关键：盾牌。\n装备：顶配附魔下界合金套。"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:impossible",
+            "conditions": {}
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 8,
+                                "max": 25
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_data": {
+                                    "qiq2i_clga1_buff_item_enchanting": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

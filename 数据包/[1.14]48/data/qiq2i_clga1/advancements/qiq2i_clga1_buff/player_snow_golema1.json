@@ -1,0 +1,15 @@
+{
+    "rewards": {
+        "function": "qiq2i_clga1:buff/player_snow_golema1/a"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+tag @s add qiq2i_clga1_buff_villager.b2_level.3
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:gunpowder", count: 16b}, buyB: {id: "minecraft:air", count: 1b}, sell: {id: "minecraft:emerald", count: 2b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:ender_pearl", count: 11b}, buyB: {id: "minecraft:air", count: 1b}, sell: {id: "minecraft:emerald", count: 2b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 16, buy: {id: "minecraft:rabbit_hide", count: 24b}, buyB: {id: "minecraft:air", count: 1b}, sell: {id: "minecraft:emerald", count: 2b }, xp: 1, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+execute run data modify entity @s Offers.Recipes append value {maxUses: 8, buy: {id: "minecraft:emerald", count: 17b}, buyB: {id: "minecraft:air", count: 1b}, sell: {id: "minecraft:turtle_egg", count: 2b }, xp: 3, uses: 0, priceMultiplier: 0.2f, specialPrice: 0, demand: 0, rewardExp: 1b}
+give @s ender_pearl

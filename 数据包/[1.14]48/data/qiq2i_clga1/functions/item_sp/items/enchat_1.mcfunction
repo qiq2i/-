@@ -1,0 +1,13 @@
+loot give @s loot qiq2i_items:enchat/type_1
+loot give @s loot qiq2i_items:enchat/type_2
+loot give @s loot qiq2i_items:enchat/type_3
+loot give @s loot qiq2i_items:enchat/type_4
+loot give @s loot qiq2i_items:enchat/type_5
+loot give @s loot qiq2i_items:enchat/type_6
+loot give @s loot qiq2i_items:enchat/type_7
+loot give @s loot qiq2i_items:enchat/type_8
+loot give @s loot qiq2i_items:enchat/type_9
+loot give @s loot qiq2i_items:enchat/type_10
+loot give @s loot qiq2i_items:enchat/type_11
+loot give @s loot qiq2i_items:enchat/type_12
+loot give @s loot qiq2i_items:enchat/type_13

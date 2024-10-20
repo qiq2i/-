@@ -1,0 +1,3 @@
+summon ravager ~ ~ ~ {Tags:["qiq2i_clga1_sp_pillagera5_Mobs1","qiq2i_clga1_summoning_1"],CanJoinRaid:1,Passengers:[{id:"minecraft:vindicator",Tags:["qiq2i_clga1_sp_pillagera5_Mobs2","qiq2i_clga1_buff"],DeathLootTable:"qiq2i_clga1:sp_pillagera5_boss",ArmorItems:[{},{},{},{}],CanJoinRaid:1}]}
+
+execute as @e[tag=qiq2i_clga1_sp_pillagera5_Mobs1,tag=!qiq2i_clga1_buff] run effect give @s speed infinite 2

@@ -1,0 +1,42 @@
+{
+    "parent": "qiq2i_clga1:boss/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:trident"
+        },
+        "title": {
+            "text": "海洋骑士"
+        },
+        "description": {
+            "text": "§e关键：盾牌。\n装备：附魔铁套往上。"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+        "a": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "predicate": {
+                            "nbt": "{Tags:[\"qiq2i_boss.drowned_knight.1\"]}"
+                        },
+                        "entity": "this"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "a"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:1}]}] run attribute @s generic.max_health base set 125
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:2}]}] run attribute @s generic.max_health base set 150
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:3}]}] run attribute @s generic.max_health base set 175
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:4}]}] run attribute @s generic.max_health base set 200
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:5}]}] run attribute @s generic.max_health base set 225
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:6}]}] run attribute @s generic.max_health base set 250
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:7}]}] run attribute @s generic.max_health base set 275
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:8}]}] run attribute @s generic.max_health base set 300
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:9}]}] run attribute @s generic.max_health base set 325
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:10}]}] run attribute @s generic.max_health base set 350
+
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:11}]}] run attribute @s generic.max_health base set 375
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:12}]}] run attribute @s generic.max_health base set 400
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:13}]}] run attribute @s generic.max_health base set 425
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:14}]}] run attribute @s generic.max_health base set 450
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:15}]}] run attribute @s generic.max_health base set 475
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:16}]}] run attribute @s generic.max_health base set 500
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:17}]}] run attribute @s generic.max_health base set 525
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:18}]}] run attribute @s generic.max_health base set 550
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:19}]}] run attribute @s generic.max_health base set 575
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:20}]}] run attribute @s generic.max_health base set 600
+
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:21}]}] run attribute @s generic.max_health base set 625
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:22}]}] run attribute @s generic.max_health base set 650
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:23}]}] run attribute @s generic.max_health base set 675
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:24}]}] run attribute @s generic.max_health base set 700
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:25}]}] run attribute @s generic.max_health base set 725
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:26}]}] run attribute @s generic.max_health base set 750
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:27}]}] run attribute @s generic.max_health base set 775
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:28}]}] run attribute @s generic.max_health base set 800
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:29}]}] run attribute @s generic.max_health base set 825
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:30}]}] run attribute @s generic.max_health base set 850
+
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:31}]}] run attribute @s generic.max_health base set 875
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:32}]}] run attribute @s generic.max_health base set 900
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:33}]}] run attribute @s generic.max_health base set 925
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:34}]}] run attribute @s generic.max_health base set 950
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:35}]}] run attribute @s generic.max_health base set 975
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:iron_block",count:36}]}] run attribute @s generic.max_health base set 1000

@@ -1,0 +1,53 @@
+{
+    "parent": "qiq2i_clga1:common/enchat/unbreaking1",
+    "display": {
+        "icon": {
+            "id": "minecraft:emerald",
+            "components": {
+                "minecraft:enchantments": {
+                    "levels": {
+                        "minecraft:unbreaking": 1
+                    }
+                },
+                "minecraft:custom_model_data": 2002036
+            }
+        },
+        "title": {
+            "text": "轻劲弓"
+        },
+        "description": {
+            "text": "§e获得拥有力量11附魔的物品"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "qiq2i_clga1:player_attribute/challenge"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": {
+                                "levels": {
+                                    "minecraft:power": 11
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ]
+}

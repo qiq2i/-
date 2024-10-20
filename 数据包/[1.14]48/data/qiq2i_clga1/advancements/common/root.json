@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:jigsaw"
+        },
+        "title": {
+            "text": "§e特殊成就"
+        },
+        "description": {
+            "text": "§e来迎接更大的挑战吧！"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/amethyst_block.png"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ]
+}

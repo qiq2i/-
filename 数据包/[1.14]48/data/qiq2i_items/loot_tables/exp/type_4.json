@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dried_kelp",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "food":{
+                                    "nutrition":1,
+                                    "saturation":0.6,
+                                    "can_always_eat":true,
+                                    "eat_seconds":0.8
+                                },
+                                "enchantments": {
+                                    "levels": {
+                                        "minecraft:unbreaking": 1
+                                    },
+                                    "show_in_tooltip": false
+                                },
+                                "custom_name": "{\"text\":\"§a经验海苔IV\"}",
+                                "custom_model_data": 2002024,
+                                "hide_additional_tooltip": {},
+                                "custom_data": {
+                                    "qiq2i_clga1_food": {
+                                        "id":"1004"
+                                    },
+                                    "qiq2i_clga1_item_exp": 1,
+                                    "qiq2i_clga1_item_sp": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "§e经验食物，恢复半点饱食度"
+                              },
+                              {
+                                  "text": "§e获得65536点经验值（从0级直接升到138级）"
+                              },
+                              {
+                                  "text": "§e获得的经验会修补有经验修补的装备上"
+                              }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
