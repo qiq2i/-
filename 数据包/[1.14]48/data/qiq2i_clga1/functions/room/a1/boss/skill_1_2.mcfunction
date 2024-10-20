@@ -3,7 +3,7 @@ scoreboard players add #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 1
 #execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run me 咕咕
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run item replace entity @s weapon.mainhand with iron_sword[minecraft:enchantments={levels: {"minecraft:unbreaking": 1}}]
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run item replace entity @s weapon.offhand with potion[minecraft:potion_contents={potion: "minecraft:strength"}]
-execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run attribute @s minecraft:generic.attack_damage modifier add 2002-1-1-1-1 "1" 20 add_value
+execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 1 run attribute @s minecraft:generic.attack_damage modifier add 2002-1-1-1-1 20 add_value
 
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 41 run playsound minecraft:item.bottle.empty ambient @a
 execute if score #qiq2i_clga1_rooma1_boss1_skill_1_a qiq2i_1 matches 41 run item replace entity @s weapon.offhand with glass_bottle
