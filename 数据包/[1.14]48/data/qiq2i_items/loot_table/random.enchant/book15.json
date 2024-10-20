@@ -13,8 +13,7 @@
                             "levels": {
                                 "min": 1,
                                 "max": 15
-                            },
-                            "treasure": true
+                            }
                         }
                     ]
                 }

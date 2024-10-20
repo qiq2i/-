@@ -165,8 +165,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 3
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:looting_enchant",

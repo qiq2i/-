@@ -27,8 +27,7 @@
                         },
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 30.0,
-                            "treasure": true
+                            "levels": 30.0
                         }
                     ],
                     "name": "minecraft:bow"
@@ -47,8 +46,7 @@
                         },
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 30.0,
-                            "treasure": true
+                            "levels": 30.0
                         }
                     ],
                     "name": "minecraft:fishing_rod"
@@ -58,8 +56,7 @@
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
-                            "levels": 30.0,
-                            "treasure": true
+                            "levels": 30.0
                         }
                     ],
                     "name": "minecraft:book"

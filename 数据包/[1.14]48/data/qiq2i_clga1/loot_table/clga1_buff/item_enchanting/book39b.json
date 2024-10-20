@@ -13,8 +13,7 @@
                             "levels": {
                                 "min": 20,
                                 "max": 39
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "set_components",

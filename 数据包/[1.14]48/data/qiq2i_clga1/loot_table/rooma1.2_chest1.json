@@ -136,8 +136,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 30
-                            },
-                            "treasure": true
+                            }
                         }
                     ]
                 },

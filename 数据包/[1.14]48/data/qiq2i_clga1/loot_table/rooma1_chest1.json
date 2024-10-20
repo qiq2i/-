@@ -110,8 +110,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         }
                     ]
                 },
@@ -146,8 +145,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -168,8 +166,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -190,8 +187,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -212,8 +208,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -234,8 +229,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -256,8 +250,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -278,8 +271,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -300,8 +292,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -322,8 +313,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -344,8 +334,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -366,8 +355,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -388,8 +376,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -410,8 +397,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -432,8 +418,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -454,8 +439,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -476,8 +460,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -498,8 +481,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -520,8 +502,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -542,8 +523,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -564,8 +544,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -586,8 +565,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
@@ -608,8 +586,7 @@
                             "levels": {
                                 "max": 39,
                                 "min": 19
-                            },
-                            "treasure": true
+                            }
                         },
                         {
                             "function": "minecraft:set_damage",
