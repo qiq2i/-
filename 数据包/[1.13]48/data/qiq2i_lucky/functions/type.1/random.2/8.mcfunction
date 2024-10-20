@@ -1,0 +1,12 @@
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+summon skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}

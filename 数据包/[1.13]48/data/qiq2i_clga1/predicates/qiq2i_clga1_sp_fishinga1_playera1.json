@@ -1,0 +1,5 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {"nbt":"{Tags:[\"qiq2i_clga1_sp_fishinga1_playera1\"]}"}
+}
