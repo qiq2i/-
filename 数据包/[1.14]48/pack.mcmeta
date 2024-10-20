@@ -1,10 +1,10 @@
 ﻿{
     "pack": {
-        "pack_format": 41,
-        "description": "§b时间追逐 §6by xiao_qi_zi MC1.20.5",
+        "pack_format": 48,
+        "description": "§b时间追逐 §6by xiao_qi_zi MC1.21-1.21.1",
         "supported_formats": {
-            "max_inclusive": 41,
-            "min_inclusive": 41
+            "max_inclusive": 48,
+            "min_inclusive": 48
         }
     }
 }
